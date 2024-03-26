@@ -1,0 +1,342 @@
+{
+	"achievementsAndResponsibilities": [
+		{
+			"id": "",
+			"description": "Found bug in Electron.js while working on specific project task, reported to Electron Team on GitHub - Issue: #30277, Fixed Issue by PR: #30305."
+		},
+		{
+			"id": "",
+			"description": "2,53,000+ people reached Impact, 900+ Reputations on Stack Overflow."
+		},
+		{
+			"id": "",
+			"description": "Solved 500+ coding problems of LeetCode / HackerRank / HackerEarth / CodeChef / CodeForces / GeekForGeeks."
+		},
+		{
+			"id": "",
+			"description": "Core technical team member of Knowledge Circle, JMI (2018-present) for maintaining GitHub repos & website, which includes ~100 entrance papers shared by students from across the country."
+		},
+		{
+			"id": "",
+			"description": "Links KnowledgeCircle.github.io, github.com/KnowledgeCircle."
+		}
+	],
+	"awardsAndCertifications": [
+		{
+			"id": "",
+			"description": "Found bug in Electron.js while working on specific project task, reported to Electron Team on GitHub - Issue: #30277, Fixed Issue by PR: #30305."
+		},
+		{
+			"id": "",
+			"description": "2,53,000+ people reached Impact, 900+ Reputations on Stack Overflow."
+		},
+		{
+			"id": "",
+			"description": "Solved 500+ coding problems of LeetCode / HackerRank / HackerEarth / CodeChef / CodeForces / GeekForGeeks."
+		},
+		{
+			"id": "",
+			"description": "Core technical team member of Knowledge Circle, JMI (2018-present) for maintaining GitHub repos & website, which includes ~100 entrance papers shared by students from across India."
+		},
+		{
+			"id": "",
+			"description": "Links KnowledgeCircle.github.io, github.com/KnowledgeCircle."
+		}
+	],
+	"codingAndSocialProfiles": [
+		{
+			"id": "",
+			"platformName": "StackOverflow",
+			"username": "wasitshafi",
+			"profileURL": "https://stackoverflow.com/users/10249156/wasit-shafi"
+		},
+		{
+			"id": "",
+			"platformName": "GitHub",
+			"username": "wasitshafi",
+			"profileURL": "https://github.com/wasitshafi"
+		},
+		{
+			"id": "",
+			"platformName": "CodeChef",
+			"username": "wasitshafi",
+			"profileURL": "https://www.codechef.com/users/wasitshafi"
+		},
+		{
+			"id": "",
+			"platformName": "LeetCode",
+			"username": "wasitshafi",
+			"profileURL": "https://leetcode.com/wasitshafi/"
+		}
+	],
+	"contactDetails": [
+		{
+			"id": "",
+			"linkText": "wasitshafi700@gmail.com",
+			"linkURL": "mailto:wasitshafi700@gmail.com"
+		},
+		{
+			"id": "",
+			"linkText": "linkedin/wasitshafi",
+			"linkURL": "https://www.linkedin.com/in/wasitshafi/"
+		}
+	],
+	"education": [
+		{
+			"universityName": "Jamia Millia Islamia",
+			"universityLocation": "New Delhi, IN",
+			"universityLocationURL": "https://maps.app.goo.gl/ZGAg8fw3MT1Lo7La8",
+			"universityWebsiteURL": "https://www.jmi.ac.in/",
+			"degree": "Master of Computer Applications",
+			"score": "8.6&nbsp;CGPA",
+			"completionDate": "Jun 2021"
+		},
+		{
+			"universityName": "University of Kashmir",
+			"universityLocation": "J&K, IN",
+			"universityLocationURL": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
+			"universityWebsiteURL": "https://www.kashmiruniversity.net/",
+			"degree": "Bachelor of Computer Applications",
+			"score": "71%",
+			"completionDate": "Mar 2017"
+		}
+	],
+	"personalProjects": [
+		{
+			"projectTitle": "Face Recognition Based Attendance System",
+			"startDate": "",
+			"endDate": "",
+			"sourceCodeURL": "",
+			"liveProjectURL": "",
+			"projectFeatures": [
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				},
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				},
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				}
+			]
+		},
+		{
+			"projectTitle": "Tweet Sentiment Analysis",
+			"startDate": "",
+			"endDate": "",
+			"sourceCodeURL": "",
+			"liveProjectURL": "",
+			"projectFeatures": [
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				},
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				},
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				}
+			]
+		}
+	],
+	"skills": {
+		"proficient": [
+			{
+				"id": "",
+				"skill": "MongoDB"
+			},
+			{
+				"id": "",
+				"skill": "Express.js"
+			},
+
+			{
+				"id": "",
+				"skill": "Angular"
+			},
+
+			{
+				"id": "",
+				"skill": "Node.js"
+			},
+
+			{
+				"id": "",
+				"skill": "React.js"
+			},
+
+			{
+				"id": "",
+				"skill": "Electron.js"
+			},
+
+			{
+				"id": "",
+				"skill": "JavaScript/TypeScript"
+			},
+
+			{
+				"id": "",
+				"skill": "SQL"
+			},
+
+			{
+				"id": "",
+				"skill": "Java"
+			},
+
+			{
+				"id": "",
+				"skill": "C/C++"
+			},
+
+			{
+				"id": "",
+				"skill": "Data&nbsp;Structures&nbsp;&&nbsp;Algorithms"
+			},
+			{
+				"id": "",
+				"skill": "Problem&nbsp;Solving "
+			},
+			{
+				"id": "",
+				"skill": "Redux"
+			},
+			{
+				"id": "",
+				"skill": "MobX-State-Tree"
+			},
+			{
+				"id": "",
+				"skill": "HTML"
+			},
+			{
+				"id": "",
+				"skill": "CSS/SCSS"
+			}
+		],
+		"familiar": [
+			{
+				"id": "",
+				"skill": "React&nbsp;Native"
+			},
+			{
+				"id": "",
+				"skill": "Python"
+			},
+
+			{
+				"id": "",
+				"skill": "Socket.io"
+			},
+
+			{
+				"id": "",
+				"skill": "Firebase"
+			},
+
+			{
+				"id": "",
+				"skill": "Webpack"
+			},
+
+			{
+				"id": "",
+				"skill": "Git"
+			},
+
+			{
+				"id": "",
+				"skill": "Postman"
+			},
+
+			{
+				"id": "",
+				"skill": "Jira"
+			}
+		]
+	},
+	"workExperience": [
+		{
+			"companyDetails": {
+				"city": "Doha",
+				"companyName": "Cashmere Trading",
+				"companyWebsiteUrl": "https://www.cashmeretrading.com/",
+				"country": "Qatar"
+			},
+			"endDate": "",
+			"isCurrentlyWorking": true,
+			"role": "Full Stack SDE",
+			"startDate": "",
+			"workContributions": [
+				{ "id": "", "description": "Current Working Technologies: MEAN Stack" }
+			]
+		},
+		{
+			"companyDetails": {
+				"city": "Noida",
+				"companyName": "VectoScalar Technologies",
+				"companyWebsiteUrl": "https://vectoscalar.com/",
+				"country": "India"
+			},
+			"endDate": "Aug 2022",
+			"isCurrentlyWorking": false,
+			"role": "Software Engineer",
+			"startDate": "Jul 2021",
+			"workContributions": [
+				{
+					"id": "",
+					"description": "Worked on Web Animations API to develop 30-40 poker game & application UI animations for cards, themes, tournaments, etc."
+				},
+				{
+					"id": "",
+					"description": "Developed well-structured react components & managed the state of application using MobX-State-Tree."
+				},
+				{
+					"id": "",
+					"description": "Worked on more than 50 minor/critical bugs & improvement tasks which results in performance benefits."
+				},
+				{
+					"id": "",
+					"description": "Trained & mentored 40 software engineering interns on JavaScript/TypeScript, React.js, SCSS, Analysis & Designing Aspects, Application State Management, Routing, etc."
+				}
+			]
+		},
+		{
+			"companyDetails": {
+				"city": "Noida",
+				"companyName": "VectoScalar Technologies",
+				"companyWebsiteUrl": "https://vectoscalar.com/",
+				"country": "India"
+			},
+			"endDate": "Jun 2021",
+			"isCurrentlyWorking": false,
+			"role": "Software Engineer Intern",
+			"startDate": "Jan 2021",
+			"workContributions": [
+				{
+					"id": "",
+					"description": "Worked on code refactoring across the project for enhancing the codebase quality."
+				},
+				{
+					"id": "",
+					"description": "Found & solved several bugs like ESLint, Web-Storm IDE errors & warnings, UI bugs, etc."
+				},
+				{
+					"id": "",
+					"description": "Developed more than 20 React UI components."
+				},
+				{
+					"id": "",
+					"description": "Learned & worked with libraries/frameworks such as React.js, React Native, Redux, React Router, SCSS, Material UI, Styled Components, etc."
+				}
+			]
+		}
+	]
+}
