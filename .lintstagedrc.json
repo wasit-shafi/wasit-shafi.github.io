@@ -1,0 +1,4 @@
+{
+	"!(docs/*).{html,ts}": ["npm run format-codebase"],
+	"!(docs/*).scss": ["npm run format-codebase", "npm run stylelint"]
+}
