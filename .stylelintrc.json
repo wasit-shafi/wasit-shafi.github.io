@@ -1,5 +1,5 @@
 {
-	"extends": "stylelint-config-standard-scss",
+	"extends": ["stylelint-config-standard"],
 	"rules": {
 		"unit-allowed-list": ["%", "px", "vh", "vw", "ms", "s"],
 		"color-named": "never",
