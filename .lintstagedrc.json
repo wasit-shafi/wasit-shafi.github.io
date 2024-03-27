@@ -1,4 +1,4 @@
 {
-	"!(docs/*).{html,ts}": ["ng lint"],
-	"!(docs/*).scss": ["ng lint", "npm run stylelint"]
+	"*.scss": ["npm run stylelint"],
+	"*.ts": [""]
 }

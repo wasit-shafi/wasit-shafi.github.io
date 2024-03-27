@@ -9,6 +9,7 @@ import { Observable } from 'rxjs';
 export class UserProfileService {
 	// TODO: update 'any' to 'interface' for portfolio data
 
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	public portfolioData: WritableSignal<any> = signal({});
 
 	constructor(private httpClient: HttpClient) {
@@ -19,7 +20,9 @@ export class UserProfileService {
 		});
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	private getData(url: string): Observable<any> {
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		return this.httpClient.get<any>(url);
 	}
 }
