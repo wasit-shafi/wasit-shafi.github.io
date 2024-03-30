@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { Component, effect, inject } from '@angular/core';
 
 import { UserProfileService } from '@services';
 
@@ -12,4 +12,12 @@ import { UserProfileService } from '@services';
 })
 export class SkillsComponent {
 	userProfileService = inject(UserProfileService);
+
+	public skillsData: any;
+
+	constructor() {
+		effect(() => {
+			this.skillsData = this.userProfileService.portfolioData()?.workExperience;
+		});
+	}
 }

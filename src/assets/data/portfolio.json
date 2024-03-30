@@ -21,6 +21,7 @@
 			"description": "Links KnowledgeCircle.github.io, github.com/KnowledgeCircle."
 		}
 	],
+
 	"awardsAndCertifications": [
 		{
 			"id": "",
@@ -43,32 +44,34 @@
 			"description": "Links KnowledgeCircle.github.io, github.com/KnowledgeCircle."
 		}
 	],
+
 	"codingAndSocialProfiles": [
 		{
 			"id": "",
 			"platformName": "StackOverflow",
-			"username": "wasitshafi",
+			"username": "wasit-shafi",
 			"profileURL": "https://stackoverflow.com/users/10249156/wasit-shafi"
 		},
 		{
 			"id": "",
 			"platformName": "GitHub",
-			"username": "wasitshafi",
-			"profileURL": "https://github.com/wasitshafi"
+			"username": "wasit-shafi",
+			"profileURL": "https://github.com/wasit-shafi"
 		},
 		{
 			"id": "",
 			"platformName": "CodeChef",
-			"username": "wasitshafi",
-			"profileURL": "https://www.codechef.com/users/wasitshafi"
+			"username": "wasit_shafi",
+			"profileURL": "https://www.codechef.com/users/wasit_shafi"
 		},
 		{
 			"id": "",
 			"platformName": "LeetCode",
-			"username": "wasitshafi",
-			"profileURL": "https://leetcode.com/wasitshafi/"
+			"username": "wasit-shafi",
+			"profileURL": "https://leetcode.com/wasit-shafi/"
 		}
 	],
+
 	"contactDetails": [
 		{
 			"id": "",
@@ -77,10 +80,11 @@
 		},
 		{
 			"id": "",
-			"linkText": "linkedin/wasitshafi",
-			"linkURL": "https://www.linkedin.com/in/wasitshafi/"
+			"linkText": "linkedin/wasit-shafi",
+			"linkURL": "https://www.linkedin.com/in/wasit-shafi/"
 		}
 	],
+
 	"education": [
 		{
 			"universityName": "Jamia Millia Islamia",
@@ -101,6 +105,7 @@
 			"completionDate": "Mar 2017"
 		}
 	],
+
 	"personalProjects": [
 		{
 			"projectTitle": "Face Recognition Based Attendance System",
@@ -145,6 +150,7 @@
 			]
 		}
 	],
+
 	"skills": {
 		"proficient": [
 			{
@@ -262,18 +268,18 @@
 			}
 		]
 	},
+
 	"workExperience": [
 		{
 			"companyDetails": {
 				"city": "Doha",
-				"companyName": "Cashmere Trading",
-				"companyWebsiteUrl": "https://www.cashmeretrading.com/",
+				"companyName": "SuperFitout",
+				"companyWebsiteUrl": "https://www.superfitout.com",
 				"country": "Qatar"
 			},
-			"endDate": "",
 			"isCurrentlyWorking": true,
 			"role": "Full Stack SDE",
-			"startDate": "",
+			"startDate": "Sep 2022",
 			"workContributions": [
 				{ "id": "", "description": "Current Working Technologies: MEAN Stack" }
 			]
