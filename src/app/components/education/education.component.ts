@@ -4,12 +4,12 @@ import { Component, inject } from '@angular/core';
 import { UserProfileService } from '@services';
 
 @Component({
-	selector: 'app-about',
+	selector: 'app-education',
 	standalone: true,
 	imports: [CommonModule],
-	templateUrl: './about.component.html',
-	styleUrl: './about.component.scss',
+	templateUrl: './education.component.html',
+	styleUrl: './education.component.scss',
 })
-export class AboutComponent {
+export class EducationComponent {
 	userProfileService = inject(UserProfileService);
 }

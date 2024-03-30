@@ -1,17 +1,30 @@
-import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { Component } from '@angular/core';
 
-import { UserProfileService } from '@services';
+import { environment } from '@environments/environment';
 
-import { AboutComponent } from '@components';
+import {
+	AboutComponent,
+	ContactComponent,
+	EducationComponent,
+	PersonalProjectsComponent,
+	SkillsComponent,
+	WorkExperiencesComponent,
+} from '@components';
 
 @Component({
 	selector: 'app-home',
 	standalone: true,
-	imports: [CommonModule, AboutComponent],
+	imports: [
+		AboutComponent,
+		ContactComponent,
+		EducationComponent,
+		PersonalProjectsComponent,
+		SkillsComponent,
+		WorkExperiencesComponent,
+	],
 	templateUrl: './home.component.html',
 	styleUrl: './home.component.scss',
 })
 export class HomeComponent {
-	userProfileService = inject(UserProfileService);
+	public readonly environment = environment;
 }
