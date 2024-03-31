@@ -18,7 +18,7 @@ export class EducationComponent {
 	constructor() {
 		effect(() => {
 			this.educationData =
-				this.userProfileService.portfolioData()?.workExperience;
+				this.userProfileService.portfolioData()?.educationDetails;
 		});
 	}
 }

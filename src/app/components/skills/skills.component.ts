@@ -17,7 +17,7 @@ export class SkillsComponent {
 
 	constructor() {
 		effect(() => {
-			this.skillsData = this.userProfileService.portfolioData()?.workExperience;
+			this.skillsData = this.userProfileService.portfolioData()?.skills;
 		});
 	}
 }

@@ -1,1 +1,24 @@
-<p>education works!</p>
+<section>
+	@for (
+		educationDataItem of educationData;
+		track educationDataItem.universityName
+	) {
+		<div class="mb-[12px] flex flex-col">
+			<p>
+				<span class="font-semibold">{{ educationDataItem.degree }}</span>
+
+				<span class="font-semibold"> ({{ educationDataItem.score }}) </span>
+				<a
+					class="hover:decoration text-blue-700 hover:underline"
+					[href]="educationDataItem.universityWebsiteURL"
+					target="_blank"
+					rel="noopener"
+					>&#64;<img
+						src=""
+						alt="img"
+					/>{{ educationDataItem.universityName }}</a
+				>
+			</p>
+		</div>
+	} @empty {}
+</section>

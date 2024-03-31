@@ -85,14 +85,15 @@
 		}
 	],
 
-	"education": [
+	"educationDetails": [
 		{
 			"universityName": "Jamia Millia Islamia",
 			"universityLocation": "New Delhi, IN",
 			"universityLocationURL": "https://maps.app.goo.gl/ZGAg8fw3MT1Lo7La8",
 			"universityWebsiteURL": "https://www.jmi.ac.in/",
 			"degree": "Master of Computer Applications",
-			"score": "8.6&nbsp;CGPA",
+			"score": "8.6 CGPA",
+			"scoreType": "cgpa",
 			"completionDate": "Jun 2021"
 		},
 		{
@@ -101,7 +102,8 @@
 			"universityLocationURL": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
 			"universityWebsiteURL": "https://www.kashmiruniversity.net/",
 			"degree": "Bachelor of Computer Applications",
-			"score": "71%",
+			"score": "71 %",
+			"scoreType": "percentage",
 			"completionDate": "Mar 2017"
 		}
 	],
@@ -151,123 +153,132 @@
 		}
 	],
 
-	"skills": {
-		"proficient": [
-			{
-				"id": "",
-				"skill": "MongoDB"
-			},
-			{
-				"id": "",
-				"skill": "Express.js"
-			},
+	"skills": [
+		{
+			"skillType": "1",
+			"skillTypeLabel": "Proficient With",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "MongoDB"
+				},
+				{
+					"id": "",
+					"skillName": "Express.js"
+				},
 
-			{
-				"id": "",
-				"skill": "Angular"
-			},
+				{
+					"id": "",
+					"skillName": "Angular"
+				},
 
-			{
-				"id": "",
-				"skill": "Node.js"
-			},
+				{
+					"id": "",
+					"skillName": "Node.js"
+				},
 
-			{
-				"id": "",
-				"skill": "React.js"
-			},
+				{
+					"id": "",
+					"skillName": "React.js"
+				},
 
-			{
-				"id": "",
-				"skill": "Electron.js"
-			},
+				{
+					"id": "",
+					"skillName": "Electron.js"
+				},
 
-			{
-				"id": "",
-				"skill": "JavaScript/TypeScript"
-			},
+				{
+					"id": "",
+					"skillName": "JavaScript/TypeScript"
+				},
 
-			{
-				"id": "",
-				"skill": "SQL"
-			},
+				{
+					"id": "",
+					"skillName": "SQL"
+				},
 
-			{
-				"id": "",
-				"skill": "Java"
-			},
+				{
+					"id": "",
+					"skillName": "Java"
+				},
 
-			{
-				"id": "",
-				"skill": "C/C++"
-			},
+				{
+					"id": "",
+					"skillName": "C/C++"
+				},
 
-			{
-				"id": "",
-				"skill": "Data&nbsp;Structures&nbsp;&&nbsp;Algorithms"
-			},
-			{
-				"id": "",
-				"skill": "Problem&nbsp;Solving "
-			},
-			{
-				"id": "",
-				"skill": "Redux"
-			},
-			{
-				"id": "",
-				"skill": "MobX-State-Tree"
-			},
-			{
-				"id": "",
-				"skill": "HTML"
-			},
-			{
-				"id": "",
-				"skill": "CSS/SCSS"
-			}
-		],
-		"familiar": [
-			{
-				"id": "",
-				"skill": "React&nbsp;Native"
-			},
-			{
-				"id": "",
-				"skill": "Python"
-			},
+				{
+					"id": "",
+					"skillName": "Data&nbsp;Structures&nbsp;&&nbsp;Algorithms"
+				},
+				{
+					"id": "",
+					"skillName": "Problem&nbsp;Solving "
+				},
+				{
+					"id": "",
+					"skillName": "Redux"
+				},
+				{
+					"id": "",
+					"skillName": "MobX-State-Tree"
+				},
+				{
+					"id": "",
+					"skillName": "HTML"
+				},
+				{
+					"id": "",
+					"skillName": "CSS/SCSS"
+				}
+			]
+		},
 
-			{
-				"id": "",
-				"skill": "Socket.io"
-			},
+		{
+			"skillType": "2",
+			"skillTypeLabel": "Familiar With",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "React&nbsp;Native"
+				},
+				{
+					"id": "",
+					"skillName": "Python"
+				},
 
-			{
-				"id": "",
-				"skill": "Firebase"
-			},
+				{
+					"id": "",
+					"skillName": "Socket.io"
+				},
 
-			{
-				"id": "",
-				"skill": "Webpack"
-			},
+				{
+					"id": "",
+					"skillName": "Firebase"
+				},
 
-			{
-				"id": "",
-				"skill": "Git"
-			},
+				{
+					"id": "",
+					"skillName": "Webpack"
+				},
 
-			{
-				"id": "",
-				"skill": "Postman"
-			},
+				{
+					"id": "",
+					"skillName": "Git"
+				},
 
-			{
-				"id": "",
-				"skill": "Jira"
-			}
-		]
-	},
+				{
+					"id": "",
+					"skillName": "Postman"
+				},
+
+				{
+					"id": "",
+					"skillName": "Jira"
+				}
+			]
+		}
+	],
 
 	"workExperience": [
 		{
@@ -279,7 +290,7 @@
 			},
 			"isCurrentlyWorking": true,
 			"role": "Full Stack SDE",
-			"startDate": "Sep 2022",
+			"startDate": "09/2022",
 			"workContributions": [
 				{ "id": "", "description": "Current Working Technologies: MEAN Stack" }
 			]
@@ -291,10 +302,10 @@
 				"companyWebsiteUrl": "https://vectoscalar.com/",
 				"country": "India"
 			},
-			"endDate": "Aug 2022",
+			"endDate": "08/2022",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer",
-			"startDate": "Jul 2021",
+			"startDate": "04/2021",
 			"workContributions": [
 				{
 					"id": "",
@@ -321,10 +332,10 @@
 				"companyWebsiteUrl": "https://vectoscalar.com/",
 				"country": "India"
 			},
-			"endDate": "Jun 2021",
+			"endDate": "03/2021",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer Intern",
-			"startDate": "Jan 2021",
+			"startDate": "01/2021",
 			"workContributions": [
 				{
 					"id": "",
