@@ -4,20 +4,26 @@
 		track educationDataItem.universityName
 	) {
 		<div class="mb-[12px] flex flex-col">
-			<p>
-				<span class="font-semibold">{{ educationDataItem.degree }}</span>
+			<p class="flex justify-between">
+				<span class="flex content-center">
+					<span class="font-semibold">{{ educationDataItem.degree }}</span>
 
-				<span class="font-semibold"> ({{ educationDataItem.score }}) </span>
+					<span class="font-semibold"> ({{ educationDataItem.score }}) </span>
+				</span>
+
 				<a
-					class="hover:decoration text-blue-700 hover:underline"
+					class="hover:decoration inline-flex content-center text-blue-700"
 					[href]="educationDataItem.universityWebsiteURL"
+					[title]="educationDataItem.universityWebsiteURL"
 					target="_blank"
 					rel="noopener"
-					>&#64;<img
-						src=""
-						alt="img"
-					/>{{ educationDataItem.universityName }}</a
 				>
+					<img
+						class="inline h-[24px] w-[24px]"
+						[src]="educationDataItem.logoAssetURL"
+						alt="logo"
+					/>{{ educationDataItem.universityName }}
+				</a>
 			</p>
 		</div>
 	} @empty {}

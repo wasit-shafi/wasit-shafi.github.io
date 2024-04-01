@@ -94,7 +94,8 @@
 			"degree": "Master of Computer Applications",
 			"score": "8.6 CGPA",
 			"scoreType": "cgpa",
-			"completionDate": "Jun 2021"
+			"completionDate": "Jun 2021",
+			"logoAssetURL": "/assets/images/jamia-millia-islamia-logo.svg"
 		},
 		{
 			"universityName": "University of Kashmir",
@@ -102,9 +103,10 @@
 			"universityLocationURL": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
 			"universityWebsiteURL": "https://www.kashmiruniversity.net/",
 			"degree": "Bachelor of Computer Applications",
-			"score": "71 %",
+			"score": "71%",
 			"scoreType": "percentage",
-			"completionDate": "Mar 2017"
+			"completionDate": "Mar 2017",
+			"logoAssetURL": "/assets/images/university-of-kashmir-logo.png"
 		}
 	],
 
@@ -290,7 +292,7 @@
 			},
 			"isCurrentlyWorking": true,
 			"role": "Full Stack SDE",
-			"startDate": "09/2022",
+			"startDate": "Sep 2022",
 			"workContributions": [
 				{ "id": "", "description": "Current Working Technologies: MEAN Stack" }
 			]
@@ -302,10 +304,10 @@
 				"companyWebsiteUrl": "https://vectoscalar.com/",
 				"country": "India"
 			},
-			"endDate": "08/2022",
+			"endDate": "Aug 2022",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer",
-			"startDate": "04/2021",
+			"startDate": "April 2021",
 			"workContributions": [
 				{
 					"id": "",
@@ -332,10 +334,10 @@
 				"companyWebsiteUrl": "https://vectoscalar.com/",
 				"country": "India"
 			},
-			"endDate": "03/2021",
+			"endDate": "Mar 2021",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer Intern",
-			"startDate": "01/2021",
+			"startDate": "Jan 2021",
 			"workContributions": [
 				{
 					"id": "",

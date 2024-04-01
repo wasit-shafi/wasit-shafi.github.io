@@ -7,17 +7,25 @@
 			<a
 				class="hover:decoration text-blue-700 hover:underline"
 				[href]="workExperience.companyDetails.companyWebsiteUrl"
-				[title]="workExperience.companyDetails.companyName"
-				>{{ workExperience.companyDetails.companyName }}</a
+				[title]="workExperience.companyDetails.companyWebsiteUrl"
 			>
-			<p>
-				{{ workExperience.companyDetails.city }},
-				{{ workExperience.companyDetails.country }}
+				{{ workExperience.companyDetails.companyName }}
+			</a>
+			<p class="flex justify-between">
+				<span>
+					{{ workExperience.companyDetails.city }},
+					{{ workExperience.companyDetails.country }}
+				</span>
+				<span>
+					{{ workExperience.startDate }} -
+					{{
+						workExperience.isCurrentlyWorking
+							? 'Present'
+							: workExperience.endDate
+					}}
+				</span>
 			</p>
-			{{ workExperience.role }}, {{ workExperience.startDate }}-
-			{{
-				workExperience.isCurrentlyWorking ? 'Present' : workExperience.endDate
-			}}
+			<p class="font-bold">{{ workExperience.role }}</p>
 
 			<ul>
 				@for (
@@ -30,5 +38,3 @@
 		</div>
 	} @empty {}
 </section>
-
-<!-- <p>{{ workExperiencesData | json }}</p> -->
