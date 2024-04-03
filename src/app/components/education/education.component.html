@@ -1,10 +1,11 @@
 <section>
+	<h3 class="mb-[8px] text-center text-xl font-medium">Education</h3>
 	@for (
 		educationDataItem of educationData;
 		track educationDataItem.universityName
 	) {
 		<div class="mb-[12px] flex flex-col">
-			<p class="flex justify-between">
+			<p class="flex flex-wrap justify-between gap-x-[24px] gap-y-[12px]">
 				<span class="align-center flex">
 					<span class="font-semibold">{{ educationDataItem.degree }}</span>
 

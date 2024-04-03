@@ -4,6 +4,7 @@
 		track workExperience.companyName
 	) {
 		<div class="mb-4">
+			<span class="font-bold">{{ workExperience.role }},</span>
 			<a
 				class="hover:decoration text-blue-700 hover:underline"
 				[href]="workExperience.companyDetails.companyWebsiteUrl"
@@ -25,8 +26,6 @@
 					}}
 				</span>
 			</p>
-			<p class="font-bold">{{ workExperience.role }}</p>
-
 			<ul>
 				@for (
 					workContribution of workExperience.workContributions;
