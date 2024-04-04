@@ -72,18 +72,23 @@
 		}
 	],
 
-	"contactDetails": [
-		{
+	"contactDetails": {
+		"emailId": {
 			"id": "",
 			"linkText": "wasitshafi700@gmail.com",
 			"linkURL": "mailto:wasitshafi700@gmail.com"
 		},
-		{
+		"phone": {
+			"id": "",
+			"linkText": "+91 9682648815",
+			"linkURL": "tel:+919682648815"
+		},
+		"linkedin": {
 			"id": "",
 			"linkText": "linkedin/wasit-shafi",
 			"linkURL": "https://www.linkedin.com/in/wasit-shafi/"
 		}
-	],
+	},
 
 	"educationDetails": [
 		{
@@ -91,7 +96,7 @@
 			"universityLocation": "New Delhi, IN",
 			"universityLocationURL": "https://maps.app.goo.gl/ZGAg8fw3MT1Lo7La8",
 			"universityWebsiteURL": "https://www.jmi.ac.in/",
-			"degree": "Master of Computer Applications",
+			"degree": "Master of Computer Applications (MCA)",
 			"score": "8.6 CGPA",
 			"scoreType": "cgpa",
 			"completionDate": "Jun 2021",
@@ -102,7 +107,7 @@
 			"universityLocation": "J&K, IN",
 			"universityLocationURL": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
 			"universityWebsiteURL": "https://www.kashmiruniversity.net/",
-			"degree": "Bachelor of Computer Applications",
+			"degree": "Bachelor of Computer Applications (BCA)",
 			"score": "71%",
 			"scoreType": "percentage",
 			"completionDate": "Mar 2017",

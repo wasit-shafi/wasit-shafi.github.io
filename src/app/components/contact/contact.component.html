@@ -1,5 +1,28 @@
 <section>
 	<!--  -->
 	<h3 class="mb-[8px] text-center text-xl font-semibold">Connect With Me:</h3>
+
+	<p class="flex items-center justify-center">
+		<span>Drop me a line at</span>&nbsp;
+		<img
+			src="/assets/images/copy-icon.svg"
+			alt="copy-icon"
+			title="copy email id"
+			class="size-[18px] cursor-pointer"
+			(click)="handleCopyEmailToClipboard(contactData?.emailId?.linkText)"
+		/>&nbsp;
+
+		<a
+			class="hover:decoration text-blue-700 hover:underline"
+			[href]="contactData?.emailId?.linkURL"
+			>{{ contactData?.emailId?.linkText }}</a
+		>
+		&nbsp;or Call on
+		<a
+			class="hover:decoration text-blue-700 hover:underline"
+			[href]="contactData?.phone?.linkURL"
+			>{{ contactData?.phone?.linkText }}</a
+		>
+	</p>
 	<!--  -->
 </section>

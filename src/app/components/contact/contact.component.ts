@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, effect, inject } from '@angular/core';
 
 import { UserProfileService } from '@services';
+import { navigatorUtils } from '@utils';
 
 @Component({
 	selector: 'app-contact',
@@ -14,15 +15,15 @@ export class ContactComponent {
 	userProfileService = inject(UserProfileService);
 
 	public contactData: any;
-	public codingAndSocialProfilesData: any;
 
 	constructor() {
 		effect(() => {
 			this.contactData =
-				this.userProfileService.portfolioData()?.workExperience;
-
-			this.codingAndSocialProfilesData =
-				this.userProfileService.portfolioData()?.codingAndSocialProfiles;
+				this.userProfileService.portfolioData()?.contactDetails;
 		});
+	}
+
+	public handleCopyEmailToClipboard(emailId: string = '') {
+		navigatorUtils?.handleCopyTextToClipboard(emailId);
 	}
 }
