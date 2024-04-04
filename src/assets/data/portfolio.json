@@ -83,11 +83,38 @@
 			"linkText": "+91 9682648815",
 			"linkURL": "tel:+919682648815"
 		},
-		"linkedin": {
-			"id": "",
-			"linkText": "linkedin/wasit-shafi",
-			"linkURL": "https://www.linkedin.com/in/wasit-shafi/"
-		}
+		"codingAndSocialProfiles": [
+			{
+				"id": "",
+				"titleText": "Connect with me on LinkedIn",
+				"iconURL": "assets/images/linkedin-logo-icon.svg",
+				"linkURL": "https://www.linkedin.com/in/wasit-shafi/"
+			},
+			{
+				"id": "",
+				"titleText": "Checkout my github profile",
+				"iconURL": "assets/images/github-logo-icon.svg",
+				"linkURL": "https://github.com/wasit-shafi"
+			},
+			{
+				"id": "",
+				"titleText": "Checkout my stack overflow profile",
+				"iconURL": "assets/images/stack-overflow-logo-icon.svg",
+				"linkURL": "https://stackoverflow.com/users/10249156/wasit-shafi"
+			},
+			{
+				"id": "",
+				"titleText": "Checkout my leetcode profile",
+				"iconURL": "assets/images/leetcode-logo-icon.svg",
+				"linkURL": "https://leetcode.com/wasit-shafi/"
+			},
+			{
+				"id": "",
+				"titleText": "Checkout my codechef profile",
+				"iconURL": "assets/images/codechef-logo-icon.png",
+				"linkURL": "https://www.codechef.com/users/wasit_shafi"
+			}
+		]
 	},
 
 	"educationDetails": [
@@ -100,7 +127,7 @@
 			"score": "8.6 CGPA",
 			"scoreType": "cgpa",
 			"completionDate": "Jun 2021",
-			"logoAssetURL": "/assets/images/jamia-millia-islamia-logo.svg"
+			"logoAssetURL": "/assets/images/jamia-millia-islamia-logo-icon.svg"
 		},
 		{
 			"universityName": "University of Kashmir",
@@ -111,7 +138,7 @@
 			"score": "71%",
 			"scoreType": "percentage",
 			"completionDate": "Mar 2017",
-			"logoAssetURL": "/assets/images/university-of-kashmir-logo.png"
+			"logoAssetURL": "/assets/images/university-of-kashmir-logo-icon.png"
 		}
 	],
 
@@ -162,128 +189,104 @@
 
 	"skills": [
 		{
-			"skillType": "1",
-			"skillTypeLabel": "Proficient With",
-			"skillList": [
-				{
-					"id": "",
-					"skillName": "MongoDB"
-				},
-				{
-					"id": "",
-					"skillName": "Express.js"
-				},
-
-				{
-					"id": "",
-					"skillName": "Angular"
-				},
-
-				{
-					"id": "",
-					"skillName": "Node.js"
-				},
-
-				{
-					"id": "",
-					"skillName": "React.js"
-				},
-
-				{
-					"id": "",
-					"skillName": "Electron.js"
-				},
-
-				{
-					"id": "",
-					"skillName": "JavaScript/TypeScript"
-				},
-
-				{
-					"id": "",
-					"skillName": "SQL"
-				},
-
-				{
-					"id": "",
-					"skillName": "Java"
-				},
-
-				{
-					"id": "",
-					"skillName": "C/C++"
-				},
-
-				{
-					"id": "",
-					"skillName": "Data&nbsp;Structures&nbsp;&&nbsp;Algorithms"
-				},
-				{
-					"id": "",
-					"skillName": "Problem&nbsp;Solving "
-				},
-				{
-					"id": "",
-					"skillName": "Redux"
-				},
-				{
-					"id": "",
-					"skillName": "MobX-State-Tree"
-				},
-				{
-					"id": "",
-					"skillName": "HTML"
-				},
-				{
-					"id": "",
-					"skillName": "CSS/SCSS"
-				}
-			]
+			"id": "",
+			"skillName": "Problem&nbsp;Solving"
 		},
-
 		{
-			"skillType": "2",
-			"skillTypeLabel": "Familiar With",
-			"skillList": [
-				{
-					"id": "",
-					"skillName": "React&nbsp;Native"
-				},
-				{
-					"id": "",
-					"skillName": "Python"
-				},
-
-				{
-					"id": "",
-					"skillName": "Socket.io"
-				},
-
-				{
-					"id": "",
-					"skillName": "Firebase"
-				},
-
-				{
-					"id": "",
-					"skillName": "Webpack"
-				},
-
-				{
-					"id": "",
-					"skillName": "Git"
-				},
-
-				{
-					"id": "",
-					"skillName": "Postman"
-				},
-
-				{
-					"id": "",
-					"skillName": "Jira"
-				}
-			]
+			"id": "",
+			"skillName": "Data&nbsp;Structures&nbsp;&&nbsp;Algorithms"
+		},
+		{
+			"id": "",
+			"skillName": "MongoDB"
+		},
+		{
+			"id": "",
+			"skillName": "Express.js"
+		},
+		{
+			"id": "",
+			"skillName": "Angular"
+		},
+		{
+			"id": "",
+			"skillName": "Node.js"
+		},
+		{
+			"id": "",
+			"skillName": "Tailwind&nbsp;CSS"
+		},
+		{
+			"id": "",
+			"skillName": "React.js"
+		},
+		{
+			"id": "",
+			"skillName": "Electron.js"
+		},
+		{
+			"id": "",
+			"skillName": "JavaScript/TypeScript"
+		},
+		{
+			"id": "",
+			"skillName": "SQL"
+		},
+		{
+			"id": "",
+			"skillName": "Java"
+		},
+		{
+			"id": "",
+			"skillName": "C/C++"
+		},
+		{
+			"id": "",
+			"skillName": "Redux"
+		},
+		{
+			"id": "",
+			"skillName": "MobX-State-Tree"
+		},
+		{
+			"id": "",
+			"skillName": "HTML"
+		},
+		{
+			"id": "",
+			"skillName": "CSS/SCSS"
+		},
+		{
+			"id": "",
+			"skillName": "React&nbsp;Native"
+		},
+		{
+			"id": "",
+			"skillName": "Python"
+		},
+		{
+			"id": "",
+			"skillName": "Socket.io"
+		},
+		{
+			"id": "",
+			"skillName": "Firebase"
+		},
+		{
+			"id": "",
+			"skillName": "Webpack"
+		},
+		{
+			"id": "",
+			"skillName": "Git"
+		},
+		{
+			"id": "",
+			"skillName": "Postman"
+		},
+		{
+			"id": "",
+			"skillName": "Jira"
 		}
 	],
 

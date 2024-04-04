@@ -2,27 +2,56 @@
 	<!--  -->
 	<h3 class="mb-[8px] text-center text-xl font-semibold">Connect With Me:</h3>
 
-	<p class="flex items-center justify-center">
-		<span>Drop me a line at</span>&nbsp;
-		<img
-			src="/assets/images/copy-icon.svg"
-			alt="copy-icon"
-			title="copy email id"
-			class="size-[18px] cursor-pointer"
-			(click)="handleCopyEmailToClipboard(contactData?.emailId?.linkText)"
-		/>&nbsp;
+	<div class="mb-[22px] flex flex-wrap items-center justify-center gap-y-[8px]">
+		<div class="inline-flex flex-wrap items-center justify-center">
+			Drop&nbsp;me&nbsp;a&nbsp;line&nbsp;at&nbsp;
+			<div class="inline-flex flex-wrap items-center justify-center">
+				<img
+					src="/assets/images/copy-icon.svg"
+					alt="copy-icon"
+					title="Copy e-mail id"
+					class="size-[18px] cursor-pointer"
+					(click)="handleCopyEmailToClipboard(contactData?.emailId?.linkText)"
+				/>
+				&nbsp;
+				<a
+					class="hover:decoration text-blue-700 hover:underline"
+					[href]="contactData?.emailId?.linkURL"
+				>
+					{{ contactData?.emailId?.linkText }}
+				</a>
+			</div>
+		</div>
+		<div class="inline-flex flex-wrap items-center justify-center">
+			&nbsp;or&nbsp;Call&nbsp;on&nbsp;
+			<a
+				class="hover:decoration text-blue-700 hover:underline"
+				[href]="contactData?.phone?.linkURL"
+			>
+				{{ contactData?.phone?.linkText }}
+			</a>
+		</div>
+	</div>
 
-		<a
-			class="hover:decoration text-blue-700 hover:underline"
-			[href]="contactData?.emailId?.linkURL"
-			>{{ contactData?.emailId?.linkText }}</a
-		>
-		&nbsp;or Call on
-		<a
-			class="hover:decoration text-blue-700 hover:underline"
-			[href]="contactData?.phone?.linkURL"
-			>{{ contactData?.phone?.linkText }}</a
-		>
-	</p>
-	<!--  -->
+	<div
+		class="flex flex-wrap items-center justify-center gap-x-[12px] gap-y-[18px]"
+	>
+		@for (
+			codingAndSocialProfilesData of contactData?.codingAndSocialProfiles;
+			track codingAndSocialProfilesData.linkURL
+		) {
+			<a
+				[href]="codingAndSocialProfilesData.linkURL"
+				target="_blank"
+				rel="noopener noreferrer"
+				[title]="codingAndSocialProfilesData.titleText"
+			>
+				<img
+					[src]="codingAndSocialProfilesData.iconURL"
+					alt="img"
+					class="size-[36px] cursor-pointer"
+				/>
+			</a>
+		}
+	</div>
 </section>

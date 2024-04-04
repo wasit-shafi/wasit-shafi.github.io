@@ -1,21 +1,12 @@
 <section>
-	@for (skillDataItem of skillsData; track skillDataItem.skillTypeLabel) {
-		<div class="mb-[16px]">
-			<h3 class="mb-[8px] text-center text-xl font-medium">
-				{{ skillDataItem.skillTypeLabel }}
-			</h3>
-			<div class="flex flex-wrap justify-center gap-x-[8px] gap-y-[4px]">
-				@for (
-					skillListItem of skillDataItem?.skillList;
-					track skillListItem?.id
-				) {
-					<span
-						class="border-black-600 rounded-[4px] border p-[5px]"
-						[innerHTML]="skillListItem?.skillName"
-					>
-					</span>
-				}
-			</div>
-		</div>
-	}
+	<h3 class="mb-[8px] text-center text-xl font-medium">Skills</h3>
+	<div class="flex flex-wrap justify-center gap-x-[8px] gap-y-[4px]">
+		@for (skillDataItem of skillsData; track skillDataItem.skillTypeLabel) {
+			<span
+				class="border-black-600 rounded-[4px] border p-[5px]"
+				[innerHTML]="skillDataItem?.skillName"
+			>
+			</span>
+		}
+	</div>
 </section>
