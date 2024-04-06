@@ -1,9 +1,9 @@
-<section>
+<section class="mx-auto 2xs:max-w-[90%]">
 	<h3 class="mb-[8px] text-center text-xl font-medium">Skills</h3>
-	<div class="flex flex-wrap justify-center gap-x-[8px] gap-y-[4px]">
+	<div class="flex flex-wrap justify-center gap-x-[10px] gap-y-[8px]">
 		@for (skillDataItem of skillsData; track skillDataItem.skillTypeLabel) {
 			<span
-				class="border-black-600 rounded-[4px] border p-[5px]"
+				class="border-black-600 rounded-[6px] border px-[12px] py-[5px]"
 				[innerHTML]="skillDataItem?.skillName"
 			>
 			</span>

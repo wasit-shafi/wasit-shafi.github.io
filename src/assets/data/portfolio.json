@@ -218,6 +218,10 @@
 		},
 		{
 			"id": "",
+			"skillName": "NgRx"
+		},
+		{
+			"id": "",
 			"skillName": "React.js"
 		},
 		{
@@ -226,7 +230,29 @@
 		},
 		{
 			"id": "",
-			"skillName": "JavaScript/TypeScript"
+			"skillName": "TypeScript"
+		},
+		{
+			"id": "",
+			"skillName": "JavaScript"
+		},
+		{
+			"id": "",
+			"skillName": "Mongoose"
+		},
+		{
+			"id": "",
+			"skillName": "AWS"
+		},
+
+		{
+			"id": "",
+			"skillName": "NGINX"
+		},
+
+		{
+			"id": "",
+			"skillName": "Docker"
 		},
 		{
 			"id": "",
@@ -238,7 +264,11 @@
 		},
 		{
 			"id": "",
-			"skillName": "C/C++"
+			"skillName": "C++"
+		},
+		{
+			"id": "",
+			"skillName": "C"
 		},
 		{
 			"id": "",
@@ -254,11 +284,11 @@
 		},
 		{
 			"id": "",
-			"skillName": "CSS/SCSS"
+			"skillName": "CSS"
 		},
 		{
 			"id": "",
-			"skillName": "React&nbsp;Native"
+			"skillName": "SCSS"
 		},
 		{
 			"id": "",
@@ -266,27 +296,11 @@
 		},
 		{
 			"id": "",
+			"skillName": "Web Animation API"
+		},
+		{
+			"id": "",
 			"skillName": "Socket.io"
-		},
-		{
-			"id": "",
-			"skillName": "Firebase"
-		},
-		{
-			"id": "",
-			"skillName": "Webpack"
-		},
-		{
-			"id": "",
-			"skillName": "Git"
-		},
-		{
-			"id": "",
-			"skillName": "Postman"
-		},
-		{
-			"id": "",
-			"skillName": "Jira"
 		}
 	],
 
