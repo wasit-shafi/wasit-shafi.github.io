@@ -1,8 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component, effect, inject } from '@angular/core';
 
-import { UserProfileService } from '@services';
+import { Constants } from '@shared';
+
 import { navigatorUtils } from '@utils';
+
+import { UserProfileService } from '@services';
 
 @Component({
 	selector: 'app-contact',
@@ -12,6 +15,7 @@ import { navigatorUtils } from '@utils';
 	styleUrl: './contact.component.scss',
 })
 export class ContactComponent {
+	constants = inject(Constants);
 	userProfileService = inject(UserProfileService);
 
 	public contactData: any;
