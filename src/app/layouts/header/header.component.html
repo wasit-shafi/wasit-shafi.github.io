@@ -24,14 +24,16 @@
 		</li>
 		<!-- Projects -->
 
-		<li class="">
-			<a
-				class="flex items-center justify-center py-[14px]"
-				[href]="'#' + constants.homeSectionLinksId.PERSONAL_PROJECTS"
-			>
-				Projects
-			</a>
-		</li>
+		@if (!environment.production) {
+			<li class="">
+				<a
+					class="flex items-center justify-center py-[14px]"
+					[href]="'#' + constants.homeSectionLinksId.PERSONAL_PROJECTS"
+				>
+					Projects
+				</a>
+			</li>
+		}
 		<!-- Skills -->
 
 		<li class="">

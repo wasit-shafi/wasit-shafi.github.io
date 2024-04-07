@@ -2,6 +2,8 @@ import { Component, inject } from '@angular/core';
 
 import { Constants } from '@shared';
 
+import { environment } from '@environments/environment';
+
 @Component({
 	selector: 'app-header',
 	standalone: true,
@@ -11,4 +13,6 @@ import { Constants } from '@shared';
 })
 export class HeaderComponent {
 	public constants = inject(Constants);
+
+	public readonly environment = environment;
 }
