@@ -1,0 +1,41 @@
+<section
+	class="mb-[18px]"
+	[id]="constants.homeSectionLinksId.EDUCATION"
+>
+	<h3 class="mb-[8px] text-center text-xl font-medium">Education</h3>
+
+	<div
+		class="flex flex-wrap justify-between gap-x-[24px] gap-y-[16px] md:justify-center md:gap-x-[40px]"
+	>
+		@for (
+			educationDataItem of educationData;
+			track educationDataItem.universityName
+		) {
+			<a
+				class="hover:decoration align-center mx-auto inline-flex text-blue-700 md:mx-0"
+				[href]="educationDataItem.universityWebsiteURL"
+				[title]="educationDataItem.universityWebsiteURL"
+				target="_blank"
+				rel="noopener"
+			>
+				<div class="inline-flex gap-x-[8px]">
+					<div class="flex items-center justify-center">
+						<img
+							class="inline size-[48px]"
+							[src]="educationDataItem.logoAssetURL"
+							alt="logo"
+						/>
+					</div>
+					<div class="flex flex-col">
+						<p>
+							{{ educationDataItem.universityName }}
+						</p>
+						<p class="font-semibold text-slate-800">
+							{{ educationDataItem.degree }}
+						</p>
+					</div>
+				</div>
+			</a>
+		} @empty {}
+	</div>
+</section>

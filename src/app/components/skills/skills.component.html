@@ -1,0 +1,15 @@
+<section
+	class="mx-auto mb-[18px] 2xs:max-w-[90%]"
+	[id]="constants.homeSectionLinksId.SKILLS"
+>
+	<h3 class="mb-[8px] text-center text-xl font-medium">Skills</h3>
+	<div class="flex flex-wrap justify-center gap-x-[10px] gap-y-[8px]">
+		@for (skillDataItem of skillsData; track skillDataItem.skillTypeLabel) {
+			<span
+				class="border-black-600 rounded-[6px] border px-[12px] py-[5px]"
+				[innerHTML]="skillDataItem?.skillName"
+			>
+			</span>
+		}
+	</div>
+</section>

@@ -1,0 +1,383 @@
+{
+	"achievementsAndResponsibilities": [
+		{
+			"id": "",
+			"description": "Found bug in Electron.js while working on specific project task, reported to Electron Team on GitHub - Issue: #30277, Fixed Issue by PR: #30305."
+		},
+		{
+			"id": "",
+			"description": "2,53,000+ people reached Impact, 900+ Reputations on Stack Overflow."
+		},
+		{
+			"id": "",
+			"description": "Solved 500+ coding problems of LeetCode / HackerRank / HackerEarth / CodeChef / CodeForces / GeekForGeeks."
+		},
+		{
+			"id": "",
+			"description": "Core technical team member of Knowledge Circle, JMI (2018-present) for maintaining GitHub repos & website, which includes ~100 entrance papers shared by students from across the country."
+		},
+		{
+			"id": "",
+			"description": "Links KnowledgeCircle.github.io, github.com/KnowledgeCircle."
+		}
+	],
+
+	"awardsAndCertifications": [
+		{
+			"id": "",
+			"description": "Found bug in Electron.js while working on specific project task, reported to Electron Team on GitHub - Issue: #30277, Fixed Issue by PR: #30305."
+		},
+		{
+			"id": "",
+			"description": "2,53,000+ people reached Impact, 900+ Reputations on Stack Overflow."
+		},
+		{
+			"id": "",
+			"description": "Solved 500+ coding problems of LeetCode / HackerRank / HackerEarth / CodeChef / CodeForces / GeekForGeeks."
+		},
+		{
+			"id": "",
+			"description": "Core technical team member of Knowledge Circle, JMI (2018-present) for maintaining GitHub repos & website, which includes ~100 entrance papers shared by students from across India."
+		},
+		{
+			"id": "",
+			"description": "Links KnowledgeCircle.github.io, github.com/KnowledgeCircle."
+		}
+	],
+
+	"codingAndSocialProfiles": [
+		{
+			"id": "",
+			"platformName": "StackOverflow",
+			"username": "wasit-shafi",
+			"profileURL": "https://stackoverflow.com/users/10249156/wasit-shafi"
+		},
+		{
+			"id": "",
+			"platformName": "GitHub",
+			"username": "wasit-shafi",
+			"profileURL": "https://github.com/wasit-shafi"
+		},
+		{
+			"id": "",
+			"platformName": "CodeChef",
+			"username": "wasit_shafi",
+			"profileURL": "https://www.codechef.com/users/wasit_shafi"
+		},
+		{
+			"id": "",
+			"platformName": "LeetCode",
+			"username": "wasit-shafi",
+			"profileURL": "https://leetcode.com/wasit-shafi/"
+		}
+	],
+
+	"contactDetails": {
+		"emailId": {
+			"id": "",
+			"linkText": "wasitshafi700@gmail.com",
+			"linkURL": "mailto:wasitshafi700@gmail.com"
+		},
+		"phone": {
+			"id": "",
+			"linkText": "+91 9682648815",
+			"linkURL": "tel:+919682648815"
+		},
+		"codingAndSocialProfiles": [
+			{
+				"id": "",
+				"titleText": "Connect with me on LinkedIn",
+				"iconURL": "assets/images/linkedin-logo-icon.svg",
+				"linkURL": "https://www.linkedin.com/in/wasit-shafi/"
+			},
+			{
+				"id": "",
+				"titleText": "Checkout my github profile",
+				"iconURL": "assets/images/github-logo-icon.svg",
+				"linkURL": "https://github.com/wasit-shafi"
+			},
+			{
+				"id": "",
+				"titleText": "Checkout my stack overflow profile",
+				"iconURL": "assets/images/stack-overflow-logo-icon.svg",
+				"linkURL": "https://stackoverflow.com/users/10249156/wasit-shafi"
+			},
+			{
+				"id": "",
+				"titleText": "Checkout my leetcode profile",
+				"iconURL": "assets/images/leetcode-logo-icon.svg",
+				"linkURL": "https://leetcode.com/wasit-shafi/"
+			},
+			{
+				"id": "",
+				"titleText": "Checkout my codechef profile",
+				"iconURL": "assets/images/codechef-logo-icon.png",
+				"linkURL": "https://www.codechef.com/users/wasit_shafi"
+			}
+		]
+	},
+
+	"educationDetails": [
+		{
+			"universityName": "Jamia Millia Islamia",
+			"universityLocation": "New Delhi, IN",
+			"universityLocationURL": "https://maps.app.goo.gl/ZGAg8fw3MT1Lo7La8",
+			"universityWebsiteURL": "https://www.jmi.ac.in/",
+			"degree": "Master of Computer Applications (MCA)",
+			"score": "8.6 CGPA",
+			"scoreType": "cgpa",
+			"completionDate": "Jun 2021",
+			"logoAssetURL": "/assets/images/jamia-millia-islamia-logo-icon.svg"
+		},
+		{
+			"universityName": "University of Kashmir",
+			"universityLocation": "J&K, IN",
+			"universityLocationURL": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
+			"universityWebsiteURL": "https://www.kashmiruniversity.net/",
+			"degree": "Bachelor of Computer Applications (BCA)",
+			"score": "71%",
+			"scoreType": "percentage",
+			"completionDate": "Mar 2017",
+			"logoAssetURL": "/assets/images/university-of-kashmir-logo-icon.png"
+		}
+	],
+
+	"personalProjects": [
+		{
+			"projectTitle": "Face Recognition Based Attendance System",
+			"startDate": "",
+			"endDate": "",
+			"sourceCodeURL": "",
+			"liveProjectURL": "",
+			"projectFeatures": [
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				},
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				},
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				}
+			]
+		},
+		{
+			"projectTitle": "Tweet Sentiment Analysis",
+			"startDate": "",
+			"endDate": "",
+			"sourceCodeURL": "",
+			"liveProjectURL": "",
+			"projectFeatures": [
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				},
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				},
+				{
+					"id": "",
+					"description": "this is more detail of the personal project. this is more detail of the personal project."
+				}
+			]
+		}
+	],
+
+	"skills": [
+		{
+			"id": "",
+			"skillName": "Problem&nbsp;Solving"
+		},
+		{
+			"id": "",
+			"skillName": "Data&nbsp;Structures&nbsp;&&nbsp;Algorithms"
+		},
+		{
+			"id": "",
+			"skillName": "MongoDB"
+		},
+		{
+			"id": "",
+			"skillName": "Express.js"
+		},
+		{
+			"id": "",
+			"skillName": "Angular"
+		},
+		{
+			"id": "",
+			"skillName": "Node.js"
+		},
+		{
+			"id": "",
+			"skillName": "Tailwind&nbsp;CSS"
+		},
+		{
+			"id": "",
+			"skillName": "NgRx"
+		},
+		{
+			"id": "",
+			"skillName": "React.js"
+		},
+		{
+			"id": "",
+			"skillName": "Electron.js"
+		},
+		{
+			"id": "",
+			"skillName": "TypeScript"
+		},
+		{
+			"id": "",
+			"skillName": "JavaScript"
+		},
+		{
+			"id": "",
+			"skillName": "Mongoose"
+		},
+		{
+			"id": "",
+			"skillName": "AWS"
+		},
+
+		{
+			"id": "",
+			"skillName": "NGINX"
+		},
+
+		{
+			"id": "",
+			"skillName": "Docker"
+		},
+		{
+			"id": "",
+			"skillName": "SQL"
+		},
+		{
+			"id": "",
+			"skillName": "Java"
+		},
+		{
+			"id": "",
+			"skillName": "C++"
+		},
+		{
+			"id": "",
+			"skillName": "C"
+		},
+		{
+			"id": "",
+			"skillName": "Redux"
+		},
+		{
+			"id": "",
+			"skillName": "MobX-State-Tree"
+		},
+		{
+			"id": "",
+			"skillName": "HTML"
+		},
+		{
+			"id": "",
+			"skillName": "CSS"
+		},
+		{
+			"id": "",
+			"skillName": "SCSS"
+		},
+		{
+			"id": "",
+			"skillName": "Python"
+		},
+		{
+			"id": "",
+			"skillName": "Web Animation API"
+		},
+		{
+			"id": "",
+			"skillName": "Socket.io"
+		}
+	],
+
+	"workExperience": [
+		{
+			"companyDetails": {
+				"city": "Doha",
+				"companyName": "SuperFitout",
+				"companyWebsiteUrl": "https://www.superfitout.com",
+				"country": "Qatar"
+			},
+			"isCurrentlyWorking": true,
+			"role": "Full Stack SDE",
+			"startDate": "Sep 2022",
+			"workContributions": [
+				{ "id": "", "description": "Current Working Technologies: MEAN Stack" }
+			]
+		},
+		{
+			"companyDetails": {
+				"city": "Noida",
+				"companyName": "VectoScalar Technologies",
+				"companyWebsiteUrl": "https://vectoscalar.com/",
+				"country": "India"
+			},
+			"endDate": "Aug 2022",
+			"isCurrentlyWorking": false,
+			"role": "Software Engineer",
+			"startDate": "April 2021",
+			"workContributions": [
+				{
+					"id": "",
+					"description": "Worked on Web Animations API to develop 30-40 poker game & application UI animations for cards, themes, tournaments, etc."
+				},
+				{
+					"id": "",
+					"description": "Developed well-structured react components & managed the state of application using MobX-State-Tree."
+				},
+				{
+					"id": "",
+					"description": "Worked on more than 50 minor/critical bugs & improvement tasks which results in performance benefits."
+				},
+				{
+					"id": "",
+					"description": "Trained & mentored 40 software engineering interns on JavaScript/TypeScript, React.js, SCSS, Analysis & Designing Aspects, Application State Management, Routing, etc."
+				}
+			]
+		},
+		{
+			"companyDetails": {
+				"city": "Noida",
+				"companyName": "VectoScalar Technologies",
+				"companyWebsiteUrl": "https://vectoscalar.com/",
+				"country": "India"
+			},
+			"endDate": "Mar 2021",
+			"isCurrentlyWorking": false,
+			"role": "Software Engineer Intern",
+			"startDate": "Jan 2021",
+			"workContributions": [
+				{
+					"id": "",
+					"description": "Worked on code refactoring across the project for enhancing the codebase quality."
+				},
+				{
+					"id": "",
+					"description": "Found & solved several bugs like ESLint, Web-Storm IDE errors & warnings, UI bugs, etc."
+				},
+				{
+					"id": "",
+					"description": "Developed more than 20 React UI components."
+				},
+				{
+					"id": "",
+					"description": "Learned & worked with libraries/frameworks such as React.js, React Native, Redux, React Router, SCSS, Material UI, Styled Components, etc."
+				}
+			]
+		}
+	]
+}

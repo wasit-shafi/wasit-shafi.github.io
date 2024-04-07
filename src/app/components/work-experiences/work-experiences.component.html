@@ -1,0 +1,43 @@
+<section
+	class="mb-[18px]"
+	[id]="constants.homeSectionLinksId.WORK_EXPERIENCE"
+>
+	<h3 class="mb-[8px] text-center text-xl font-medium">Work Experience</h3>
+	@for (
+		workExperience of workExperiencesData;
+		track workExperience.companyName
+	) {
+		<div class="mb-4">
+			<span class="font-bold">{{ workExperience.role }},</span>
+			<a
+				class="hover:decoration text-blue-700 hover:underline"
+				[href]="workExperience.companyDetails.companyWebsiteUrl"
+				[title]="workExperience.companyDetails.companyWebsiteUrl"
+			>
+				{{ workExperience.companyDetails.companyName }}
+			</a>
+			<p class="flex justify-between">
+				<span>
+					{{ workExperience.companyDetails.city }},
+					{{ workExperience.companyDetails.country }}
+				</span>
+				<span>
+					{{ workExperience.startDate }} -
+					{{
+						workExperience.isCurrentlyWorking
+							? 'Present'
+							: workExperience.endDate
+					}}
+				</span>
+			</p>
+			<ul>
+				@for (
+					workContribution of workExperience.workContributions;
+					track workContribution.id
+				) {
+					<li>* {{ workContribution.description }}</li>
+				}
+			</ul>
+		</div>
+	} @empty {}
+</section>
