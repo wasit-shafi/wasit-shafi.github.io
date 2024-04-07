@@ -6,10 +6,14 @@
 	<div class="flex flex-wrap justify-center gap-x-[10px] gap-y-[8px]">
 		@for (skillDataItem of skillsData; track skillDataItem.skillTypeLabel) {
 			<span
-				class="border-black-600 rounded-[6px] border px-[12px] py-[5px]"
-				[innerHTML]="skillDataItem?.skillName"
+				class="border-black-600 block whitespace-nowrap rounded-[6px] border px-[12px] py-[5px]"
 			>
+				{{ skillDataItem?.skillName }}
 			</span>
 		}
 	</div>
 </section>
+
+<!-- white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; -->
