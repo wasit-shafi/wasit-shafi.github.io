@@ -123,7 +123,7 @@
 			"universityLocation": "New Delhi, IN",
 			"universityLocationURL": "https://maps.app.goo.gl/ZGAg8fw3MT1Lo7La8",
 			"universityWebsiteURL": "https://www.jmi.ac.in/",
-			"degree": "Master of Computer Applications (MCA)",
+			"degree": "Master of Computer Applications",
 			"score": "8.6 CGPA",
 			"scoreType": "cgpa",
 			"completionDate": "Jun 2021",
@@ -134,7 +134,7 @@
 			"universityLocation": "J&K, IN",
 			"universityLocationURL": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
 			"universityWebsiteURL": "https://www.kashmiruniversity.net/",
-			"degree": "Bachelor of Computer Applications (BCA)",
+			"degree": "Bachelor of Computer Applications",
 			"score": "71%",
 			"scoreType": "percentage",
 			"completionDate": "Mar 2017",
@@ -190,11 +190,11 @@
 	"skills": [
 		{
 			"id": "",
-			"skillName": "Problem&nbsp;Solving"
+			"skillName": "Problem Solving"
 		},
 		{
 			"id": "",
-			"skillName": "Data&nbsp;Structures&nbsp;&&nbsp;Algorithms"
+			"skillName": "Data Structures & Algorithms"
 		},
 		{
 			"id": "",
@@ -214,7 +214,7 @@
 		},
 		{
 			"id": "",
-			"skillName": "Tailwind&nbsp;CSS"
+			"skillName": "Tailwind CSS"
 		},
 		{
 			"id": "",
