@@ -1,78 +1,32 @@
 <nav
-	class="sticky top-0 -mx-[16px] rounded-b-[10px] bg-white/10 shadow-2xl backdrop-blur-[6px] sm:-mx-[22px] md:-mx-[28px]"
+	class="bg-black/8 sticky top-0 -mx-[16px] rounded-b-[10px] shadow-lg backdrop-blur-[6px] sm:-mx-[22px] md:-mx-[28px]"
 >
 	<div class="flex 2xs:hidden">
 		<button
 			[id]="menuTogglerId"
-			(click)="handleMenuToggle()"
+			(click)="handleNavMenuToggle()"
 			class="my-[14px] ml-[auto] mr-[16px] inline-block size-[26px] bg-[url('assets/images/menu-icon.svg')] bg-contain"
 		></button>
 	</div>
+
 	<ul
 		[id]="menuUlId"
-		class="hidden justify-center gap-x-[12px] 2xs:flex"
+		class="hidden justify-center 2xs:flex"
 	>
-		<!-- About -->
-
-		<li class="">
-			<a
-				[href]="'#' + constants.homeSectionLinksId.ABOUT"
-				class="flex items-center justify-center py-[14px]"
-			>
-				About
-			</a>
-		</li>
-		<!-- Experience -->
-
-		<li class="">
-			<a
-				class="flex items-center justify-center py-[14px]"
-				[href]="'#' + constants.homeSectionLinksId.WORK_EXPERIENCE"
-			>
-				Experience
-			</a>
-		</li>
-		<!-- Projects -->
-
-		@if (!environment.production) {
-			<li class="">
-				<a
-					class="flex items-center justify-center py-[14px]"
-					[href]="'#' + constants.homeSectionLinksId.PERSONAL_PROJECTS"
+		@for (menuItem of NAV_MENU_ITEMS; track menuItem.id) {
+			@if (menuItem.visibility) {
+				<li
+					class=""
+					(click)="handleNavItemClick()"
 				>
-					Projects
-				</a>
-			</li>
+					<a
+						[href]="menuItem.href"
+						class="flex items-center justify-center py-[14px] 2xs:px-[6px]"
+					>
+						{{ menuItem.label }}
+					</a>
+				</li>
+			}
 		}
-		<!-- Skills -->
-
-		<li class="">
-			<a
-				class="flex items-center justify-center py-[14px]"
-				[href]="'#' + constants.homeSectionLinksId.SKILLS"
-			>
-				Skills
-			</a>
-		</li>
-		<!-- Education -->
-
-		<li class="">
-			<a
-				class="flex items-center justify-center py-[14px]"
-				[href]="'#' + constants.homeSectionLinksId.EDUCATION"
-			>
-				Education
-			</a>
-		</li>
-		<!-- Contact -->
-
-		<li class="">
-			<a
-				class="flex items-center justify-center py-[14px]"
-				[href]="'#' + constants.homeSectionLinksId.CONTACT"
-			>
-				Contact
-			</a>
-		</li>
 	</ul>
 </nav>

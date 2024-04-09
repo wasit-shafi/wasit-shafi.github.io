@@ -17,14 +17,107 @@ export class HeaderComponent {
 
 	@HostListener('window:resize', ['$event'])
 	onWindowResize(event: any) {
-		this.handleNavbarLayoutChange(event);
+		const { innerWidth = 0 } = event.target;
+
+		this.handleNavbarLayoutChange({ innerWidth });
 	}
 
 	public constants = inject(Constants);
 
 	public readonly environment = environment;
 
-	handleMenuToggle() {
+	public readonly NAV_MENU_ITEMS = [
+		// ABOUT
+
+		{
+			id: '',
+			label: 'About',
+			visibility: true,
+			href: '#' + this.constants.homeSectionLinksId.ABOUT,
+		},
+		// EXPERIENCE
+
+		{
+			id: '',
+			label: 'Experience',
+			visibility: true,
+			href: '#' + this.constants.homeSectionLinksId.WORK_EXPERIENCE,
+		},
+		// PROJECTS
+
+		{
+			id: '',
+			label: 'Projects',
+			visibility: !environment.production,
+			href: '#' + this.constants.homeSectionLinksId.PERSONAL_PROJECTS,
+		},
+		// SKILLS
+
+		{
+			id: '',
+			label: 'Skills',
+			visibility: true,
+			href: '#' + this.constants.homeSectionLinksId.SKILLS,
+		},
+		// EDUCATION
+
+		{
+			id: '',
+			label: 'Education',
+			visibility: true,
+			href: '#' + this.constants.homeSectionLinksId.EDUCATION,
+		},
+		// CONTACT
+
+		{
+			id: '',
+			label: 'Contact',
+			visibility: true,
+			href: '#' + this.constants.homeSectionLinksId.CONTACT,
+		},
+	];
+
+	public handleNavItemClick(): void {
+		this.handleNavbarLayoutChange({
+			innerWidth: window.innerWidth ?? 0,
+		});
+	}
+
+	private handleNavbarLayoutChange(params: any): void {
+		let menuUlDisplay = '';
+		const menuTogglerBackgroundImage = 'assets/images/menu-icon.svg';
+
+		const menuUlNativeElement = document.getElementById(this.menuUlId);
+		const menuTogglerNativeElement = document.getElementById(
+			this.menuTogglerId
+		);
+
+		const { innerWidth = 0 } = params;
+
+		console.log('innerWidth :: ', innerWidth, params);
+
+		if (innerWidth && menuUlNativeElement) {
+			if (innerWidth >= 413) {
+				menuUlDisplay = 'flex';
+			} else {
+				menuUlDisplay = 'none';
+			}
+
+			menuUlNativeElement.style.setProperty(
+				'display',
+				menuUlDisplay,
+				'important'
+			);
+
+			menuTogglerNativeElement?.style.setProperty(
+				'background-image',
+				'url(' + menuTogglerBackgroundImage + ')',
+				'important'
+			);
+		}
+	}
+
+	handleNavMenuToggle() {
 		let menuUlDisplay = '';
 		let menuTogglerBackgroundImage = '';
 
@@ -47,38 +140,6 @@ export class HeaderComponent {
 				menuUlDisplay,
 				'important'
 			);
-			menuTogglerNativeElement?.style.setProperty(
-				'background-image',
-				'url(' + menuTogglerBackgroundImage + ')',
-				'important'
-			);
-		}
-	}
-
-	private handleNavbarLayoutChange(event: any): void {
-		let menuUlDisplay = '';
-		const menuTogglerBackgroundImage = 'assets/images/menu-icon.svg';
-
-		const { innerWidth = 0 } = event.target;
-
-		const menuUlNativeElement = document.getElementById(this.menuUlId);
-		const menuTogglerNativeElement = document.getElementById(
-			this.menuTogglerId
-		);
-
-		if (innerWidth && menuUlNativeElement) {
-			if (innerWidth >= 413) {
-				menuUlDisplay = 'flex';
-			} else {
-				menuUlDisplay = 'none';
-			}
-
-			menuUlNativeElement.style.setProperty(
-				'display',
-				menuUlDisplay,
-				'important'
-			);
-
 			menuTogglerNativeElement?.style.setProperty(
 				'background-image',
 				'url(' + menuTogglerBackgroundImage + ')',
