@@ -1,13 +1,11 @@
-<main
-	class="mx-auto max-w-screen-lg px-[16px] sm:px-[22px] md:px-[28px]"
->
+<main class="mx-auto max-w-screen-lg px-[16px] sm:px-[22px] md:px-[28px]">
 	<app-header></app-header>
 	<router-outlet></router-outlet>
 	<app-footer></app-footer>
 	<!-- app theme toggler button -->
 
 	<button
-		class="fixed bottom-[50px] right-[50px] size-[28px] rounded-full border bg-rose-600"
+		class="bg-bgPrimaryInverse fixed bottom-[20px] right-[20px] size-[40px] rounded-full p-[8px] md:right-[26px] lg:right-[80px] xl:right-[200px] 2xl:right-[280px]"
 		(click)="handleThemeModeChange()"
 	>
 		<img
@@ -15,7 +13,7 @@
 			class="size-full"
 			[src]="
 				'../../../../assets/images/' +
-				(appDataService.isDarkThemeEnabled
+				(appDataService.isDarkCurrentTheme()
 					? 'sun-dark-icon'
 					: 'moon-light-icon') +
 				'.svg'
