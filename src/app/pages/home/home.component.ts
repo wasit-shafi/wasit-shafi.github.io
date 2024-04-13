@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 
-import { environment } from '@environments/environment';
+import { AppDataService } from '@services';
 
 import {
 	AboutComponent,
@@ -26,5 +26,5 @@ import {
 	styleUrl: './home.component.scss',
 })
 export class HomeComponent {
-	public readonly environment = environment;
+	appDataService = inject(AppDataService);
 }

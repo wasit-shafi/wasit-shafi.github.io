@@ -1,12 +1,11 @@
-<!-- border border-sky-500 -->
-<div class="">
+<div>
 	<app-about></app-about>
 
 	<app-work-experiences></app-work-experiences>
 
 	<app-skills></app-skills>
 
-	@if (!environment.production) {
+	@if (appDataService.isDevelopment) {
 		<app-personal-projects></app-personal-projects>
 	}
 

@@ -2,13 +2,17 @@
 	class="mb-[18px]"
 	[id]="constants.homeSectionLinksId.WORK_EXPERIENCE"
 >
-	<h3 class="mb-[8px] text-center text-xl font-medium">Work Experience</h3>
+	<h3
+		class="text-txtPrimary font-nanum-pen mb-[8px] text-center text-4xl font-medium"
+	>
+		Work Experience
+	</h3>
 	@for (
 		workExperience of workExperiencesData;
 		track workExperience.companyName
 	) {
 		<div class="mb-4">
-			<span class="font-bold">{{ workExperience.role }},</span>
+			<span class="text-txtPrimary font-bold">{{ workExperience.role }},</span>
 			<a
 				class="hover:decoration text-blue-700 hover:underline"
 				[href]="workExperience.companyDetails.companyWebsiteUrl"
@@ -17,11 +21,11 @@
 				{{ workExperience.companyDetails.companyName }}
 			</a>
 			<p class="flex justify-between">
-				<span>
+				<span class="text-txtTernary">
 					{{ workExperience.companyDetails.city }},
 					{{ workExperience.companyDetails.country }}
 				</span>
-				<span>
+				<span class="text-txtTernary">
 					{{ workExperience.startDate }} -
 					{{
 						workExperience.isCurrentlyWorking
@@ -35,7 +39,9 @@
 					workContribution of workExperience.workContributions;
 					track workContribution.id
 				) {
-					<li>* {{ workContribution.description }}</li>
+					<li class="text-txtSecondary">
+						* {{ workContribution.description }}
+					</li>
 				}
 			</ul>
 		</div>

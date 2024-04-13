@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	html {
+		font-family: 'Karla', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400; // can use value from 200 to 800
+		font-style: normal;
+	}
+
+	:root {
+		//  BACKGROUND COLOR
+
+		--color-bg-primary: 255 255 255;
+
+		// FONT COLOR
+
+		--color-txt-primary: 26 26 26;
+		--color-txt-secondary: 132 132 132;
+		--color-txt-ternary: 19 21 22;
+	}
+	.dark {
+		//  BACKGROUND COLOR
+
+		--color-bg-primary: 3 7 18;
+
+		// FONT COLOR
+
+		--color-txt-primary: 249 250 251;
+		--color-txt-secondary: 249 250 251;
+		--color-txt-ternary: 156 163 175;
+	}
+}

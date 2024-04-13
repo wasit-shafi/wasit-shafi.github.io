@@ -13,6 +13,33 @@ module.exports = {
 			xs: '526px',
 			...defaultTheme.screens,
 		},
+		extend: {
+			opacity: {
+				1: '.01',
+				4: '.04',
+			},
+			backdropBlur: {
+				'12px': '12px',
+			},
+			colors: {
+				black: 'rgb(00 00 00 / <alpha-value>)',
+				white: 'rgb(255 255 255 / <alpha-value>)',
+
+				bgPrimary: 'rgb(var(--color-bg-primary)  / <alpha-value>)',
+
+				txtPrimary: 'rgb(var(--color-txt-primary)  / <alpha-value>)',
+				txtSecondary: 'rgb(var(--color-txt-secondary)  / <alpha-value>)',
+				txtTernary: 'rgb(var(--color-txt-ternary)  / <alpha-value>)',
+			},
+
+			fontFamily: {
+				karla: ['Karla', 'sans-serif'],
+				'nanum-pen': ['Nanum Pen Script', 'cursive'],
+			},
+		},
 	},
+
 	plugins: [],
+
+	darkMode: 'class',
 };
