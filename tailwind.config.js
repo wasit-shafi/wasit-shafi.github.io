@@ -26,6 +26,8 @@ module.exports = {
 				white: 'rgb(255 255 255 / <alpha-value>)',
 
 				bgPrimary: 'rgb(var(--color-bg-primary)  / <alpha-value>)',
+				bgPrimaryInverse:
+					'rgb(var(--color-bg-primary-inverse)  / <alpha-value>)',
 
 				txtPrimary: 'rgb(var(--color-txt-primary)  / <alpha-value>)',
 				txtSecondary: 'rgb(var(--color-txt-secondary)  / <alpha-value>)',

@@ -27,4 +27,8 @@ import {
 })
 export class HomeComponent {
 	appDataService = inject(AppDataService);
+
+	handleThemeModeChange(): void {
+		this.appDataService.toggleCurrentThemeMode();
+	}
 }

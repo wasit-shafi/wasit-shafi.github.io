@@ -1,4 +1,4 @@
-import { Injectable, inject } from '@angular/core';
+import { Injectable, inject, WritableSignal, signal } from '@angular/core';
 
 import { environment } from '@environments/environment';
 
@@ -11,7 +11,7 @@ export class AppDataService {
 	public constants = inject(Constants);
 
 	// by default light theme is enabled, should be private don't expose it
-	private isDarkCurrentTheme: boolean = false;
+	public isDarkCurrentTheme: WritableSignal<boolean> = signal(false);
 
 	constructor() {
 		this.initializeTheme();
@@ -28,15 +28,15 @@ export class AppDataService {
 				`${this.constants.applicationCurrentTheme.LIGHT}`
 			);
 		} else if (currentTheme == this.constants.applicationCurrentTheme.DARK) {
-			this.isDarkCurrentTheme = true;
+			this.isDarkCurrentTheme.set(true);
 			document.body.classList.add('dark');
 		}
 	}
 
 	public toggleCurrentThemeMode(): void {
-		this.isDarkCurrentTheme = !this.isDarkCurrentTheme;
+		this.isDarkCurrentTheme.set(!this.isDarkCurrentTheme());
 
-		if (this.isDarkCurrentTheme) {
+		if (this.isDarkCurrentTheme()) {
 			document.body.classList.add('dark');
 			localStorage.setItem(
 				'currentTheme',
@@ -51,9 +51,9 @@ export class AppDataService {
 		}
 	}
 
-	get isDarkThemeEnabled(): boolean {
-		return this.isDarkCurrentTheme;
-	}
+	// get isDarkThemeEnabled(): boolean {
+	// 	return this.isDarkCurrentTheme();
+	// }
 
 	get isProduction(): boolean {
 		return environment.production;

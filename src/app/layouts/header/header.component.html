@@ -1,8 +1,9 @@
 <nav
-	class="bg-black/1 backdrop-blur-12px sticky top-0 -mx-[16px] rounded-b-[10px] shadow-lg sm:-mx-[22px] md:-mx-[28px]"
+	class="sticky top-0 -mx-[16px] rounded-b-[10px] bg-black/1 shadow-lg backdrop-blur-12px sm:-mx-[22px] md:-mx-[28px]"
 >
 	<div class="flex 2xs:hidden">
 		<button
+			aria-label="Toggle Nav Menu"
 			[id]="menuTogglerId"
 			(click)="handleNavMenuToggle()"
 			class="my-[14px] ml-[auto] mr-[16px] inline-block size-[26px] bg-[url('assets/images/menu-icon.svg')] bg-contain"
@@ -15,13 +16,14 @@
 	>
 		@for (menuItem of NAV_MENU_ITEMS; track menuItem.id) {
 			@if (menuItem.visibility) {
+				<!-- eslint-disable-next-line @angular-eslint/template/interactive-supports-focus, @angular-eslint/template/click-events-have-key-events  -->
 				<li
 					class=""
 					(click)="handleNavItemClick()"
 				>
 					<a
 						[href]="menuItem.href"
-						class="text-txtPrimary font-nanum-pen flex items-center justify-center py-[14px] text-2xl 2xs:px-[6px]"
+						class="flex items-center justify-center py-[14px] font-nanum-pen text-2xl text-txtPrimary 2xs:px-[6px] 2xs:text-xl xs:text-2xl"
 					>
 						{{ menuItem.label }}
 					</a>
