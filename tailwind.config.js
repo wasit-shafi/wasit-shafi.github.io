@@ -32,6 +32,7 @@ module.exports = {
 				txtPrimary: 'rgb(var(--color-txt-primary)  / <alpha-value>)',
 				txtSecondary: 'rgb(var(--color-txt-secondary)  / <alpha-value>)',
 				txtTernary: 'rgb(var(--color-txt-ternary)  / <alpha-value>)',
+				txtQuaternary: 'rgb(var(--color-txt-quaternary)  / <alpha-value>)',
 			},
 
 			fontFamily: {

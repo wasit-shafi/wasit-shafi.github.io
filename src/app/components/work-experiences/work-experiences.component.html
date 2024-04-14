@@ -3,7 +3,7 @@
 	[id]="constants.homeSectionLinksId.WORK_EXPERIENCE"
 >
 	<h3
-		class="text-txtPrimary font-nanum-pen mb-[8px] text-center text-4xl font-medium"
+		class="mb-[8px] text-center font-nanum-pen text-4xl font-medium text-txtPrimary"
 	>
 		Work Experience
 	</h3>
@@ -12,9 +12,9 @@
 		track workExperience.companyName
 	) {
 		<div class="mb-4">
-			<span class="text-txtPrimary font-bold">{{ workExperience.role }},</span>
+			<span class="font-bold text-txtPrimary">{{ workExperience.role }},</span>
 			<a
-				class="hover:decoration text-blue-700 hover:underline"
+				class="hover:decoration text-txtQuaternary hover:underline"
 				[href]="workExperience.companyDetails.companyWebsiteUrl"
 				[title]="workExperience.companyDetails.companyWebsiteUrl"
 			>
