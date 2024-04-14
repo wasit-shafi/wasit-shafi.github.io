@@ -3,7 +3,7 @@
 	[id]="constants.homeSectionLinksId.EDUCATION"
 >
 	<h3
-		class="text-txtPrimary font-nanum-pen mb-[8px] text-center text-4xl font-medium"
+		class="mb-[8px] text-center font-nanum-pen text-4xl font-medium text-txtPrimary"
 	>
 		Education
 	</h3>
@@ -16,7 +16,7 @@
 			track educationDataItem.universityName
 		) {
 			<a
-				class="hover:decoration align-center mx-auto inline-flex text-blue-700 md:mx-0"
+				class="hover:decoration align-center text-txtQuaternary mx-auto inline-flex md:mx-0"
 				[href]="educationDataItem.universityWebsiteURL"
 				[title]="educationDataItem.universityWebsiteURL"
 				target="_blank"
@@ -34,7 +34,7 @@
 						<p>
 							{{ educationDataItem.universityName }}
 						</p>
-						<p class="text-txtSecondary font-semibold">
+						<p class="font-semibold text-txtSecondary">
 							{{ educationDataItem.degree }}
 						</p>
 					</div>
