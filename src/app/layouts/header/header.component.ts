@@ -94,7 +94,7 @@ export class HeaderComponent {
 
 		const { innerWidth = 0 } = params;
 
-		// console.log('innerWidth :: ', innerWidth, params);
+		console.log('innerWidth :: ', innerWidth, params);
 
 		if (innerWidth && menuUlNativeElement) {
 			if (innerWidth >= 413) {
