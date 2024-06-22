@@ -11,8 +11,6 @@
 			"@components/*": ["src/app/components/*"],
 			"@components": ["src/app/components"],
 			"@environments/*": ["src/environments/*"],
-			"@layouts/*": ["src/app/layouts/*"],
-			"@layouts": ["src/app/layouts"],
 			"@models/*": ["src/app/models/*"],
 			"@models": ["src/app/models"],
 			"@pages/*": ["src/app/pages/*"],

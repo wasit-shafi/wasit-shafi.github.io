@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-import { HeaderComponent, FooterComponent } from '@layouts';
+import { HeaderComponent, FooterComponent } from '@components/shared';
 
 import { AppDataService } from '@services';
 
