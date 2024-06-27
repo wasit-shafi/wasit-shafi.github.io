@@ -1,6 +1,5 @@
 import { Injectable, WritableSignal, signal, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
 import { Observable } from 'rxjs';
 
 import { Constants } from '@shared';
@@ -10,13 +9,14 @@ import { Constants } from '@shared';
 })
 export class UserProfileService {
 	constants = inject(Constants);
+	private http = inject(HttpClient);
 
 	// TODO: update 'any' to 'interface' for portfolio data
 
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	public portfolioData: WritableSignal<any> = signal({});
 
-	constructor(private httpClient: HttpClient) {
+	constructor() {
 		// TODO: remove mock json file and integrate data from mongoDb
 		this.getData(this?.constants?.PORTFOLIO_DATA_URL).subscribe((data) => {
 			this.portfolioData.set(data);
@@ -26,6 +26,6 @@ export class UserProfileService {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	private getData(url: string): Observable<any> {
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		return this.httpClient.get<any>(url);
+		return this.http.get<any>(url);
 	}
 }

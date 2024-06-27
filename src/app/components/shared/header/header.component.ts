@@ -1,7 +1,6 @@
 import { Component, inject, HostListener } from '@angular/core';
 
 import { Constants } from '@shared';
-
 import { environment } from '@environments';
 
 @Component({
