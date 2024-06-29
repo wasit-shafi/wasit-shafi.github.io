@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 
 import { AppDataService } from '@services/';
 
-import { FooterComponent, HeaderComponent } from '@components/shared';
+import { FooterComponent, HeaderComponent } from '@components/';
 
 @Component({
 	selector: 'app-root',
