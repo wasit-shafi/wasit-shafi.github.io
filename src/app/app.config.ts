@@ -6,7 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { routes } from './app.routes';
 
-import { Constants } from '@shared';
+import { Constants } from '@shared/';
 
 export const appConfig: ApplicationConfig = {
 	providers: [

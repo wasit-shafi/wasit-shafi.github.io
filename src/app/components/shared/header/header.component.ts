@@ -1,7 +1,7 @@
 import { Component, inject, HostListener } from '@angular/core';
 
-import { Constants } from '@shared';
-import { environment } from '@environments';
+import { Constants } from '@shared/';
+import { environment } from '@environments/';
 
 @Component({
 	selector: 'app-header',

@@ -1,9 +1,9 @@
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-import { HeaderComponent, FooterComponent } from '@components/shared';
+import { AppDataService } from '@services/';
 
-import { AppDataService } from '@services';
+import { FooterComponent, HeaderComponent } from '@components/shared';
 
 @Component({
 	selector: 'app-root',

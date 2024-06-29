@@ -2,7 +2,7 @@ import { Injectable, WritableSignal, signal, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-import { Constants } from '@shared';
+import { Constants } from '@shared/';
 
 @Injectable({
 	providedIn: 'root',
