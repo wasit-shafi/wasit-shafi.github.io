@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 
-import { AppDataService } from '@services';
+import { AppDataService } from '@services/';
 
 import {
 	AboutComponent,
@@ -9,7 +9,7 @@ import {
 	PersonalProjectsComponent,
 	SkillsComponent,
 	WorkExperiencesComponent,
-} from '@components';
+} from '@components/';
 
 @Component({
 	selector: 'app-home',

@@ -2,7 +2,7 @@ import { Injectable, inject, WritableSignal, signal } from '@angular/core';
 
 import { Constants } from '@app/shared';
 
-import { environment } from '@environments/environment';
+import { environment } from '@environments/';
 
 @Injectable({
 	providedIn: 'root',

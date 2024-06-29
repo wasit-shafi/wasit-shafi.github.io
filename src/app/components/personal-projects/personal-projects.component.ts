@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 
-import { Constants } from '@shared';
-import { UserProfileService } from '@services';
+import { Constants } from '@shared/';
+import { UserProfileService } from '@services/';
 
 @Component({
 	selector: 'app-personal-projects',
