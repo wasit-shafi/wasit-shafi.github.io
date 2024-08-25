@@ -86,15 +86,21 @@
 		"codingAndSocialProfiles": [
 			{
 				"id": "",
+				"titleText": "Checkout my github profile",
+				"iconURL": "assets/images/github-logo-icon.svg",
+				"linkURL": "https://github.com/wasit-shafi"
+			},
+			{
+				"id": "",
 				"titleText": "Connect with me on LinkedIn",
 				"iconURL": "assets/images/linkedin-logo-icon.svg",
 				"linkURL": "https://www.linkedin.com/in/wasit-shafi/"
 			},
 			{
 				"id": "",
-				"titleText": "Checkout my github profile",
-				"iconURL": "assets/images/github-logo-icon.svg",
-				"linkURL": "https://github.com/wasit-shafi"
+				"titleText": "Checkout Linktree Profile",
+				"iconURL": "assets/images/linktree-logo-icon.svg",
+				"linkURL": "https://linktr.ee/wasitshafi"
 			},
 			{
 				"id": "",
@@ -105,7 +111,8 @@
 			{
 				"id": "",
 				"titleText": "Checkout my leetcode profile",
-				"iconURL": "assets/images/leetcode-logo-icon.svg",
+				"iconURL": "assets/images/leetcode-logo-dark-icon.png",
+				"iconLightURL": "assets/images/leetcode-logo-light-icon.png",
 				"linkURL": "https://leetcode.com/wasit-shafi/"
 			},
 			{
