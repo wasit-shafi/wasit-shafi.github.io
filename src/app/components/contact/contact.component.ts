@@ -5,7 +5,7 @@ import { Constants } from '@shared/';
 
 import { navigatorUtils } from '@utils/';
 
-import { UserProfileService } from '@services/';
+import { AppDataService, UserProfileService } from '@services/';
 
 @Component({
 	selector: 'app-contact',
@@ -16,6 +16,7 @@ import { UserProfileService } from '@services/';
 })
 export class ContactComponent {
 	constants = inject(Constants);
+	appDataService = inject(AppDataService);
 	userProfileService = inject(UserProfileService);
 
 	public contactData: any;

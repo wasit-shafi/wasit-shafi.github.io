@@ -71,7 +71,12 @@
 				[title]="codingAndSocialProfilesData.titleText"
 			>
 				<img
-					[src]="codingAndSocialProfilesData.iconURL"
+					[src]="
+						appDataService.isDarkCurrentTheme() &&
+						codingAndSocialProfilesData?.iconLightURL
+							? codingAndSocialProfilesData.iconLightURL
+							: codingAndSocialProfilesData.iconURL
+					"
 					alt="img"
 					class="size-[36px] cursor-pointer"
 				/>
