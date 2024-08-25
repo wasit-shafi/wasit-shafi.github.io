@@ -323,7 +323,10 @@
 			"role": "Full Stack SDE",
 			"startDate": "Sep 2022",
 			"workContributions": [
-				{ "id": "", "description": "Current Working Technologies: MEAN Stack" }
+				{
+					"id": "",
+					"description": "Currently Working on MEAN Stack, TypeScript, NgRx, Docker, NGINX & AWS"
+				}
 			]
 		},
 		{
