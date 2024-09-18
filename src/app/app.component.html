@@ -1,11 +1,11 @@
 <main class="mx-auto max-w-screen-lg px-[16px] sm:px-[22px] md:px-[28px]">
-	<app-header></app-header>
+	<wsp-header></wsp-header>
 	<router-outlet></router-outlet>
-	<app-footer></app-footer>
+	<wsp-footer></wsp-footer>
 	<!-- app theme toggler button -->
 
 	<button
-		class="bg-bgPrimaryInverse fixed bottom-[20px] right-[20px] size-[40px] rounded-full p-[8px] md:right-[26px] lg:right-[80px] xl:right-[200px] 2xl:right-[280px]"
+		class="fixed bottom-[20px] right-[20px] size-[40px] rounded-full bg-bgPrimaryInverse p-[8px] md:right-[26px] lg:right-[80px] xl:right-[200px] 2xl:right-[280px]"
 		(click)="handleThemeModeChange()"
 	>
 		<img

@@ -12,7 +12,7 @@ import {
 } from '@components/';
 
 @Component({
-	selector: 'app-home',
+	selector: 'wsp-home',
 	standalone: true,
 	imports: [
 		AboutComponent,

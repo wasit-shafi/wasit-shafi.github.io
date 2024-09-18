@@ -4,7 +4,7 @@ import { Constants } from '@shared/';
 import { environment } from '@environments/';
 
 @Component({
-	selector: 'app-header',
+	selector: 'wsp-header',
 	standalone: true,
 	imports: [],
 	templateUrl: './header.component.html',

@@ -8,7 +8,7 @@ import { navigatorUtils } from '@utils/';
 import { AppDataService, UserProfileService } from '@services/';
 
 @Component({
-	selector: 'app-contact',
+	selector: 'wsp-contact',
 	standalone: true,
 	imports: [CommonModule],
 	templateUrl: './contact.component.html',
