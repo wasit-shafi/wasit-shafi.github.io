@@ -6,7 +6,7 @@ import { AppDataService } from '@services/';
 import { FooterComponent, HeaderComponent } from '@components/';
 
 @Component({
-	selector: 'app-root',
+	selector: 'wsp-root',
 	standalone: true,
 	imports: [RouterOutlet, HeaderComponent, FooterComponent],
 	templateUrl: './app.component.html',

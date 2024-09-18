@@ -5,7 +5,7 @@ import { Constants } from '@shared/';
 import { UserProfileService } from '@services/';
 
 @Component({
-	selector: 'app-skills',
+	selector: 'wsp-skills',
 	standalone: true,
 	imports: [CommonModule],
 	templateUrl: './skills.component.html',
