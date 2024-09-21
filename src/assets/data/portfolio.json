@@ -120,6 +120,14 @@
 				"titleText": "Checkout my codechef profile",
 				"iconURL": "assets/images/codechef-logo-icon.png",
 				"linkURL": "https://www.codechef.com/users/wasit_shafi"
+			},
+			{
+				"id": "",
+				"titleText": "Chat with with wasit on WhatsApp",
+				"iconURL": "assets/images/whats-app-button-green-small.svg",
+				"iconLightURL": "assets/images/whats-app-button-white-small.svg",
+				"linkURL": "https://wa.me/+919682648815?text=%5BRef%3A%20Portfolio%5D%3A%20Hello%20Wasit...",
+				"iconWidth": "150"
 			}
 		]
 	},

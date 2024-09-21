@@ -78,7 +78,12 @@
 							: codingAndSocialProfilesData.iconURL
 					"
 					alt="img"
-					class="size-[36px] cursor-pointer"
+					class="h-[36px] cursor-pointer"
+					[style.width.px]="
+						codingAndSocialProfilesData.iconWidth
+							? codingAndSocialProfilesData.iconWidth
+							: DEFAULT_ICON_WIDTH_IN_PX
+					"
 				/>
 			</a>
 		}
