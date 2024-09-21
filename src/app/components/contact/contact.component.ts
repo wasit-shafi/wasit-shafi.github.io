@@ -18,6 +18,7 @@ export class ContactComponent {
 	constants = inject(Constants);
 	appDataService = inject(AppDataService);
 	userProfileService = inject(UserProfileService);
+	DEFAULT_ICON_WIDTH_IN_PX = 36;
 
 	public contactData: any;
 
