@@ -3,6 +3,7 @@ import { Component, effect, inject } from '@angular/core';
 
 import { Constants } from '@shared/';
 import { UserProfileService } from '@services/';
+import { ISkills } from '@models/';
 
 @Component({
 	selector: 'wsp-skills',
@@ -15,11 +16,11 @@ export class SkillsComponent {
 	constants = inject(Constants);
 	userProfileService = inject(UserProfileService);
 
-	public skillsData: any;
+	public skillsData!: ISkills[];
 
 	constructor() {
 		effect(() => {
-			this.skillsData = this.userProfileService.portfolioData()?.skills;
+			this.skillsData = this.userProfileService.portfolioData().skills;
 		});
 	}
 }

@@ -3,6 +3,7 @@ import { Component, effect, inject } from '@angular/core';
 
 import { Constants } from '@shared/';
 import { UserProfileService } from '@services/';
+import { IWorkExperience } from '@models/';
 
 @Component({
 	selector: 'wsp-work-experiences',
@@ -15,12 +16,12 @@ export class WorkExperiencesComponent {
 	constants = inject(Constants);
 	userProfileService = inject(UserProfileService);
 
-	public workExperiencesData: any;
+	public workExperiencesData!: IWorkExperience[];
 
 	constructor() {
 		effect(() => {
 			this.workExperiencesData =
-				this.userProfileService.portfolioData()?.workExperience;
+				this.userProfileService.portfolioData().workExperience;
 		});
 	}
 }

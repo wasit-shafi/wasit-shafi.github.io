@@ -7,10 +7,7 @@
 	>
 		Work Experience
 	</h3>
-	@for (
-		workExperience of workExperiencesData;
-		track workExperience.companyName
-	) {
+	@for (workExperience of workExperiencesData; track workExperience.id) {
 		<div class="mb-4">
 			<span class="font-bold text-txtPrimary">{{ workExperience.role }},</span>
 			<a

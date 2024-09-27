@@ -11,12 +11,9 @@
 	<div
 		class="flex flex-wrap justify-between gap-x-[24px] gap-y-[16px] md:justify-center md:gap-x-[40px]"
 	>
-		@for (
-			educationDataItem of educationData;
-			track educationDataItem.universityName
-		) {
+		@for (educationDataItem of educationData; track educationDataItem.id) {
 			<a
-				class="hover:decoration align-center text-txtQuaternary mx-auto inline-flex md:mx-0"
+				class="hover:decoration align-center mx-auto inline-flex text-txtQuaternary md:mx-0"
 				[href]="educationDataItem.universityWebsiteURL"
 				[title]="educationDataItem.universityWebsiteURL"
 				target="_blank"
