@@ -3,7 +3,7 @@
 export interface IPortfolio {
 	contactDetails: IContact;
 	educationDetails: IEducation[];
-	personalProjects: any;
+	personalProjects: IPersonalProjects[];
 	skills: ISkills[];
 	workExperience: IWorkExperience[];
 }
@@ -38,20 +38,42 @@ interface ISkills {
 }
 // Personal Projects
 
-interface IPersonalProjects {}
+interface IPersonalProjects {
+	id: string;
+	deployment: IDeployment;
+	projectFeatures: IProjectFeatures[];
+	projectTitle: string;
+	sourceCodeUrl: ISourceCodeUrl[];
+}
+
+interface IDeployment {
+	linkText: string;
+	url: string;
+}
+
+interface IProjectFeatures {
+	description: string;
+	id: string;
+}
+
+interface ISourceCodeUrl {
+	linkText: string;
+	url: string;
+}
+
 // Education
 
 interface IEducation {
 	completionDate: string;
 	degree: string;
 	id: string;
-	logoAssetURL: string;
+	logoAssetUrl: string;
 	score: string;
 	scoreType: string;
 	universityLocation: string;
-	universityLocationURL: string;
+	universityLocationUrl: string;
 	universityName: string;
-	universityWebsiteURL: string;
+	universityWebsiteUrl: string;
 }
 // Contact
 
@@ -62,17 +84,17 @@ interface IContact {
 }
 
 interface ICodingAndSocialProfiles {
-	iconLightURL?: string;
-	iconURL: string;
+	iconLightUrl?: string;
+	iconUrl: string;
 	iconWidth?: string;
 	id: string;
-	linkURL: string;
+	linkUrl: string;
 	titleText: string;
 }
 interface IEmailOrPhone {
 	id: string;
 	linkText: string;
-	linkURL: string;
+	linkUrl: string;
 }
 
 export { ISkills, IContact, IPersonalProjects, IEducation, IWorkExperience };

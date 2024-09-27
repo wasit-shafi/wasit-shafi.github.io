@@ -1,8 +1,9 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { Component, inject, effect } from '@angular/core';
 
 import { Constants } from '@shared/';
 import { UserProfileService } from '@services/';
+import { IPersonalProjects } from '@models/';
 
 @Component({
 	selector: 'wsp-personal-projects',
@@ -14,4 +15,12 @@ import { UserProfileService } from '@services/';
 export class PersonalProjectsComponent {
 	constants = inject(Constants);
 	userProfileService = inject(UserProfileService);
+	public personalProjectsData!: IPersonalProjects[];
+
+	constructor() {
+		effect(() => {
+			this.personalProjectsData =
+				this.userProfileService.portfolioData().personalProjects;
+		});
+	}
 }

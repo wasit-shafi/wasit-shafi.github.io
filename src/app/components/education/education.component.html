@@ -14,8 +14,8 @@
 		@for (educationDataItem of educationData; track educationDataItem.id) {
 			<a
 				class="hover:decoration align-center mx-auto inline-flex text-txtQuaternary md:mx-0"
-				[href]="educationDataItem.universityWebsiteURL"
-				[title]="educationDataItem.universityWebsiteURL"
+				[href]="educationDataItem.universityWebsiteUrl"
+				[title]="educationDataItem.universityWebsiteUrl"
 				target="_blank"
 				rel="noopener"
 			>
@@ -23,7 +23,7 @@
 					<div class="flex items-center justify-center">
 						<img
 							class="inline size-[48px]"
-							[src]="educationDataItem.logoAssetURL"
+							[src]="educationDataItem.logoAssetUrl"
 							alt="logo"
 						/>
 					</div>

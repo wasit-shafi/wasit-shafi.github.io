@@ -38,7 +38,7 @@
 				&nbsp;&nbsp;
 				<a
 					class="hover:decoration text-txtQuaternary hover:underline"
-					[href]="contactData.emailId.linkURL"
+					[href]="contactData.emailId.linkUrl"
 				>
 					{{ contactData.emailId.linkText }}
 				</a>
@@ -50,7 +50,7 @@
 			&nbsp;or&nbsp;Call&nbsp;on&nbsp;
 			<a
 				class="hover:decoration text-txtQuaternary hover:underline"
-				[href]="contactData.phone.linkURL"
+				[href]="contactData.phone.linkUrl"
 			>
 				{{ contactData.phone.linkText }}
 			</a>
@@ -62,10 +62,10 @@
 	>
 		@for (
 			codingAndSocialProfilesData of contactData.codingAndSocialProfiles;
-			track codingAndSocialProfilesData.linkURL
+			track codingAndSocialProfilesData.linkUrl
 		) {
 			<a
-				[href]="codingAndSocialProfilesData.linkURL"
+				[href]="codingAndSocialProfilesData.linkUrl"
 				target="_blank"
 				rel="noopener noreferrer"
 				[title]="codingAndSocialProfilesData.titleText"
@@ -73,9 +73,9 @@
 				<img
 					[src]="
 						appDataService.isDarkCurrentTheme() &&
-						codingAndSocialProfilesData.iconLightURL
-							? codingAndSocialProfilesData.iconLightURL
-							: codingAndSocialProfilesData.iconURL
+						codingAndSocialProfilesData.iconLightUrl
+							? codingAndSocialProfilesData.iconLightUrl
+							: codingAndSocialProfilesData.iconUrl
 					"
 					alt="img"
 					class="h-[36px] cursor-pointer"
