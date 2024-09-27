@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { Constants } from '@shared/';
+import { IPortfolio } from '@models/portfolio.interface';
 
 @Injectable({
 	providedIn: 'root',
@@ -10,22 +11,38 @@ import { Constants } from '@shared/';
 export class UserProfileService {
 	constants = inject(Constants);
 	private http = inject(HttpClient);
+	public readonly contactDetailsInitialState = {
+		codingAndSocialProfiles: [],
+		emailId: {
+			id: '',
+			linkText: '',
+			linkURL: '',
+		},
+		phone: {
+			id: '',
+			linkText: '',
+			linkURL: '',
+		},
+	};
+	private readonly initialState: IPortfolio = {
+		contactDetails: this.contactDetailsInitialState,
+		educationDetails: [],
+		personalProjects: [],
+		skills: [],
+		workExperience: [],
+	};
 
-	// TODO: update 'any' to 'interface' for portfolio data
-
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	public portfolioData: WritableSignal<any> = signal({});
+	public portfolioData: WritableSignal<IPortfolio> = signal(this.initialState);
 
 	constructor() {
-		// TODO: remove mock json file and integrate data from mongoDb
-		this.getData(this?.constants?.PORTFOLIO_DATA_URL).subscribe((data) => {
-			this.portfolioData.set(data);
-		});
+		this.getPortfolioData(this.constants.PORTFOLIO_DATA_URL).subscribe(
+			(response) => {
+				this.portfolioData.set(response);
+			}
+		);
 	}
 
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	private getData(url: string): Observable<any> {
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		return this.http.get<any>(url);
+	private getPortfolioData(url: string): Observable<IPortfolio> {
+		return this.http.get<IPortfolio>(url);
 	}
 }

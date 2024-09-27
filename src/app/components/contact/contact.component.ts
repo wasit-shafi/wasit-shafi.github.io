@@ -6,6 +6,7 @@ import { Constants } from '@shared/';
 import { navigatorUtils } from '@utils/';
 
 import { AppDataService, UserProfileService } from '@services/';
+import { IContact } from '@models/portfolio.interface';
 
 @Component({
 	selector: 'wsp-contact',
@@ -20,16 +21,16 @@ export class ContactComponent {
 	userProfileService = inject(UserProfileService);
 	DEFAULT_ICON_WIDTH_IN_PX = 36;
 
-	public contactData: any;
+	public contactData: IContact =
+		this.userProfileService.contactDetailsInitialState;
 
 	constructor() {
 		effect(() => {
-			this.contactData =
-				this.userProfileService.portfolioData()?.contactDetails;
+			this.contactData = this.userProfileService.portfolioData().contactDetails;
 		});
 	}
 
 	public handleCopyEmailToClipboard(emailId: string = '') {
-		navigatorUtils?.handleCopyTextToClipboard(emailId);
+		navigatorUtils.handleCopyTextToClipboard(emailId);
 	}
 }

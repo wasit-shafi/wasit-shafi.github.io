@@ -1,74 +1,4 @@
 {
-	"achievementsAndResponsibilities": [
-		{
-			"description": "Found bug in Electron.js while working on specific project task, reported to Electron Team on GitHub - Issue: #30277, Fixed Issue by PR: #30305.",
-			"id": ""
-		},
-		{
-			"description": "2,53,000+ people reached Impact, 900+ Reputations on Stack Overflow.",
-			"id": ""
-		},
-		{
-			"description": "Solved 500+ coding problems of LeetCode / HackerRank / HackerEarth / CodeChef / CodeForces / GeekForGeeks.",
-			"id": ""
-		},
-		{
-			"description": "Core technical team member of Knowledge Circle, JMI (2018-present) for maintaining GitHub repos & website, which includes ~100 entrance papers shared by students from across the country.",
-			"id": ""
-		},
-		{
-			"description": "Links KnowledgeCircle.github.io, github.com/KnowledgeCircle.",
-			"id": ""
-		}
-	],
-	"awardsAndCertifications": [
-		{
-			"description": "Found bug in Electron.js while working on specific project task, reported to Electron Team on GitHub - Issue: #30277, Fixed Issue by PR: #30305.",
-			"id": ""
-		},
-		{
-			"description": "2,53,000+ people reached Impact, 900+ Reputations on Stack Overflow.",
-			"id": ""
-		},
-		{
-			"description": "Solved 500+ coding problems of LeetCode / HackerRank / HackerEarth / CodeChef / CodeForces / GeekForGeeks.",
-			"id": ""
-		},
-		{
-			"description": "Core technical team member of Knowledge Circle, JMI (2018-present) for maintaining GitHub repos & website, which includes ~100 entrance papers shared by students from across India.",
-			"id": ""
-		},
-		{
-			"description": "Links KnowledgeCircle.github.io, github.com/KnowledgeCircle.",
-			"id": ""
-		}
-	],
-	"codingAndSocialProfiles": [
-		{
-			"id": "",
-			"platformName": "StackOverflow",
-			"profileURL": "https://stackoverflow.com/users/10249156/wasit-shafi",
-			"username": "wasit-shafi"
-		},
-		{
-			"id": "",
-			"platformName": "GitHub",
-			"profileURL": "https://github.com/wasit-shafi",
-			"username": "wasit-shafi"
-		},
-		{
-			"id": "",
-			"platformName": "CodeChef",
-			"profileURL": "https://www.codechef.com/users/wasit_shafi",
-			"username": "wasit_shafi"
-		},
-		{
-			"id": "",
-			"platformName": "LeetCode",
-			"profileURL": "https://leetcode.com/wasit-shafi/",
-			"username": "wasit-shafi"
-		}
-	],
 	"contactDetails": {
 		"codingAndSocialProfiles": [
 			{
@@ -132,6 +62,7 @@
 		{
 			"completionDate": "Jun 2021",
 			"degree": "Master of Computer Applications",
+			"id": "jmi",
 			"logoAssetURL": "/assets/images/jamia-millia-islamia-logo-icon.svg",
 			"score": "8.6 CGPA",
 			"scoreType": "cgpa",
@@ -143,6 +74,7 @@
 		{
 			"completionDate": "Mar 2017",
 			"degree": "Bachelor of Computer Applications",
+			"id": "ku",
 			"logoAssetURL": "/assets/images/university-of-kashmir-logo-icon.png",
 			"score": "71%",
 			"scoreType": "percentage",
@@ -318,6 +250,7 @@
 				"companyWebsiteUrl": "https://www.superfitout.com",
 				"country": "Qatar"
 			},
+			"id": "sf",
 			"isCurrentlyWorking": true,
 			"role": "Full Stack SDE",
 			"startDate": "Sep 2022",
@@ -336,6 +269,7 @@
 				"country": "India"
 			},
 			"endDate": "Aug 2022",
+			"id": "vs",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer",
 			"startDate": "April 2021",

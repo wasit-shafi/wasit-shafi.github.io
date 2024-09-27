@@ -3,16 +3,16 @@
 	[id]="constants.homeSectionLinksId.SKILLS"
 >
 	<h3
-		class="text-txtPrimary font-nanum-pen mb-[8px] text-center text-4xl font-medium"
+		class="mb-[8px] text-center font-nanum-pen text-4xl font-medium text-txtPrimary"
 	>
 		Skills
 	</h3>
 	<div class="flex flex-wrap justify-center gap-x-[10px] gap-y-[8px]">
-		@for (skillDataItem of skillsData; track skillDataItem.skillTypeLabel) {
+		@for (skillDataItem of skillsData; track skillDataItem.id) {
 			<span
-				class="text-txtSecondary font-nanum-pen border-black-600 block whitespace-nowrap rounded-[6px] border px-[12px] py-[2px] text-2xl"
+				class="border-black-600 block whitespace-nowrap rounded-[6px] border px-[12px] py-[2px] font-nanum-pen text-2xl text-txtSecondary"
 			>
-				{{ skillDataItem?.skillName }}
+				{{ skillDataItem.skillName }}
 			</span>
 		}
 	</div>

@@ -3,8 +3,6 @@ import { Component, inject } from '@angular/core';
 
 import { Constants } from '@shared/';
 
-import { UserProfileService } from '@services/';
-
 @Component({
 	selector: 'wsp-about',
 	standalone: true,
@@ -14,5 +12,4 @@ import { UserProfileService } from '@services/';
 })
 export class AboutComponent {
 	public constants = inject(Constants);
-	userProfileService = inject(UserProfileService);
 }
