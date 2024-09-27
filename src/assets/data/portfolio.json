@@ -2,60 +2,60 @@
 	"contactDetails": {
 		"codingAndSocialProfiles": [
 			{
-				"iconURL": "assets/images/github-logo-icon.svg",
+				"iconUrl": "assets/images/github-logo-icon.svg",
 				"id": "",
-				"linkURL": "https://github.com/wasit-shafi",
+				"linkUrl": "https://github.com/wasit-shafi",
 				"titleText": "Checkout my github profile"
 			},
 			{
-				"iconURL": "assets/images/linkedin-logo-icon.svg",
+				"iconUrl": "assets/images/linkedin-logo-icon.svg",
 				"id": "",
-				"linkURL": "https://www.linkedin.com/in/wasit-shafi/",
+				"linkUrl": "https://www.linkedin.com/in/wasit-shafi/",
 				"titleText": "Connect with me on LinkedIn"
 			},
 			{
-				"iconURL": "assets/images/linktree-logo-icon.svg",
+				"iconUrl": "assets/images/linktree-logo-icon.svg",
 				"id": "",
-				"linkURL": "https://linktr.ee/wasitshafi",
+				"linkUrl": "https://linktr.ee/wasitshafi",
 				"titleText": "Checkout Linktree Profile"
 			},
 			{
-				"iconURL": "assets/images/stack-overflow-logo-icon.svg",
+				"iconUrl": "assets/images/stack-overflow-logo-icon.svg",
 				"id": "",
-				"linkURL": "https://stackoverflow.com/users/10249156/wasit-shafi",
+				"linkUrl": "https://stackoverflow.com/users/10249156/wasit-shafi",
 				"titleText": "Checkout my stack overflow profile"
 			},
 			{
-				"iconLightURL": "assets/images/leetcode-logo-light-icon.png",
-				"iconURL": "assets/images/leetcode-logo-dark-icon.png",
+				"iconLightUrl": "assets/images/leetcode-logo-light-icon.png",
+				"iconUrl": "assets/images/leetcode-logo-dark-icon.png",
 				"id": "",
-				"linkURL": "https://leetcode.com/wasit-shafi/",
+				"linkUrl": "https://leetcode.com/wasit-shafi/",
 				"titleText": "Checkout my leetcode profile"
 			},
 			{
-				"iconURL": "assets/images/codechef-logo-icon.png",
+				"iconUrl": "assets/images/codechef-logo-icon.png",
 				"id": "",
-				"linkURL": "https://www.codechef.com/users/wasit_shafi",
+				"linkUrl": "https://www.codechef.com/users/wasit_shafi",
 				"titleText": "Checkout my codechef profile"
 			},
 			{
-				"iconLightURL": "assets/images/whats-app-button-white-small.svg",
-				"iconURL": "assets/images/whats-app-button-green-small.svg",
+				"iconLightUrl": "assets/images/whats-app-button-white-small.svg",
+				"iconUrl": "assets/images/whats-app-button-green-small.svg",
 				"iconWidth": "150",
 				"id": "",
-				"linkURL": "https://wa.me/+919682648815?text=%5BRef%3A%20Portfolio%5D%3A%20Hello%20Wasit...",
+				"linkUrl": "https://wa.me/+919682648815?text=%5BRef%3A%20Portfolio%5D%3A%20Hello%20Wasit...",
 				"titleText": "Chat with with wasit on WhatsApp"
 			}
 		],
 		"emailId": {
 			"id": "",
 			"linkText": "wasitshafi700@gmail.com",
-			"linkURL": "mailto:wasitshafi700@gmail.com"
+			"linkUrl": "mailto:wasitshafi700@gmail.com"
 		},
 		"phone": {
 			"id": "",
 			"linkText": "+91 9682648815",
-			"linkURL": "tel:+919682648815"
+			"linkUrl": "tel:+919682648815"
 		}
 	},
 	"educationDetails": [
@@ -63,69 +63,87 @@
 			"completionDate": "Jun 2021",
 			"degree": "Master of Computer Applications",
 			"id": "jmi",
-			"logoAssetURL": "/assets/images/jamia-millia-islamia-logo-icon.svg",
+			"logoAssetUrl": "/assets/images/jamia-millia-islamia-logo-icon.svg",
 			"score": "8.6 CGPA",
 			"scoreType": "cgpa",
 			"universityLocation": "New Delhi, IN",
-			"universityLocationURL": "https://maps.app.goo.gl/ZGAg8fw3MT1Lo7La8",
+			"universityLocationUrl": "https://maps.app.goo.gl/ZGAg8fw3MT1Lo7La8",
 			"universityName": "Jamia Millia Islamia",
-			"universityWebsiteURL": "https://www.jmi.ac.in/"
+			"universityWebsiteUrl": "https://www.jmi.ac.in/"
 		},
 		{
 			"completionDate": "Mar 2017",
 			"degree": "Bachelor of Computer Applications",
 			"id": "ku",
-			"logoAssetURL": "/assets/images/university-of-kashmir-logo-icon.png",
+			"logoAssetUrl": "/assets/images/university-of-kashmir-logo-icon.png",
 			"score": "71%",
 			"scoreType": "percentage",
 			"universityLocation": "J&K, IN",
-			"universityLocationURL": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
+			"universityLocationUrl": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
 			"universityName": "University of Kashmir",
-			"universityWebsiteURL": "https://www.kashmiruniversity.net/"
+			"universityWebsiteUrl": "https://www.kashmiruniversity.net/"
 		}
 	],
 	"personalProjects": [
 		{
-			"endDate": "",
-			"liveProjectURL": "",
+			"deployment": {
+				"linkText": "dev-tools-studio.com",
+				"url": "https://dev-tools-studio.com"
+			},
+			"id": "dts",
 			"projectFeatures": [
 				{
-					"description": "this is more detail of the personal project. this is more detail of the personal project.",
+					"description": "feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description ",
 					"id": ""
 				},
 				{
-					"description": "this is more detail of the personal project. this is more detail of the personal project.",
+					"description": "feature 2 description feature 2 description feature 2 description feature 2 description",
 					"id": ""
 				},
 				{
-					"description": "this is more detail of the personal project. this is more detail of the personal project.",
+					"description": "feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description",
 					"id": ""
 				}
 			],
-			"projectTitle": "Face Recognition Based Attendance System",
-			"sourceCodeURL": "",
-			"startDate": ""
+			"projectTitle": "Dev Tools Studio",
+			"sourceCodeUrl": [
+				{
+					"linkText": "Backend Source Code",
+					"url": "https://github.com/wasit-shafi/dev-tools-studio-backend"
+				},
+				{
+					"linkText": "Frontend Source Code",
+					"url": "https://github.com/wasit-shafi/dev-tools-studio-frontend"
+				}
+			]
 		},
 		{
-			"endDate": "",
-			"liveProjectURL": "",
+			"deployment": {
+				"linkText": "wasit-shafi.github.io",
+				"url": "https://wasit-shafi.github.io"
+			},
+			"id": "portfolio",
 			"projectFeatures": [
 				{
-					"description": "this is more detail of the personal project. this is more detail of the personal project.",
+					"description": "feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description ",
 					"id": ""
 				},
 				{
-					"description": "this is more detail of the personal project. this is more detail of the personal project.",
+					"description": "feature 2 description feature 2 description feature 2 description feature 2 description",
 					"id": ""
 				},
 				{
-					"description": "this is more detail of the personal project. this is more detail of the personal project.",
+					"description": "feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description",
 					"id": ""
 				}
 			],
-			"projectTitle": "Tweet Sentiment Analysis",
-			"sourceCodeURL": "",
-			"startDate": ""
+			"projectTitle": "Personal Portfolio Website",
+			"sourceCodeUrl": [
+				{
+					"linkText": "Frontend Source Code",
+					"url": "https://github.com/wasit-shafi/wasit-shafi.github.io"
+				}
+			]
 		}
 	],
 	"skills": [

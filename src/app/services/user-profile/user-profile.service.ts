@@ -16,12 +16,12 @@ export class UserProfileService {
 		emailId: {
 			id: '',
 			linkText: '',
-			linkURL: '',
+			linkUrl: '',
 		},
 		phone: {
 			id: '',
 			linkText: '',
-			linkURL: '',
+			linkUrl: '',
 		},
 	};
 	private readonly initialState: IPortfolio = {

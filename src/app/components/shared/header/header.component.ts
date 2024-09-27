@@ -15,8 +15,8 @@ export class HeaderComponent {
 	public readonly menuTogglerId = 'menu-toggler';
 
 	@HostListener('window:resize', ['$event'])
-	onWindowResize(event: any) {
-		const { innerWidth = 0 } = event.target;
+	onWindowResize(event: Event) {
+		const { innerWidth = 0 } = event.target as Window;
 
 		this.handleNavbarLayoutChange({ innerWidth });
 	}
@@ -82,7 +82,7 @@ export class HeaderComponent {
 		});
 	}
 
-	private handleNavbarLayoutChange(params: any): void {
+	private handleNavbarLayoutChange(params: { innerWidth: number }): void {
 		let menuUlDisplay = '';
 		const menuTogglerBackgroundImage = 'assets/images/menu-icon.svg';
 
