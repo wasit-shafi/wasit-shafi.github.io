@@ -16,9 +16,9 @@ import { IContact } from '@models/portfolio.interface';
 	styleUrl: './contact.component.scss',
 })
 export class ContactComponent {
-	constants = inject(Constants);
-	appDataService = inject(AppDataService);
-	userProfileService = inject(UserProfileService);
+	public readonly constants = inject(Constants);
+	public readonly appDataService = inject(AppDataService);
+	public readonly userProfileService = inject(UserProfileService);
 	DEFAULT_ICON_WIDTH_IN_PX = 36;
 
 	public contactData: IContact =

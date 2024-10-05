@@ -13,8 +13,8 @@ import { IWorkExperience } from '@models/';
 	styleUrl: './work-experiences.component.scss',
 })
 export class WorkExperiencesComponent {
-	constants = inject(Constants);
-	userProfileService = inject(UserProfileService);
+	public readonly constants = inject(Constants);
+	public readonly userProfileService = inject(UserProfileService);
 
 	public workExperiencesData!: IWorkExperience[];
 

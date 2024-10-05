@@ -13,7 +13,7 @@ import { FooterComponent, HeaderComponent } from '@components/';
 	styleUrl: './app.component.scss',
 })
 export class AppComponent {
-	appDataService = inject(AppDataService);
+	public readonly appDataService = inject(AppDataService);
 
 	handleThemeModeChange(): void {
 		this.appDataService.toggleCurrentThemeMode();

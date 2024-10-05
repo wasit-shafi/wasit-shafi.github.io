@@ -26,7 +26,7 @@ import {
 	styleUrl: './home.component.scss',
 })
 export class HomeComponent {
-	appDataService = inject(AppDataService);
+	public readonly appDataService = inject(AppDataService);
 
 	handleThemeModeChange(): void {
 		this.appDataService.toggleCurrentThemeMode();

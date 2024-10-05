@@ -13,8 +13,8 @@ import { IEducation } from '@models/portfolio.interface';
 	styleUrl: './education.component.scss',
 })
 export class EducationComponent {
-	constants = inject(Constants);
-	userProfileService = inject(UserProfileService);
+	public readonly constants = inject(Constants);
+	public readonly userProfileService = inject(UserProfileService);
 
 	public educationData!: IEducation[];
 

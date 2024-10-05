@@ -8,7 +8,7 @@ import { environment } from '@environments/';
 	providedIn: 'root',
 })
 export class AppDataService {
-	public constants = inject(Constants);
+	public readonly constants = inject(Constants);
 
 	// by default light theme is enabled, should be private don't expose it
 	public isDarkCurrentTheme: WritableSignal<boolean> = signal(false);

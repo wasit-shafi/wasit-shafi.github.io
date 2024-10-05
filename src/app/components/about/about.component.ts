@@ -11,5 +11,5 @@ import { Constants } from '@shared/';
 	styleUrl: './about.component.scss',
 })
 export class AboutComponent {
-	public constants = inject(Constants);
+	public readonly constants = inject(Constants);
 }

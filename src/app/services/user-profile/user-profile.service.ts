@@ -9,8 +9,8 @@ import { IPortfolio } from '@models/portfolio.interface';
 	providedIn: 'root',
 })
 export class UserProfileService {
-	constants = inject(Constants);
-	private http = inject(HttpClient);
+	public readonly constants = inject(Constants);
+	public readonly http = inject(HttpClient);
 	public readonly contactDetailsInitialState = {
 		codingAndSocialProfiles: [],
 		emailId: {
