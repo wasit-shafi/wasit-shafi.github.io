@@ -19,7 +19,7 @@ export class ContactComponent {
 	public readonly constants = inject(Constants);
 	public readonly appDataService = inject(AppDataService);
 	public readonly userProfileService = inject(UserProfileService);
-	DEFAULT_ICON_WIDTH_IN_PX = 36;
+	public readonly DEFAULT_ICON_WIDTH_IN_PX = 36;
 
 	public contactData: IContact =
 		this.userProfileService.contactDetailsInitialState;
