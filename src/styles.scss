@@ -1,3 +1,5 @@
+@use './styles/mixins' as *;
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -42,5 +44,19 @@
 
 		/* used for links */
 		--color-txt-quaternary: 148 198 255;
+	}
+
+	::selection {
+		@include mx-custom-selection;
+	}
+	/* Safari & Chrome - Webkit Rendering */
+
+	::-webkit-selection {
+		@include mx-custom-selection;
+	}
+	/* Mozilla based - Gecko Rendering */
+
+	::-moz-selection {
+		@include mx-custom-selection;
 	}
 }
