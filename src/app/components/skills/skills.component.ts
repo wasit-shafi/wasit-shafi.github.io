@@ -13,8 +13,8 @@ import { ISkills } from '@models/';
 	styleUrl: './skills.component.scss',
 })
 export class SkillsComponent {
-	constants = inject(Constants);
-	userProfileService = inject(UserProfileService);
+	public readonly constants = inject(Constants);
+	public readonly userProfileService = inject(UserProfileService);
 
 	public skillsData!: ISkills[];
 

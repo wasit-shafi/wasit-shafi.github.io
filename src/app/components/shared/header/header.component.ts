@@ -21,7 +21,7 @@ export class HeaderComponent {
 		this.handleNavbarLayoutChange({ innerWidth });
 	}
 
-	public constants = inject(Constants);
+	public readonly constants = inject(Constants);
 
 	public readonly environment = environment;
 

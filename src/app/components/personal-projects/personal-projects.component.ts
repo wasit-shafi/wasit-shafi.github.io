@@ -13,8 +13,8 @@ import { IPersonalProjects } from '@models/';
 	styleUrl: './personal-projects.component.scss',
 })
 export class PersonalProjectsComponent {
-	constants = inject(Constants);
-	userProfileService = inject(UserProfileService);
+	public readonly constants = inject(Constants);
+	public readonly userProfileService = inject(UserProfileService);
 	public personalProjectsData!: IPersonalProjects[];
 
 	constructor() {
