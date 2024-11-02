@@ -1,6 +1,6 @@
 @mixin mx-custom-selection {
-	color: #fff;
-	background: #e90464;
+	color: #fff !important;
+	background: #e90464 !important;
 	text-shadow:
 		0 0 2px #fff,
 		0 0 4px #fff,
@@ -9,5 +9,5 @@
 		0 0 10px #f09,
 		0 0 12px #f09,
 		0 0 14px #f09,
-		0 0 16px #f09;
+		0 0 16px #f09 !important;
 }
