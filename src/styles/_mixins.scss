@@ -1,13 +1,15 @@
+@use './colors' as *;
+
 @mixin mx-custom-selection {
-	color: #fff !important;
-	background: #e90464 !important;
+	color: $clr-white;
+	background: $clr-raspberry;
 	text-shadow:
-		0 0 2px #fff,
-		0 0 4px #fff,
-		0 0 6px #fff,
-		0 0 8px #f09,
-		0 0 10px #f09,
-		0 0 12px #f09,
-		0 0 14px #f09,
-		0 0 16px #f09 !important;
+		0 0 2px $clr-white,
+		0 0 4px $clr-white,
+		0 0 6px $clr-white,
+		0 0 8px $clr-hollywood-cerise,
+		0 0 10px $clr-hollywood-cerise,
+		0 0 12px $clr-hollywood-cerise,
+		0 0 14px $clr-hollywood-cerise,
+		0 0 16px $clr-hollywood-cerise;
 }
