@@ -35,7 +35,7 @@
 			<ul>
 				@for (
 					workContribution of workExperience.workContributions;
-					track workContribution.id
+					track $index
 				) {
 					<li class="text-txtSecondary">
 						* {{ workContribution.description }}
