@@ -39,7 +39,7 @@
 			<ul>
 				@for (
 					projectFeatures of personalProject.projectFeatures;
-					track projectFeatures.id
+					track $index
 				) {
 					<li class="text-txtSecondary">* {{ projectFeatures.description }}</li>
 				}

@@ -10,7 +10,6 @@ import { IContact } from '@models/portfolio.interface';
 
 @Component({
 	selector: 'wsp-contact',
-	standalone: true,
 	imports: [CommonModule],
 	templateUrl: './contact.component.html',
 	styleUrl: './contact.component.scss',

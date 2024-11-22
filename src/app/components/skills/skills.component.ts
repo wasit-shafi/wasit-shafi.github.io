@@ -7,7 +7,6 @@ import { ISkills } from '@models/';
 
 @Component({
 	selector: 'wsp-skills',
-	standalone: true,
 	imports: [CommonModule],
 	templateUrl: './skills.component.html',
 	styleUrl: './skills.component.scss',

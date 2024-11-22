@@ -5,7 +5,6 @@ import { environment } from '@environments/';
 
 @Component({
 	selector: 'wsp-header',
-	standalone: true,
 	imports: [],
 	templateUrl: './header.component.html',
 	styleUrl: './header.component.scss',

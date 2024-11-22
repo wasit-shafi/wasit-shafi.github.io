@@ -13,7 +13,6 @@ import {
 
 @Component({
 	selector: 'wsp-home',
-	standalone: true,
 	imports: [
 		AboutComponent,
 		ContactComponent,

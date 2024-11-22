@@ -7,7 +7,6 @@ import { FooterComponent, HeaderComponent } from '@components/';
 
 @Component({
 	selector: 'wsp-root',
-	standalone: true,
 	imports: [RouterOutlet, HeaderComponent, FooterComponent],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.scss',
