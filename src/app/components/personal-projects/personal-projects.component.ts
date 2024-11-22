@@ -7,7 +7,6 @@ import { IPersonalProjects } from '@models/';
 
 @Component({
 	selector: 'wsp-personal-projects',
-	standalone: true,
 	imports: [CommonModule],
 	templateUrl: './personal-projects.component.html',
 	styleUrl: './personal-projects.component.scss',

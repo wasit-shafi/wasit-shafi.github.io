@@ -7,7 +7,6 @@ import { IWorkExperience } from '@models/';
 
 @Component({
 	selector: 'wsp-work-experiences',
-	standalone: true,
 	imports: [CommonModule],
 	templateUrl: './work-experiences.component.html',
 	styleUrl: './work-experiences.component.scss',

@@ -5,7 +5,6 @@ import { Constants } from '@shared/';
 
 @Component({
 	selector: 'wsp-about',
-	standalone: true,
 	imports: [CommonModule],
 	templateUrl: './about.component.html',
 	styleUrl: './about.component.scss',
