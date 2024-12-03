@@ -24,24 +24,13 @@
 					{{ workExperience.companyDetails.country }}
 				</span>
 				<span class="text-txtTernary">
-					{{ workExperience.startDate }} -
 					{{
 						workExperience.isCurrentlyWorking
 							? 'Present'
-							: workExperience.endDate
+							: workExperience.startDate + ' - ' + workExperience.endDate
 					}}
 				</span>
 			</p>
-			<ul>
-				@for (
-					workContribution of workExperience.workContributions;
-					track $index
-				) {
-					<li class="text-txtSecondary">
-						* {{ workContribution.description }}
-					</li>
-				}
-			</ul>
 		</div>
 	} @empty {}
 </section>
