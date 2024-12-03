@@ -14,12 +14,6 @@
 				"titleText": "Connect with me on LinkedIn"
 			},
 			{
-				"iconUrl": "assets/images/linktree-logo-icon.svg",
-				"id": "",
-				"linkUrl": "https://linktr.ee/wasitshafi",
-				"titleText": "Checkout Linktree Profile"
-			},
-			{
 				"iconUrl": "assets/images/stack-overflow-logo-icon.svg",
 				"id": "",
 				"linkUrl": "https://stackoverflow.com/users/10249156/wasit-shafi",
@@ -37,6 +31,12 @@
 				"id": "",
 				"linkUrl": "https://www.codechef.com/users/wasit_shafi",
 				"titleText": "Checkout my codechef profile"
+			},
+			{
+				"iconUrl": "assets/images/linktree-logo-icon.svg",
+				"id": "",
+				"linkUrl": "https://linktr.ee/wasitshafi",
+				"titleText": "Checkout Linktree Profile"
 			},
 			{
 				"iconLightUrl": "assets/images/whats-app-button-white-small.svg",
@@ -270,14 +270,7 @@
 			},
 			"id": "sf",
 			"isCurrentlyWorking": true,
-			"role": "Full Stack SDE",
-			"startDate": "Sep 2022",
-			"workContributions": [
-				{
-					"description": "Currently Working on MEAN Stack, TypeScript, NgRx, Docker, NGINX & AWS",
-					"id": ""
-				}
-			]
+			"role": "Full Stack SDE"
 		},
 		{
 			"companyDetails": {
@@ -290,25 +283,7 @@
 			"id": "vs",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer",
-			"startDate": "April 2021",
-			"workContributions": [
-				{
-					"description": "Worked on Web Animations API to develop 30-40 poker game & application UI animations for cards, themes, tournaments, etc.",
-					"id": ""
-				},
-				{
-					"description": "Developed well-structured react components & managed the state of application using MobX-State-Tree.",
-					"id": ""
-				},
-				{
-					"description": "Worked on more than 50 minor/critical bugs & improvement tasks which results in performance benefits.",
-					"id": ""
-				},
-				{
-					"description": "Trained & mentored 40 software engineering interns on JavaScript/TypeScript, React.js, SCSS, Analysis & Designing Aspects, Application State Management, Routing, etc.",
-					"id": ""
-				}
-			]
+			"startDate": "April 2021"
 		},
 		{
 			"companyDetails": {
@@ -320,25 +295,7 @@
 			"endDate": "Mar 2021",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer Intern",
-			"startDate": "Jan 2021",
-			"workContributions": [
-				{
-					"description": "Worked on code refactoring across the project for enhancing the codebase quality.",
-					"id": ""
-				},
-				{
-					"description": "Found & solved several bugs like ESLint, Web-Storm IDE errors & warnings, UI bugs, etc.",
-					"id": ""
-				},
-				{
-					"description": "Developed more than 20 React UI components.",
-					"id": ""
-				},
-				{
-					"description": "Learned & worked with libraries/frameworks such as React.js, React Native, Redux, React Router, SCSS, Material UI, Styled Components, etc.",
-					"id": ""
-				}
-			]
+			"startDate": "Jan 2021"
 		}
 	]
 }
