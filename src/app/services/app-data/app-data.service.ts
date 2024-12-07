@@ -18,11 +18,12 @@ export class AppDataService {
 	}
 
 	private initializeTheme(): void {
-		// NOTE: if not found then return to null == Number(null) equals to 0
-
 		const currentTheme = Number(localStorage.getItem('currentTheme'));
 
-		if (currentTheme === 0) {
+		if (
+			!currentTheme ||
+			currentTheme == this.constants.applicationCurrentTheme.LIGHT
+		) {
 			localStorage.setItem(
 				'currentTheme',
 				`${this.constants.applicationCurrentTheme.LIGHT}`

@@ -14,7 +14,7 @@
 		[id]="menuUlId"
 		class="hidden justify-center 2xs:flex"
 	>
-		@for (menuItem of NAV_MENU_ITEMS; track menuItem.id) {
+		@for (menuItem of NAV_MENU_ITEMS; track $index) {
 			@if (menuItem.visibility) {
 				<!-- eslint-disable-next-line @angular-eslint/template/interactive-supports-focus, @angular-eslint/template/click-events-have-key-events  -->
 				<li
