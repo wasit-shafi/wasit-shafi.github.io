@@ -35,7 +35,7 @@ export class UserProfileService {
 	public portfolioData: WritableSignal<IPortfolio> = signal(this.initialState);
 
 	constructor() {
-		this.getPortfolioData(this.constants.PORTFOLIO_DATA_URL).subscribe(
+		this.getPortfolioData(this.constants.PORTFOLIO_DATA_EN_URL).subscribe(
 			(response) => {
 				this.portfolioData.set(response);
 			}

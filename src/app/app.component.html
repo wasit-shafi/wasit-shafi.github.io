@@ -6,7 +6,7 @@
 
 	<button
 		class="fixed bottom-[20px] right-[20px] size-[40px] rounded-full bg-bgPrimaryInverse p-[8px] md:right-[26px] lg:right-[80px] xl:right-[200px] 2xl:right-[280px]"
-		(click)="handleThemeModeChange()"
+		(click)="appDataService.toggleCurrentThemeMode()"
 	>
 		<img
 			alt="img"
@@ -19,5 +19,18 @@
 				'.svg'
 			"
 		/>
+	</button>
+
+	<button
+		type="button"
+		class="fixed left-0 top-1/2 rotate-180 rounded-l-lg bg-cyan-500 py-2 text-xl text-txtPrimary transition duration-500 hover:bg-cyan-600"
+		[ngClass]="'[writing-mode:vertical-lr]'"
+		(click)="appDataService.toggleLanguage()"
+	>
+		{{
+			appDataService.currentLanguage() === constants.languages.ARABIC
+				? 'English'
+				: 'عربي'
+		}}
 	</button>
 </main>

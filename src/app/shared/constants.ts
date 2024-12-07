@@ -10,10 +10,16 @@ export class Constants {
 		WORK_EXPERIENCE: 'work-experience',
 	} as const;
 
-	public readonly PORTFOLIO_DATA_URL = '/assets/data/portfolio.json';
+	public readonly PORTFOLIO_DATA_AR_URL = '/assets/data/portfolio-ar.json';
+	public readonly PORTFOLIO_DATA_EN_URL = '/assets/data/portfolio-en.json';
 
-	public readonly applicationCurrentTheme = {
+	public readonly themes = {
 		LIGHT: 1,
 		DARK: 2,
+	} as const;
+
+	public readonly languages = {
+		ARABIC: 1,
+		ENGLISH: 2,
 	} as const;
 }
