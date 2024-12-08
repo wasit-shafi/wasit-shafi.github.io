@@ -6,6 +6,7 @@ import {
 	inject,
 	signal,
 } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { Meta } from '@angular/platform-browser';
 
 import { Constants } from '@app/shared';
@@ -22,6 +23,8 @@ export class AppDataService {
 	// by default light theme is enabled, should be private don't expose it
 	public isDarkCurrentTheme: WritableSignal<boolean> = signal(false);
 	public readonly currentLanguage: WritableSignal<number> = signal(-1);
+	private readonly http = inject(HttpClient);
+	public readonly staticData: WritableSignal<any> = signal({});
 
 	constructor(@Inject(DOCUMENT) private document: Document) {
 		this.initializeApp();
@@ -30,6 +33,7 @@ export class AppDataService {
 	private initializeApp(): void {
 		this.initializeTheme();
 		this.initializeLanguage();
+		this.initializeStaticData();
 	}
 
 	private initializeTheme(): void {
@@ -90,6 +94,14 @@ export class AppDataService {
 				`${this.constants.languages.ENGLISH}`
 			);
 		}
+	}
+
+	private initializeStaticData(): void {
+		this.http.get(this.constants.STATIC_DATA_URL).subscribe({
+			next: (response) => {
+				this.staticData.set(response);
+			},
+		});
 	}
 
 	get isProduction(): boolean {

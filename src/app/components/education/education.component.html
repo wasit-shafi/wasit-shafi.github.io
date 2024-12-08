@@ -5,7 +5,11 @@
 	<h3
 		class="mb-[8px] text-center font-nanum-pen text-4xl font-medium text-txtPrimary"
 	>
-		Education
+		{{
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.education
+		}}
 	</h3>
 
 	<div

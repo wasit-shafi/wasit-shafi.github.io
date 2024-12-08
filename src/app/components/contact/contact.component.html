@@ -6,7 +6,11 @@
 	<h3
 		class="mb-[8px] text-center font-nanum-pen text-4xl font-medium text-txtPrimary"
 	>
-		Connect With Me:
+		{{
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.connectWithMe
+		}}
 	</h3>
 
 	<div class="mb-[22px] flex flex-wrap items-center justify-center gap-y-[8px]">

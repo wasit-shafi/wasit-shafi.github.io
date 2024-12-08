@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { AppDataService, UserProfileService } from '@services/index';
+import { Constants } from '@shared/constants';
 
 @Component({
 	selector: 'wsp-footer',
@@ -8,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 	date = new Date();
+	public readonly constants = inject(Constants);
+	public readonly userProfileService = inject(UserProfileService);
+	public readonly appDataService = inject(AppDataService);
 }

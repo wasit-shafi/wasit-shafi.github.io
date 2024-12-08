@@ -1,0 +1,20 @@
+{
+	"ar": {
+		"workExperience": "خبرة في العمل",
+		"skills": "مهارات",
+		"personalProjects": "المشاريع الشخصية",
+		"education": "تعليم",
+		"connectWithMe": "تواصل معي",
+		"wasit": "واسط",
+		"designedAndMaintainedBy": "تم تطويره وصيانته بواسطة"
+	},
+	"en": {
+		"workExperience": "Work Experience",
+		"skills": "Skills",
+		"personalProjects": "Personal Projects",
+		"education": "Education",
+		"connectWithMe": "Connect With Me",
+		"wasit": "Wasit",
+		"designedAndMaintainedBy": "Developed & Maintained by"
+	}
+}

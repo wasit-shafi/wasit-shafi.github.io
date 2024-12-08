@@ -1,12 +1,20 @@
 <p class="my-[10px] text-center text-txtPrimary">
-	Developed & Maintained by
+	{{
+		appDataService.staticData()[
+			constants.languageCodes[this.appDataService.currentLanguage()]
+		]?.designedAndMaintainedBy
+	}}
 	<a
 		class="hover:decoration text-txtQuaternary hover:underline"
 		href="https://www.linkedin.com/in/wasitshafi"
 		title="Connect with @WasitShafi on LinkedIn"
 		target="_blank"
 	>
-		Wasit
+		{{
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.wasit
+		}}
 	</a>
 	&copy; {{ date.getFullYear() }}
 	<span class="font-mono text-xs tracking-tighter">

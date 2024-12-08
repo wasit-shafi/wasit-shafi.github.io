@@ -25,11 +25,6 @@ export class ContactComponent {
 
 	constructor() {
 		effect(() => {
-			console.log(this.constants.languageCodes);
-			console.log(this.appDataService.currentLanguage());
-			console.warn(
-				this.constants.languageCodes[this.appDataService.currentLanguage()]
-			);
 			this.contactData =
 				this.userProfileService.portfolioData()[
 					this.constants.languageCodes[this.appDataService.currentLanguage()]

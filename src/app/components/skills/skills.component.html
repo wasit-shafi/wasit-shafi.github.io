@@ -5,7 +5,11 @@
 	<h3
 		class="mb-[8px] text-center font-nanum-pen text-4xl font-medium text-txtPrimary"
 	>
-		Skills
+		{{
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.skills
+		}}
 	</h3>
 	<div class="flex flex-wrap justify-center gap-x-[10px] gap-y-[8px]">
 		@for (skillDataItem of skillsData; track $index) {

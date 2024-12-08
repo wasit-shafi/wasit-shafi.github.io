@@ -12,6 +12,7 @@ export class Constants {
 
 	public readonly PORTFOLIO_DATA_AR_URL = '/assets/data/portfolio-ar.json';
 	public readonly PORTFOLIO_DATA_EN_URL = '/assets/data/portfolio-en.json';
+	public readonly STATIC_DATA_URL = '/assets/data/static.json';
 
 	public readonly themes = {
 		LIGHT: 1,

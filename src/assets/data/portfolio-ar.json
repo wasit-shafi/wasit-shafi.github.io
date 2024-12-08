@@ -66,7 +66,7 @@
 			"logoAssetUrl": "/assets/images/jamia-millia-islamia-logo-icon.svg",
 			"score": "8.6 CGPA",
 			"scoreType": "cgpa",
-			"universityLocation": "New Delhi, IN",
+			"universityLocation": "نيودلهي، الهند",
 			"universityLocationUrl": "https://maps.app.goo.gl/ZGAg8fw3MT1Lo7La8",
 			"universityName": "Jamia Millia Islamia",
 			"universityWebsiteUrl": "https://www.jmi.ac.in/"
@@ -78,7 +78,7 @@
 			"logoAssetUrl": "/assets/images/university-of-kashmir-logo-icon.png",
 			"score": "71%",
 			"scoreType": "percentage",
-			"universityLocation": "J&K, IN",
+			"universityLocation": "جامو وكشمي، الهند",
 			"universityLocationUrl": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
 			"universityName": "University of Kashmir",
 			"universityWebsiteUrl": "https://www.kashmiruniversity.net/"
@@ -93,15 +93,15 @@
 			"id": "dts",
 			"projectFeatures": [
 				{
-					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج النص 1 ",
+					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج النص ",
 					"id": ""
 				},
 				{
-					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج النص 1 ",
+					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج ال",
 					"id": ""
 				},
 				{
-					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج النص 1 ",
+					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج النص",
 					"id": ""
 				}
 			],
@@ -263,10 +263,10 @@
 	"workExperience": [
 		{
 			"companyDetails": {
-				"city": "Doha",
+				"city": "الدوحة",
 				"companyName": "SuperFitout",
 				"companyWebsiteUrl": "https://www.superfitout.com",
-				"country": "Qatar"
+				"country": "قطر"
 			},
 			"id": "sf",
 			"isCurrentlyWorking": true,
@@ -274,28 +274,28 @@
 		},
 		{
 			"companyDetails": {
-				"city": "Noida",
+				"city": "نويدا",
 				"companyName": "VectoScalar Technologies",
 				"companyWebsiteUrl": "https://vectoscalar.com/",
-				"country": "India"
+				"country": "الهند"
 			},
-			"endDate": "Aug 2022",
+			"endDate": "أغسطس 2022",
 			"id": "vs",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer",
-			"startDate": "April 2021"
+			"startDate": "أبريل 2021"
 		},
 		{
 			"companyDetails": {
-				"city": "Noida",
+				"city": "نويدا",
 				"companyName": "VectoScalar Technologies",
 				"companyWebsiteUrl": "https://vectoscalar.com/",
-				"country": "India"
+				"country": "الهند"
 			},
-			"endDate": "Mar 2021",
+			"endDate": "مارس 2021",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer Intern",
-			"startDate": "Jan 2021"
+			"startDate": "يناير 2021"
 		}
 	]
 }
