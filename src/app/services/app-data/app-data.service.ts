@@ -21,7 +21,7 @@ export class AppDataService {
 
 	// by default light theme is enabled, should be private don't expose it
 	public isDarkCurrentTheme: WritableSignal<boolean> = signal(false);
-	public readonly currentLanguage: WritableSignal<number | null> = signal(null);
+	public readonly currentLanguage: WritableSignal<number> = signal(-1);
 
 	constructor(@Inject(DOCUMENT) private document: Document) {
 		this.initializeApp();

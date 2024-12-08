@@ -1,4 +1,7 @@
-// Root Portfolio Data Interface
+export interface IPortfolioData {
+	ar: IPortfolio;
+	en: IPortfolio;
+}
 
 export interface IPortfolio {
 	contactDetails: IContact;
@@ -9,7 +12,7 @@ export interface IPortfolio {
 }
 // Work Experience
 
-interface IWorkExperience {
+export interface IWorkExperience {
 	companyDetails: ICompanyDetails;
 	id: string;
 	isCurrentlyWorking: boolean;
@@ -32,13 +35,13 @@ interface IWorkContributions {
 }
 // Skills
 
-interface ISkills {
+export interface ISkills {
 	id: string;
 	skillName: string;
 }
 // Personal Projects
 
-interface IPersonalProjects {
+export interface IPersonalProjects {
 	id: string;
 	deployment: IDeployment;
 	projectFeatures: IProjectFeatures[];
@@ -63,7 +66,7 @@ interface ISourceCodeUrl {
 
 // Education
 
-interface IEducation {
+export interface IEducation {
 	completionDate: string;
 	degree: string;
 	id: string;
@@ -77,7 +80,7 @@ interface IEducation {
 }
 // Contact
 
-interface IContact {
+export interface IContact {
 	codingAndSocialProfiles: ICodingAndSocialProfiles[];
 	emailId: IEmailOrPhone;
 	phone: IEmailOrPhone;
@@ -96,5 +99,3 @@ interface IEmailOrPhone {
 	linkText: string;
 	linkUrl: string;
 }
-
-export { ISkills, IContact, IPersonalProjects, IEducation, IWorkExperience };

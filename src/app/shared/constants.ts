@@ -21,5 +21,10 @@ export class Constants {
 	public readonly languages = {
 		ARABIC: 1,
 		ENGLISH: 2,
+	};
+
+	public readonly languageCodes = {
+		[this.languages.ARABIC]: 'ar',
+		[this.languages.ENGLISH]: 'en',
 	} as const;
 }
