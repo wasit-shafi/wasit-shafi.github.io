@@ -23,8 +23,15 @@
 
 	<button
 		type="button"
-		class="fixed left-0 top-1/2 rotate-180 rounded-l-lg bg-pink-500 py-2 text-xl text-txtPrimary transition duration-500 hover:bg-pink-600"
-		[ngClass]="'[writing-mode:vertical-lr]'"
+		class="fixed left-0 top-1/2 rotate-180 rounded-l-lg bg-qatar/90 py-3 text-white	transition-property duration-500 hover:bg-qatar/100 {{
+			constants.CLASS_PREFIX
+		}}toggle-language"
+		[ngClass]="[
+			'[writing-mode:vertical-lr]',
+			appDataService.currentLanguage() === constants.languages.ENGLISH
+				? 'text-xl'
+				: 'text-lg',
+		]"
 		(click)="appDataService.toggleLanguage()"
 	>
 		{{
