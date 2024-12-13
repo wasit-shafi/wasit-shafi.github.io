@@ -1,5 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { Component, effect, inject } from '@angular/core';
+import { IAbout } from '@models/';
+import { AppDataService, UserProfileService } from '@services/';
 
 import { Constants } from '@shared/';
 
@@ -11,4 +13,17 @@ import { Constants } from '@shared/';
 })
 export class AboutComponent {
 	public readonly constants = inject(Constants);
+	public readonly userProfileService = inject(UserProfileService);
+	public readonly appDataService = inject(AppDataService);
+
+	public aboutData!: IAbout;
+
+	constructor() {
+		effect(() => {
+			this.aboutData =
+				this.userProfileService.portfolioData()[
+					this.constants.languageCodes[this.appDataService.currentLanguage()]
+				].about;
+		});
+	}
 }

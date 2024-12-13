@@ -13,17 +13,20 @@
 		}}
 	</h3>
 
-	<div
-		class="mb-[22px] flex flex-wrap items-center justify-center gap-y-[8px]"
-		[style.direction]="'ltr'"
-	>
+	<div class="mb-[22px] flex flex-wrap items-center justify-center gap-y-[8px]">
 		<div
 			class="inline-flex flex-wrap items-center justify-center text-txtPrimary"
 		>
-			Drop&nbsp;me&nbsp;a&nbsp;line&nbsp;at&nbsp;
+			<span
+				[innerHTML]="
+					appDataService.staticData()[
+						constants.languageCodes[this.appDataService.currentLanguage()]
+					]?.dropMeLineText
+				"
+			></span>
 			<div class="inline-flex flex-wrap items-center justify-center">
 				<button
-					title="Copy e-mail id"
+					[title]="contactData.emailId.titleText"
 					class="size-[18px] cursor-pointer"
 					(click)="handleCopyEmailToClipboard(contactData.emailId.linkText)"
 				>
@@ -54,7 +57,13 @@
 		<div
 			class="inline-flex flex-wrap items-center justify-center text-txtPrimary"
 		>
-			&nbsp;or&nbsp;Call&nbsp;on&nbsp;
+			<span
+				[innerHTML]="
+					appDataService.staticData()[
+						constants.languageCodes[this.appDataService.currentLanguage()]
+					]?.orCallMeText
+				"
+			></span>
 			<a
 				class="hover:decoration text-txtQuaternary hover:underline"
 				[href]="contactData.phone.linkUrl"

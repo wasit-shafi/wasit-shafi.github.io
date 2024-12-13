@@ -15,17 +15,23 @@ export class UserProfileService {
 		codingAndSocialProfiles: [],
 		emailId: {
 			id: '',
+			titleText: '',
 			linkText: '',
 			linkUrl: '',
 		},
 		phone: {
 			id: '',
+			titleText: '',
 			linkText: '',
 			linkUrl: '',
 		},
 	};
 
 	private readonly portfolio: IPortfolio = {
+		about: {
+			greeting: '',
+			summary: [],
+		},
 		contactDetails: this.contactDetailsInitialState,
 		educationDetails: [],
 		personalProjects: [],

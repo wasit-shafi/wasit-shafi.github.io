@@ -16,7 +16,10 @@
 		personalProject of this.personalProjectsData;
 		track personalProject.id
 	) {
-		<div class="mb-4">
+		<div
+			class="mb-4"
+			[style.direction]="'ltr'"
+		>
 			<span class="font-bold text-txtPrimary">
 				{{ personalProject.projectTitle }}
 			</span>

@@ -4,6 +4,7 @@ export interface IPortfolioData {
 }
 
 export interface IPortfolio {
+	about: IAbout;
 	contactDetails: IContact;
 	educationDetails: IEducation[];
 	personalProjects: IPersonalProjects[];
@@ -97,5 +98,16 @@ interface ICodingAndSocialProfiles {
 interface IEmailOrPhone {
 	id: string;
 	linkText: string;
+	titleText: string;
 	linkUrl: string;
+}
+
+interface ISummary {
+	id: string;
+	text: string;
+}
+
+export interface IAbout {
+	greeting: string;
+	summary: ISummary[];
 }

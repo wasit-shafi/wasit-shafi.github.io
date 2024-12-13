@@ -7,7 +7,11 @@
 	<a
 		class="hover:decoration text-txtQuaternary hover:underline"
 		href="https://www.linkedin.com/in/wasitshafi"
-		title="Connect with @WasitShafi on LinkedIn"
+		[title]="
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.connectOnLinkedinInfo
+		"
 		target="_blank"
 	>
 		{{

@@ -7,6 +7,11 @@
 	<button
 		class="fixed bottom-[20px] size-[40px] rounded-full bg-bgPrimaryInverse p-[8px] ltr:right-[20px] ltr:md:right-[26px] ltr:lg:right-[80px] ltr:xl:right-[200px] ltr:2xl:right-[280px] rtl:left-[20px] rtl:md:left-[26px] rtl:lg:left-[80px] rtl:xl:left-[200px] rtl:2xl:left-[280px]"
 		(click)="appDataService.toggleCurrentThemeMode()"
+		[title]="
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.toggleThemeInfo
+		"
 	>
 		<img
 			alt="img"
@@ -29,6 +34,11 @@
 			constants.WSP + 'toggle-language',
 		]"
 		(click)="appDataService.toggleLanguage()"
+		[title]="
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.toggleLanguageInfo
+		"
 	>
 		{{
 			appDataService.currentLanguage() === constants.languages.ARABIC
