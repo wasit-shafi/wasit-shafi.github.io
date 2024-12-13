@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, effect } from '@angular/core';
 
 import { Constants } from '@shared/';
-import { UserProfileService } from '@services/';
+import { AppDataService, UserProfileService } from '@services/';
 import { IPersonalProjects } from '@models/';
 
 @Component({
@@ -15,11 +15,14 @@ export class PersonalProjectsComponent {
 	public readonly constants = inject(Constants);
 	public readonly userProfileService = inject(UserProfileService);
 	public personalProjectsData!: IPersonalProjects[];
+	public readonly appDataService = inject(AppDataService);
 
 	constructor() {
 		effect(() => {
 			this.personalProjectsData =
-				this.userProfileService.portfolioData().personalProjects;
+				this.userProfileService.portfolioData()[
+					this.constants.languageCodes[this.appDataService.currentLanguage()]
+				].personalProjects;
 		});
 	}
 }

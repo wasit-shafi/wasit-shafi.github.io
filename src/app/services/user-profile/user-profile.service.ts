@@ -1,9 +1,9 @@
 import { Injectable, WritableSignal, signal, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { forkJoin, Observable } from 'rxjs';
 
 import { Constants } from '@shared/';
-import { IPortfolio } from '@models/portfolio.interface';
+import { IPortfolio, IPortfolioData } from '@models/portfolio.interface';
 
 @Injectable({
 	providedIn: 'root',
@@ -15,16 +15,23 @@ export class UserProfileService {
 		codingAndSocialProfiles: [],
 		emailId: {
 			id: '',
+			titleText: '',
 			linkText: '',
 			linkUrl: '',
 		},
 		phone: {
 			id: '',
+			titleText: '',
 			linkText: '',
 			linkUrl: '',
 		},
 	};
-	private readonly initialState: IPortfolio = {
+
+	private readonly portfolio: IPortfolio = {
+		about: {
+			greeting: '',
+			summary: [],
+		},
 		contactDetails: this.contactDetailsInitialState,
 		educationDetails: [],
 		personalProjects: [],
@@ -32,14 +39,22 @@ export class UserProfileService {
 		workExperience: [],
 	};
 
-	public portfolioData: WritableSignal<IPortfolio> = signal(this.initialState);
+	private readonly initialState: IPortfolioData = {
+		ar: this.portfolio,
+		en: this.portfolio,
+	};
+
+	public portfolioData: WritableSignal<IPortfolioData> = signal(
+		this.initialState
+	);
 
 	constructor() {
-		this.getPortfolioData(this.constants.PORTFOLIO_DATA_URL).subscribe(
-			(response) => {
-				this.portfolioData.set(response);
-			}
-		);
+		forkJoin([
+			this.getPortfolioData(this.constants.PORTFOLIO_DATA_AR_URL),
+			this.getPortfolioData(this.constants.PORTFOLIO_DATA_EN_URL),
+		]).subscribe((response) => {
+			this.portfolioData.set({ ar: response[0], en: response[1] });
+		});
 	}
 
 	private getPortfolioData(url: string): Observable<IPortfolio> {

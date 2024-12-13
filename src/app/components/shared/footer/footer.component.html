@@ -1,15 +1,38 @@
-<p class="my-[10px] text-center text-txtPrimary">
-	Developed & Maintained by
+<p class="mb-[30px] mt-[20px] text-center text-txtPrimary">
+	{{
+		appDataService.staticData()[
+			constants.languageCodes[this.appDataService.currentLanguage()]
+		]?.designedAndMaintainedBy
+	}}
 	<a
 		class="hover:decoration text-txtQuaternary hover:underline"
 		href="https://www.linkedin.com/in/wasitshafi"
-		title="Connect with @WasitShafi on LinkedIn"
+		[title]="
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.connectOnLinkedinInfo
+		"
 		target="_blank"
 	>
-		Wasit
+		{{
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.wasit
+		}}
 	</a>
-	&copy; {{ date.getFullYear() }}
-	<span class="font-mono text-xs tracking-tighter">
-		Last&nbsp;Updated&nbsp;on&nbsp;12&nbsp;May&nbsp;2023
+	&copy;
+	{{
+		appDataService.staticData()[
+			constants.languageCodes[this.appDataService.currentLanguage()]
+		]?.currentYear
+	}}
+	<span
+		class="font-mono text-xs tracking-tighter"
+		[innerHTML]="
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.lastUpdatedInfo
+		"
+	>
 	</span>
 </p>

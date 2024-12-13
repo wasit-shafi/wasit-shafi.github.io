@@ -5,7 +5,11 @@
 	<h3
 		class="mb-[8px] text-center font-nanum-pen text-4xl font-medium text-txtPrimary"
 	>
-		Work Experience
+		{{
+			appDataService.staticData()[
+				constants.languageCodes[appDataService.currentLanguage()]
+			]?.workExperience
+		}}
 	</h3>
 	@for (workExperience of workExperiencesData; track workExperience.id) {
 		<div class="mb-4">
@@ -24,13 +28,17 @@
 					{{ workExperience.companyDetails.country }}
 				</span>
 				<span class="text-txtTernary">
-					{{
-						workExperience.isCurrentlyWorking
-							? 'Present'
-							: workExperience.startDate + ' - ' + workExperience.endDate
-					}}
+					@if (workExperience.isCurrentlyWorking) {
+						{{
+							appDataService.staticData()[
+								constants.languageCodes[this.appDataService.currentLanguage()]
+							]?.present
+						}}
+					} @else {
+						{{ workExperience.startDate + ' - ' + workExperience.endDate }}
+					}
 				</span>
 			</p>
 		</div>
-	} @empty {}
+	}
 </section>

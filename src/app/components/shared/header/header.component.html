@@ -14,7 +14,7 @@
 		[id]="menuUlId"
 		class="hidden justify-center 2xs:flex"
 	>
-		@for (menuItem of NAV_MENU_ITEMS; track menuItem.id) {
+		@for (menuItem of NAV_MENU_ITEMS; track $index) {
 			@if (menuItem.visibility) {
 				<!-- eslint-disable-next-line @angular-eslint/template/interactive-supports-focus, @angular-eslint/template/click-events-have-key-events  -->
 				<li
@@ -23,9 +23,10 @@
 				>
 					<a
 						[href]="menuItem.href"
-						class="flex items-center justify-center py-[14px] font-nanum-pen text-2xl text-txtPrimary 2xs:px-[6px] 2xs:text-xl xs:text-2xl"
+						class="flex items-center justify-center py-[14px] font-nanum-pen text-2xl text-txtPrimary underline-offset-4 transition-all hover:bg-qatar hover:text-white 2xs:px-[6px] 2xs:text-xl xs:text-2xl"
+						[ngClass]="[constants.WSP + 'nav-link']"
 					>
-						{{ menuItem.label }}
+						{{ menuItem.label[appDataService.currentLanguage()] }}
 					</a>
 				</li>
 			}

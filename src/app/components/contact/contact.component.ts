@@ -25,7 +25,10 @@ export class ContactComponent {
 
 	constructor() {
 		effect(() => {
-			this.contactData = this.userProfileService.portfolioData().contactDetails;
+			this.contactData =
+				this.userProfileService.portfolioData()[
+					this.constants.languageCodes[this.appDataService.currentLanguage()]
+				].contactDetails;
 		});
 	}
 

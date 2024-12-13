@@ -7,35 +7,15 @@
 		alt="wasit-shafi-img"
 		class="mb-[12px] inline-block size-[60px] rounded-[50%]"
 	/>
-	<!-- TODO: in some chrome browsers, it was showing it in 2 lines due to some unknown reasons, to overcome that temporarily add class whitespace-nowrap -->
+	<!-- TODO: in some browsers, it was showing it in 2 lines due to some unknown reasons, to overcome that temporarily i have added class 'whitespace-nowrap' -->
 
-	<p class="whitespace-nowrap text-2xl text-txtPrimary">👋 Hi, I'm Wasit</p>
-	<p class="text-center text-txtPrimary">
-		Currently Working as a Full Stack SDE with <b>3+ Years</b> of experience in
-		developing & delivering high-quality web applications.
+	<p class="whitespace-nowrap text-2xl text-txtPrimary">
+		{{ aboutData.greeting }}
 	</p>
-	<p class="text-center text-txtPrimary">
-		I have a keen interest in
-		<b>backend technologies & solving real-life problems</b>
-		by developing efficient, optimal & scalable solutions.
-	</p>
-	<p class="text-center text-txtPrimary">
-		I am proficient in data structures & algorithms with strong problem-solving
-		& debugging skills.
-	</p>
-	<p class="text-center text-txtPrimary">
-		<b>Trust Me!</b> I take <b>100% ownership</b> (R&D, POC, Development,
-		Deployment) of the task I pick up & pay attention to detail.
-	</p>
-	<p class="text-center text-txtPrimary">
-		Want to know more...? Have a Look at my
-		<a
-			href="https://drive.google.com/file/d/1eOz6O41hRVIyxqi8sGNHxgQbtlunMi_N"
-			title="https://drive.google.com/file/d/1eOz6O41hRVIyxqi8sGNHxgQbtlunMi_N"
-			class="hover:decoration text-txtQuaternary hover:underline"
-			target="_blank"
-		>
-			Resume
-		</a>
-	</p>
+	@for (summaryItem of aboutData.summary; track $index) {
+		<p
+			class="text-center text-txtPrimary"
+			[innerHTML]="summaryItem.text"
+		></p>
+	}
 </section>

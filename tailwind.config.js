@@ -26,6 +26,7 @@ module.exports = {
 				white: 'rgb(255 255 255 / <alpha-value>)',
 				persianGreen: 'rgb(9 166 149 / <alpha-value>)',
 				sunnyYellow: 'rgb(230 255 22 / <alpha-value>)',
+				qatar: 'rgb(138 21 56 / <alpha-value>)',
 
 				bgPrimary: 'rgb(var(--color-bg-primary)  / <alpha-value>)',
 				bgPrimaryInverse:

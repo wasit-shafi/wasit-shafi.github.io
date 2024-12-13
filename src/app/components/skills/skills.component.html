@@ -5,12 +5,19 @@
 	<h3
 		class="mb-[8px] text-center font-nanum-pen text-4xl font-medium text-txtPrimary"
 	>
-		Skills
+		{{
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.skills
+		}}
 	</h3>
 	<div class="flex flex-wrap justify-center gap-x-[10px] gap-y-[8px]">
 		@for (skillDataItem of skillsData; track $index) {
+			<!-- NOTE(WASIT): forced direction to 'ltr', otherwise say 'c++' will become '++c' when selected language is arabic -->
+
 			<span
 				class="border-black-600 block whitespace-nowrap rounded-[6px] border px-[12px] py-[2px] font-nanum-pen text-2xl text-txtSecondary"
+				[style.direction]="'ltr'"
 			>
 				{{ skillDataItem.skillName }}
 			</span>

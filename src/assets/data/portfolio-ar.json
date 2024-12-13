@@ -1,42 +1,62 @@
 {
+	"about": {
+		"greeting": "👋 مرحبًا، أنا واسط",
+		"summary": [
+			{
+				"text": "أعمل حاليًا كمهندس برمجيات متكامل مع أكثر من 3 سنوات من الخبرة في تطوير وتسليم تطبيقات الويب عالية الجودة"
+			},
+			{
+				"text": "لدي اهتمام كبير بتقنيات الواجهة الخلفية وحل المشكلات الواقعية من خلال تطوير حلول فعالة ومثالية وقابلة للتطوير"
+			},
+			{
+				"text": "أنا متمكن من هياكل البيانات والخوارزميات مع مهارات قوية في حل المشكلات وتصحيح أخطاء تطبيقات الويب"
+			},
+			{
+				"text": "ثق بي! فأنا أتحمل المسؤولية بنسبة %۱۰۰ (البحث والتطوير، وإثبات المفهوم، والتطوير، والنشر) عن المهمة التي أتولى تنفيذها وأنتبه إلى التفاصيل"
+			},
+			{
+				"text": " هل تريد أن تعرفني أكثر...؟ ألق نظرة على حسابي <a href=\"https://drive.google.com/file/d/1eOz6O41hRVIyxqi8sGNHxgQbtlunMi_N\" title=\"https://drive.google.com/file/d/1eOz6O41hRVIyxqi8sGNHxgQbtlunMi_N\" class=\"hover:decoration text-txtQuaternary hover:underline\" target=\"_blank\">سيرة ذاتية</a>"
+			}
+		]
+	},
 	"contactDetails": {
 		"codingAndSocialProfiles": [
 			{
 				"iconUrl": "assets/images/github-logo-icon.svg",
 				"id": "",
 				"linkUrl": "https://github.com/wasit-shafi",
-				"titleText": "Checkout my github profile"
+				"titleText": "تحقق من ملفي الشخصي على جيثب"
 			},
 			{
 				"iconUrl": "assets/images/linkedin-logo-icon.svg",
 				"id": "",
 				"linkUrl": "https://www.linkedin.com/in/wasit-shafi/",
-				"titleText": "Connect with me on LinkedIn"
+				"titleText": "تواصل معي على LinkedIn"
 			},
 			{
 				"iconUrl": "assets/images/stack-overflow-logo-icon.svg",
 				"id": "",
 				"linkUrl": "https://stackoverflow.com/users/10249156/wasit-shafi",
-				"titleText": "Checkout my stack overflow profile"
+				"titleText": "تحقق من ملف تعريف تجاوز سعة المكدس الخاص بي"
 			},
 			{
 				"iconLightUrl": "assets/images/leetcode-logo-light-icon.png",
 				"iconUrl": "assets/images/leetcode-logo-dark-icon.png",
 				"id": "",
 				"linkUrl": "https://leetcode.com/wasit-shafi/",
-				"titleText": "Checkout my leetcode profile"
+				"titleText": "تحقق من ملفي الشخصي في Leetcode"
 			},
 			{
 				"iconUrl": "assets/images/codechef-logo-icon.png",
 				"id": "",
 				"linkUrl": "https://www.codechef.com/users/wasit_shafi",
-				"titleText": "Checkout my codechef profile"
+				"titleText": "تحقق من ملفي الشخصي في برنامج Codechef"
 			},
 			{
 				"iconUrl": "assets/images/linktree-logo-icon.svg",
 				"id": "",
 				"linkUrl": "https://linktr.ee/wasitshafi",
-				"titleText": "Checkout Linktree Profile"
+				"titleText": "الخروج من الملف الشخصي لينكتري"
 			},
 			{
 				"iconLightUrl": "assets/images/whats-app-button-white-small.svg",
@@ -44,44 +64,36 @@
 				"iconWidth": "150",
 				"id": "",
 				"linkUrl": "https://wa.me/+919682648815?text=%5BRef%3A%20Portfolio%5D%3A%20Hello%20Wasit...",
-				"titleText": "Chat with with wasit on WhatsApp"
+				"titleText": "الدردشة مع واسط على الواتساب"
 			}
 		],
 		"emailId": {
 			"id": "",
+			"titleText": "نسخ معرف البريد الإلكتروني",
 			"linkText": "wasitshafi700@gmail.com",
 			"linkUrl": "mailto:wasitshafi700@gmail.com"
 		},
 		"phone": {
 			"id": "",
+			"titleText": "مكالمة هاتفية إلى واسط",
 			"linkText": "+91 9682648815",
 			"linkUrl": "tel:+919682648815"
 		}
 	},
 	"educationDetails": [
 		{
-			"completionDate": "Jun 2021",
-			"degree": "Master of Computer Applications",
+			"degree": "ماجستير في تطبيقات الحاسوب",
 			"id": "jmi",
 			"logoAssetUrl": "/assets/images/jamia-millia-islamia-logo-icon.svg",
-			"score": "8.6 CGPA",
-			"scoreType": "cgpa",
-			"universityLocation": "New Delhi, IN",
-			"universityLocationUrl": "https://maps.app.goo.gl/ZGAg8fw3MT1Lo7La8",
-			"universityName": "Jamia Millia Islamia",
-			"universityWebsiteUrl": "https://www.jmi.ac.in/"
+			"universityName": "الجامعة الملية الاسلامية",
+			"universityWebsiteUrl": "https://www.jmi.ac.in"
 		},
 		{
-			"completionDate": "Mar 2017",
-			"degree": "Bachelor of Computer Applications",
+			"degree": "بكالوريوس تطبيقات الحاسوب",
 			"id": "ku",
 			"logoAssetUrl": "/assets/images/university-of-kashmir-logo-icon.png",
-			"score": "71%",
-			"scoreType": "percentage",
-			"universityLocation": "J&K, IN",
-			"universityLocationUrl": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
-			"universityName": "University of Kashmir",
-			"universityWebsiteUrl": "https://www.kashmiruniversity.net/"
+			"universityName": "جامعة كشمير",
+			"universityWebsiteUrl": "https://www.kashmiruniversity.net"
 		}
 	],
 	"personalProjects": [
@@ -93,15 +105,15 @@
 			"id": "dts",
 			"projectFeatures": [
 				{
-					"description": "feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description ",
+					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج النص ",
 					"id": ""
 				},
 				{
-					"description": "feature 2 description feature 2 description feature 2 description feature 2 description",
+					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج ال",
 					"id": ""
 				},
 				{
-					"description": "feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description",
+					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج النص",
 					"id": ""
 				}
 			],
@@ -125,15 +137,15 @@
 			"id": "portfolio",
 			"projectFeatures": [
 				{
-					"description": "feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description ",
+					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج النص 1 ",
 					"id": ""
 				},
 				{
-					"description": "feature 2 description feature 2 description feature 2 description feature 2 description",
+					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج النص 1 ",
 					"id": ""
 				},
 				{
-					"description": "feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description",
+					"description": "نموذج النص 1نموذج النص 1نموذج النص 1نموذج النص 1 ",
 					"id": ""
 				}
 			],
@@ -263,39 +275,39 @@
 	"workExperience": [
 		{
 			"companyDetails": {
-				"city": "Doha",
+				"city": "الدوحة",
 				"companyName": "SuperFitout",
 				"companyWebsiteUrl": "https://www.superfitout.com",
-				"country": "Qatar"
+				"country": "قطر"
 			},
 			"id": "sf",
 			"isCurrentlyWorking": true,
-			"role": "Full Stack SDE"
+			"role": "مهندس برمجيات متكامل"
 		},
 		{
 			"companyDetails": {
-				"city": "Noida",
+				"city": "نويدا",
 				"companyName": "VectoScalar Technologies",
 				"companyWebsiteUrl": "https://vectoscalar.com/",
-				"country": "India"
+				"country": "الهند"
 			},
-			"endDate": "Aug 2022",
+			"endDate": "أغسطس ۲۰۲۲",
 			"id": "vs",
 			"isCurrentlyWorking": false,
-			"role": "Software Engineer",
-			"startDate": "April 2021"
+			"role": "مهندس برمجيات",
+			"startDate": "أبريل ٢٠٢١ "
 		},
 		{
 			"companyDetails": {
-				"city": "Noida",
+				"city": "نويدا",
 				"companyName": "VectoScalar Technologies",
 				"companyWebsiteUrl": "https://vectoscalar.com/",
-				"country": "India"
+				"country": "الهند"
 			},
-			"endDate": "Mar 2021",
+			"endDate": "مايو ٢٠٢١",
 			"isCurrentlyWorking": false,
-			"role": "Software Engineer Intern",
-			"startDate": "Jan 2021"
+			"role": "مهندس برمجيات متدرب",
+			"startDate": "يناير ٢٠٢١"
 		}
 	]
 }

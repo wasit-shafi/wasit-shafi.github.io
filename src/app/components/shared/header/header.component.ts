@@ -2,10 +2,12 @@ import { Component, inject, HostListener } from '@angular/core';
 
 import { Constants } from '@shared/';
 import { environment } from '@environments/';
+import { AppDataService } from '@services/index';
+import { CommonModule } from '@angular/common';
 
 @Component({
 	selector: 'wsp-header',
-	imports: [],
+	imports: [CommonModule],
 	templateUrl: './header.component.html',
 	styleUrl: './header.component.scss',
 })
@@ -21,6 +23,7 @@ export class HeaderComponent {
 	}
 
 	public readonly constants = inject(Constants);
+	public readonly appDataService = inject(AppDataService);
 
 	public readonly environment = environment;
 
@@ -28,48 +31,60 @@ export class HeaderComponent {
 		// ABOUT
 
 		{
-			id: '',
-			label: 'About',
+			label: {
+				[this.constants.languages.ARABIC]: 'عني',
+				[this.constants.languages.ENGLISH]: 'About',
+			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.ABOUT,
 		},
 		// EXPERIENCE
 
 		{
-			id: '',
-			label: 'Experience',
+			label: {
+				[this.constants.languages.ARABIC]: 'خبرة في العمل',
+				[this.constants.languages.ENGLISH]: 'Experience',
+			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.WORK_EXPERIENCE,
 		},
 		// PROJECTS
 
 		{
-			id: '',
-			label: 'Projects',
+			label: {
+				[this.constants.languages.ARABIC]: 'المشاريع',
+				[this.constants.languages.ENGLISH]: 'Projects',
+			},
 			visibility: !environment.production,
 			href: '#' + this.constants.homeSectionLinksId.PERSONAL_PROJECTS,
 		},
 		// SKILLS
 
 		{
-			id: '',
-			label: 'Skills',
+			label: {
+				[this.constants.languages.ARABIC]: 'مهارات',
+				[this.constants.languages.ENGLISH]: 'Skills',
+			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.SKILLS,
 		},
 		// EDUCATION
 
 		{
-			id: '',
-			label: 'Education',
+			label: {
+				[this.constants.languages.ARABIC]: 'تعليم',
+				[this.constants.languages.ENGLISH]: 'Education',
+			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.EDUCATION,
 		},
 		// CONTACT
 
 		{
-			id: '',
-			label: 'Contact',
+			label: {
+				[this.constants.languages.ARABIC]: 'اتصال',
+				[this.constants.languages.ENGLISH]: 'Contact',
+			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.CONTACT,
 		},
