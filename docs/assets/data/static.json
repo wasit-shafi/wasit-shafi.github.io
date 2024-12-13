@@ -1,0 +1,36 @@
+{
+	"ar": {
+		"connectOnLinkedinInfo": "تواصل مع واسط على LinkedIn",
+		"connectWithMe": "تواصل معي",
+		"currentYear": "۲۰۲۴",
+		"designedAndMaintainedBy": "تم تطويره وصيانته بواسطة",
+		"dropMeLineText": " يمكنك مراسلتي عبر البريد الإلكتروني",
+		"education": "تعليم",
+		"lastUpdatedInfo": "آخر تحديث في ۱۲ مايو ۲۰۲۳",
+		"orCallMeText": " أو اتصل بي هاتفيا على",
+		"personalProjects": "المشاريع الشخصية",
+		"present": "حاليا",
+		"skills": "مهارات",
+		"toggleLanguageInfo": "انقر لتغيير اللغة",
+		"toggleThemeInfo": "انقر لتغيير الثيم",
+		"wasit": "واسط",
+		"workExperience": "خبرة في العمل"
+	},
+	"en": {
+		"connectOnLinkedinInfo": "Connect with Wasit on LinkedIn",
+		"connectWithMe": "Connect With Me",
+		"currentYear": "2024",
+		"designedAndMaintainedBy": "Developed & Maintained by",
+		"dropMeLineText": "Drop&nbsp;me&nbsp;a&nbsp;line&nbsp;at&nbsp;",
+		"education": "Education",
+		"lastUpdatedInfo": "Last&nbsp;Updated&nbsp;on&nbsp;12&nbsp;May&nbsp;2023",
+		"orCallMeText": "&nbsp;or&nbsp;Call&nbsp;on&nbsp;",
+		"personalProjects": "Personal Projects",
+		"present": "Present",
+		"skills": "Skills",
+		"toggleLanguageInfo": "Click to change language",
+		"toggleThemeInfo": "Click to change theme",
+		"wasit": "Wasit",
+		"workExperience": "Work Experience"
+	}
+}
