@@ -1,20 +1,26 @@
 {
 	"ar": {
-		"workExperience": "خبرة في العمل",
-		"skills": "مهارات",
-		"personalProjects": "المشاريع الشخصية",
-		"education": "تعليم",
 		"connectWithMe": "تواصل معي",
+		"currentYear": "۲۰۲۴",
+		"designedAndMaintainedBy": "تم تطويره وصيانته بواسطة",
+		"education": "تعليم",
+		"lastUpdatedInfo": "آخر تحديث في ۱۲ مايو ۲۰۲۳",
+		"personalProjects": "المشاريع الشخصية",
+		"present": "حاليا",
+		"skills": "مهارات",
 		"wasit": "واسط",
-		"designedAndMaintainedBy": "تم تطويره وصيانته بواسطة"
+		"workExperience": "خبرة في العمل"
 	},
 	"en": {
-		"workExperience": "Work Experience",
-		"skills": "Skills",
-		"personalProjects": "Personal Projects",
-		"education": "Education",
 		"connectWithMe": "Connect With Me",
+		"currentYear": "2024",
+		"designedAndMaintainedBy": "Developed & Maintained by",
+		"education": "Education",
+		"lastUpdatedInfo": "Last&nbsp;Updated&nbsp;on&nbsp;12&nbsp;May&nbsp;2023",
+		"personalProjects": "Personal Projects",
+		"present": "Present",
+		"skills": "Skills",
 		"wasit": "Wasit",
-		"designedAndMaintainedBy": "Developed & Maintained by"
+		"workExperience": "Work Experience"
 	}
 }

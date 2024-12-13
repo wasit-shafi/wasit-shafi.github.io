@@ -7,7 +7,7 @@
 	>
 		{{
 			appDataService.staticData()[
-				constants.languageCodes[this.appDataService.currentLanguage()]
+				constants.languageCodes[appDataService.currentLanguage()]
 			]?.workExperience
 		}}
 	</h3>
@@ -28,11 +28,15 @@
 					{{ workExperience.companyDetails.country }}
 				</span>
 				<span class="text-txtTernary">
-					{{
-						workExperience.isCurrentlyWorking
-							? 'Present'
-							: workExperience.startDate + ' - ' + workExperience.endDate
-					}}
+					@if (workExperience.isCurrentlyWorking) {
+						{{
+							appDataService.staticData()[
+								constants.languageCodes[this.appDataService.currentLanguage()]
+							]?.present
+						}}
+					} @else {
+						{{ workExperience.startDate + ' - ' + workExperience.endDate }}
+					}
 				</span>
 			</p>
 		</div>

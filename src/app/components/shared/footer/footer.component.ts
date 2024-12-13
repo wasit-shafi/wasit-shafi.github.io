@@ -9,7 +9,6 @@ import { Constants } from '@shared/constants';
 	styleUrl: './footer.component.scss',
 })
 export class FooterComponent {
-	date = new Date();
 	public readonly constants = inject(Constants);
 	public readonly userProfileService = inject(UserProfileService);
 	public readonly appDataService = inject(AppDataService);

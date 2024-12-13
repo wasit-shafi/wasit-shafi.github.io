@@ -60,28 +60,18 @@
 	},
 	"educationDetails": [
 		{
-			"completionDate": "Jun 2021",
-			"degree": "Master of Computer Applications",
+			"degree": "ماجستير في تطبيقات الحاسوب",
 			"id": "jmi",
 			"logoAssetUrl": "/assets/images/jamia-millia-islamia-logo-icon.svg",
-			"score": "8.6 CGPA",
-			"scoreType": "cgpa",
-			"universityLocation": "نيودلهي، الهند",
-			"universityLocationUrl": "https://maps.app.goo.gl/ZGAg8fw3MT1Lo7La8",
-			"universityName": "Jamia Millia Islamia",
-			"universityWebsiteUrl": "https://www.jmi.ac.in/"
+			"universityName": "الجامعة الملية الاسلامية",
+			"universityWebsiteUrl": "https://www.jmi.ac.in"
 		},
 		{
-			"completionDate": "Mar 2017",
-			"degree": "Bachelor of Computer Applications",
+			"degree": "بكالوريوس تطبيقات الحاسوب",
 			"id": "ku",
 			"logoAssetUrl": "/assets/images/university-of-kashmir-logo-icon.png",
-			"score": "71%",
-			"scoreType": "percentage",
-			"universityLocation": "جامو وكشمي، الهند",
-			"universityLocationUrl": "https://maps.app.goo.gl/gANpVbFtQSpPLxMb7",
-			"universityName": "University of Kashmir",
-			"universityWebsiteUrl": "https://www.kashmiruniversity.net/"
+			"universityName": "جامعة كشمير",
+			"universityWebsiteUrl": "https://www.kashmiruniversity.net"
 		}
 	],
 	"personalProjects": [
@@ -279,11 +269,11 @@
 				"companyWebsiteUrl": "https://vectoscalar.com/",
 				"country": "الهند"
 			},
-			"endDate": "أغسطس 2022",
+			"endDate": "أغسطس ۲۰۲۲",
 			"id": "vs",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer",
-			"startDate": "أبريل 2021"
+			"startDate": "أبريل ٢٠٢١ "
 		},
 		{
 			"companyDetails": {
@@ -292,10 +282,10 @@
 				"companyWebsiteUrl": "https://vectoscalar.com/",
 				"country": "الهند"
 			},
-			"endDate": "مارس 2021",
+			"endDate": "مايو ٢٠٢١",
 			"isCurrentlyWorking": false,
 			"role": "Software Engineer Intern",
-			"startDate": "يناير 2021"
+			"startDate": "يناير ٢٠٢١"
 		}
 	]
 }

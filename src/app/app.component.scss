@@ -1,6 +1,6 @@
 @use '../main.scss' as *;
 
-.#{$class-prefix}toggle-language {
+.#{$wsp}toggle-language {
 	&:hover {
 		text-shadow:
 			0 0 10px rgba($clr-white, 1),

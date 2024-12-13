@@ -1,5 +1,5 @@
 export class Constants {
-	public readonly CLASS_PREFIX: string = 'wsp-';
+	public readonly WSP: string = 'wsp-';
 
 	// for more info refer: https://www.youtube.com/watch?v=6M9aZzm-kEc
 	// CTM: can also use Object.freeze(), instead of 'as const' but freeze() don't work with deep objects
