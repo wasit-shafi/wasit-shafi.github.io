@@ -30,7 +30,7 @@ export class WebBrowserService {
 		UNKNOWN: 'unknown-web-browser',
 	};
 
-	private browserClassName!: string;
+	public browserClassName!: string;
 
 	constructor() {
 		this.initializeBrowserClassName();
