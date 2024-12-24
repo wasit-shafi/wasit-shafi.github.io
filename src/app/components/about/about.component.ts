@@ -2,7 +2,6 @@ import { CommonModule } from '@angular/common';
 import { Component, effect, inject } from '@angular/core';
 import { IAbout } from '@models/';
 import { AppDataService, UserProfileService } from '@services/';
-
 import { Constants } from '@shared/';
 
 @Component({
@@ -12,11 +11,11 @@ import { Constants } from '@shared/';
 	styleUrl: './about.component.scss',
 })
 export class AboutComponent {
-	public readonly constants = inject(Constants);
-	public readonly userProfileService = inject(UserProfileService);
-	public readonly appDataService = inject(AppDataService);
+	protected readonly constants = inject(Constants);
+	protected readonly userProfileService = inject(UserProfileService);
+	protected readonly appDataService = inject(AppDataService);
 
-	public aboutData!: IAbout;
+	protected aboutData!: IAbout;
 
 	constructor() {
 		effect(() => {

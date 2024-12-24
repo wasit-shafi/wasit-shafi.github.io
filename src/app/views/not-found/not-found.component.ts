@@ -10,11 +10,11 @@ import { RouterLink } from '@angular/router';
 	styleUrl: './not-found.component.scss',
 })
 export class NotFoundComponent {
-	public readonly lottieCustomStyles = {
+	protected readonly lottieCustomStyles = {
 		marginLeft: '65px',
 	};
 
-	public readonly lottieAnimationOptions: AnimationOptions = {
+	protected readonly lottieAnimationOptions: AnimationOptions = {
 		path: 'assets/lottie/404-not-found-animation.json',
 	};
 }

@@ -1,11 +1,8 @@
+import { NgClass } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
-import { AppDataService, WebBrowserService } from '@services/';
-
 import { FooterComponent, HeaderComponent } from '@components/';
-import { NgClass } from '@angular/common';
-
+import { AppDataService, WebBrowserService } from '@services/';
 import { Constants } from '@shared/constants';
 
 @Component({
@@ -15,7 +12,7 @@ import { Constants } from '@shared/constants';
 	styleUrl: './app.component.scss',
 })
 export class AppComponent {
-	public readonly appDataService = inject(AppDataService);
-	public readonly constants = inject(Constants);
-	public readonly webBrowser = inject(WebBrowserService);
+	protected readonly appDataService = inject(AppDataService);
+	protected readonly constants = inject(Constants);
+	protected readonly webBrowser = inject(WebBrowserService);
 }

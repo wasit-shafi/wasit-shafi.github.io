@@ -1,9 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component, effect, inject } from '@angular/core';
-
-import { Constants } from '@shared/';
-import { UserProfileService, AppDataService } from '@services/';
 import { IWorkExperience } from '@models/';
+import { AppDataService, UserProfileService } from '@services/';
+import { Constants } from '@shared/';
 
 @Component({
 	selector: 'wsp-work-experiences',
@@ -12,11 +11,11 @@ import { IWorkExperience } from '@models/';
 	styleUrl: './work-experiences.component.scss',
 })
 export class WorkExperiencesComponent {
-	public readonly constants = inject(Constants);
-	public readonly userProfileService = inject(UserProfileService);
-	public readonly appDataService = inject(AppDataService);
+	protected readonly constants = inject(Constants);
+	protected readonly userProfileService = inject(UserProfileService);
+	protected readonly appDataService = inject(AppDataService);
 
-	public workExperiencesData!: IWorkExperience[];
+	protected workExperiencesData!: IWorkExperience[];
 
 	constructor() {
 		effect(() => {
