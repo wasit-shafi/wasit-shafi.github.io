@@ -1,12 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { Component, effect, inject } from '@angular/core';
-
-import { Constants } from '@shared/';
-
-import { navigatorUtils } from '@utils/';
-
-import { AppDataService, UserProfileService } from '@services/';
 import { IContact } from '@models/portfolio.interface';
+import { AppDataService, UserProfileService } from '@services/';
+import { Constants } from '@shared/';
+import { navigatorUtils } from '@utils/';
 
 @Component({
 	selector: 'wsp-contact',
@@ -15,12 +12,12 @@ import { IContact } from '@models/portfolio.interface';
 	styleUrl: './contact.component.scss',
 })
 export class ContactComponent {
-	public readonly constants = inject(Constants);
-	public readonly appDataService = inject(AppDataService);
-	public readonly userProfileService = inject(UserProfileService);
-	public readonly DEFAULT_ICON_WIDTH_IN_PX = 36;
+	protected readonly constants = inject(Constants);
+	protected readonly appDataService = inject(AppDataService);
+	protected readonly userProfileService = inject(UserProfileService);
+	protected readonly DEFAULT_ICON_WIDTH_IN_PX = 36;
 
-	public contactData: IContact =
+	protected contactData: IContact =
 		this.userProfileService.contactDetailsInitialState;
 
 	constructor() {
@@ -32,7 +29,7 @@ export class ContactComponent {
 		});
 	}
 
-	public handleCopyEmailToClipboard(emailId: string = '') {
+	protected handleCopyEmailToClipboard(emailId: string = ''): void {
 		navigatorUtils.handleCopyTextToClipboard(emailId);
 	}
 }

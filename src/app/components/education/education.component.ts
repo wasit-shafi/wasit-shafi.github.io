@@ -1,9 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component, effect, inject } from '@angular/core';
-
-import { Constants } from '@shared/';
-import { UserProfileService, AppDataService } from '@services/';
 import { IEducation } from '@models/portfolio.interface';
+import { AppDataService, UserProfileService } from '@services/';
+import { Constants } from '@shared/';
 
 @Component({
 	selector: 'wsp-education',
@@ -12,11 +11,11 @@ import { IEducation } from '@models/portfolio.interface';
 	styleUrl: './education.component.scss',
 })
 export class EducationComponent {
-	public readonly constants = inject(Constants);
-	public readonly userProfileService = inject(UserProfileService);
-	public readonly appDataService = inject(AppDataService);
+	protected readonly constants = inject(Constants);
+	protected readonly userProfileService = inject(UserProfileService);
+	protected readonly appDataService = inject(AppDataService);
 
-	public educationData!: IEducation[];
+	protected educationData!: IEducation[];
 
 	constructor() {
 		effect(() => {

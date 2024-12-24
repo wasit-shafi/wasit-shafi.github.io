@@ -1,9 +1,8 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject, effect } from '@angular/core';
-
-import { Constants } from '@shared/';
-import { AppDataService, UserProfileService } from '@services/';
+import { Component, effect, inject } from '@angular/core';
 import { IPersonalProjects } from '@models/';
+import { AppDataService, UserProfileService } from '@services/';
+import { Constants } from '@shared/';
 
 @Component({
 	selector: 'wsp-personal-projects',
@@ -12,10 +11,10 @@ import { IPersonalProjects } from '@models/';
 	styleUrl: './personal-projects.component.scss',
 })
 export class PersonalProjectsComponent {
-	public readonly constants = inject(Constants);
-	public readonly userProfileService = inject(UserProfileService);
-	public personalProjectsData!: IPersonalProjects[];
-	public readonly appDataService = inject(AppDataService);
+	protected readonly constants = inject(Constants);
+	protected readonly userProfileService = inject(UserProfileService);
+	protected personalProjectsData!: IPersonalProjects[];
+	protected readonly appDataService = inject(AppDataService);
 
 	constructor() {
 		effect(() => {

@@ -1,16 +1,17 @@
-import { Injectable, WritableSignal, signal, inject } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { forkJoin, Observable } from 'rxjs';
 
-import { Constants } from '@shared/';
+import { HttpClient } from '@angular/common/http';
+import { inject, Injectable, signal, WritableSignal } from '@angular/core';
 import { IPortfolio, IPortfolioData } from '@models/portfolio.interface';
+import { Constants } from '@shared/';
 
 @Injectable({
 	providedIn: 'root',
 })
 export class UserProfileService {
-	public readonly constants = inject(Constants);
-	public readonly http = inject(HttpClient);
+	protected readonly constants = inject(Constants);
+	protected readonly http = inject(HttpClient);
+
 	public readonly contactDetailsInitialState = {
 		codingAndSocialProfiles: [],
 		emailId: {

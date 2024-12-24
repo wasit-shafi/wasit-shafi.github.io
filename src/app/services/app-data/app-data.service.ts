@@ -1,32 +1,30 @@
 import { DOCUMENT } from '@angular/common';
+import { HttpClient } from '@angular/common/http';
 import {
 	Inject,
-	Injectable,
-	WritableSignal,
 	inject,
+	Injectable,
 	signal,
+	WritableSignal,
 } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Meta } from '@angular/platform-browser';
-
 import { Constants } from '@app/shared';
-
 import { environment } from '@environments/';
 
 @Injectable({
 	providedIn: 'root',
 })
 export class AppDataService {
-	public readonly meta = inject(Meta);
-	public readonly constants = inject(Constants);
+	private readonly http = inject(HttpClient);
+	protected readonly constants = inject(Constants);
+	protected readonly meta = inject(Meta);
 
 	// by default light theme is enabled, should be private don't expose it
-	public isDarkCurrentTheme: WritableSignal<boolean> = signal(false);
+	public readonly isDarkCurrentTheme: WritableSignal<boolean> = signal(false);
 	public readonly currentLanguage: WritableSignal<number> = signal(-1);
-	private readonly http = inject(HttpClient);
 	public readonly staticData: WritableSignal<any> = signal({});
 
-	constructor(@Inject(DOCUMENT) private document: Document) {
+	constructor(@Inject(DOCUMENT) private readonly document: Document) {
 		this.initializeApp();
 	}
 

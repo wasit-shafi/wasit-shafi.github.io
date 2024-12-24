@@ -1,9 +1,8 @@
-import { Component, inject, HostListener } from '@angular/core';
-
-import { Constants } from '@shared/';
+import { CommonModule } from '@angular/common';
+import { Component, HostListener, inject } from '@angular/core';
 import { environment } from '@environments/';
 import { AppDataService } from '@services/index';
-import { CommonModule } from '@angular/common';
+import { Constants } from '@shared/';
 
 @Component({
 	selector: 'wsp-header',
@@ -12,22 +11,22 @@ import { CommonModule } from '@angular/common';
 	styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-	public readonly menuUlId = 'menu-ul';
-	public readonly menuTogglerId = 'menu-toggler';
+	protected readonly menuUlId = 'menu-ul';
+	protected readonly menuTogglerId = 'menu-toggler';
 
 	@HostListener('window:resize', ['$event'])
-	onWindowResize(event: Event) {
+	onWindowResize(event: Event): void {
 		const { innerWidth = 0 } = event.target as Window;
 
 		this.handleNavbarLayoutChange({ innerWidth });
 	}
 
-	public readonly constants = inject(Constants);
-	public readonly appDataService = inject(AppDataService);
+	protected readonly constants = inject(Constants);
+	protected readonly appDataService = inject(AppDataService);
 
-	public readonly environment = environment;
+	protected readonly environment = environment;
 
-	public readonly NAV_MENU_ITEMS = [
+	protected readonly NAV_MENU_ITEMS = [
 		// ABOUT
 
 		{
@@ -90,7 +89,7 @@ export class HeaderComponent {
 		},
 	];
 
-	public handleNavItemClick(): void {
+	protected handleNavItemClick(): void {
 		this.handleNavbarLayoutChange({
 			innerWidth: window.innerWidth ?? 0,
 		});
@@ -130,7 +129,7 @@ export class HeaderComponent {
 		}
 	}
 
-	handleNavMenuToggle() {
+	handleNavMenuToggle(): void {
 		let menuUlDisplay = '';
 		let menuTogglerBackgroundImage = '';
 

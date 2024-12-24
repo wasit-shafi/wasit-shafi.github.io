@@ -1,7 +1,4 @@
 import { Component, inject } from '@angular/core';
-
-import { AppDataService } from '@services/';
-
 import {
 	AboutComponent,
 	ContactComponent,
@@ -10,6 +7,7 @@ import {
 	SkillsComponent,
 	WorkExperiencesComponent,
 } from '@components/';
+import { AppDataService } from '@services/';
 
 @Component({
 	selector: 'wsp-home',
@@ -25,7 +23,7 @@ import {
 	styleUrl: './home.component.scss',
 })
 export class HomeComponent {
-	public readonly appDataService = inject(AppDataService);
+	protected readonly appDataService = inject(AppDataService);
 
 	handleThemeModeChange(): void {
 		this.appDataService.toggleCurrentThemeMode();

@@ -9,7 +9,7 @@ import { Constants } from '@shared/constants';
 	styleUrl: './footer.component.scss',
 })
 export class FooterComponent {
-	public readonly constants = inject(Constants);
-	public readonly userProfileService = inject(UserProfileService);
-	public readonly appDataService = inject(AppDataService);
+	protected readonly constants = inject(Constants);
+	protected readonly userProfileService = inject(UserProfileService);
+	protected readonly appDataService = inject(AppDataService);
 }
