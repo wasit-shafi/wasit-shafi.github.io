@@ -14,8 +14,8 @@
 		"
 	>
 		<img
-			alt="img"
 			class="size-full"
+			alt="img"
 			[src]="
 				'../../../../assets/images/' +
 				(appDataService.isDarkCurrentTheme()
@@ -27,8 +27,8 @@
 	</button>
 
 	<button
-		type="button"
 		class="transition-property fixed top-1/2 rotate-180 bg-qatar/90 py-3 text-white duration-500 hover:bg-qatar/100 ltr:left-0 ltr:rounded-l-lg ltr:text-xl rtl:right-0 rtl:rounded-r-lg rtl:text-lg"
+		type="button"
 		[ngClass]="[
 			'[writing-mode:vertical-lr]',
 			webBrowser.isFirefox() ? 'rtl:pl-3' : 'rtl:pl-1',
