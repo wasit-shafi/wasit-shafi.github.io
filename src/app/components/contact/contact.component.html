@@ -90,17 +90,18 @@
 				<img
 					class="h-[36px] cursor-pointer"
 					alt="img"
-					[src]="
+					[ngSrc]="
 						appDataService.isDarkCurrentTheme() &&
 						codingAndSocialProfilesData.iconLightUrl
 							? codingAndSocialProfilesData.iconLightUrl
 							: codingAndSocialProfilesData.iconUrl
 					"
-					[style.width.px]="
+					[width]="
 						codingAndSocialProfilesData.iconWidth
 							? codingAndSocialProfilesData.iconWidth
 							: DEFAULT_ICON_WIDTH_IN_PX
 					"
+					height="36"
 				/>
 			</a>
 		}

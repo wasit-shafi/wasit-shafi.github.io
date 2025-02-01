@@ -1,4 +1,4 @@
-import { NgClass } from '@angular/common';
+import { NgClass, NgOptimizedImage } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FooterComponent, HeaderComponent } from '@components/';
@@ -7,7 +7,13 @@ import { Constants } from '@shared/constants';
 
 @Component({
 	selector: 'wsp-root',
-	imports: [RouterOutlet, HeaderComponent, FooterComponent, NgClass],
+	imports: [
+		RouterOutlet,
+		HeaderComponent,
+		FooterComponent,
+		NgClass,
+		NgOptimizedImage,
+	],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.scss',
 })
