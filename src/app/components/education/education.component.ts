@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Component, effect, inject } from '@angular/core';
 import { IEducation } from '@models/portfolio.interface';
 import { AppDataService, UserProfileService } from '@services/';
@@ -6,7 +6,7 @@ import { Constants } from '@shared/';
 
 @Component({
 	selector: 'wsp-education',
-	imports: [CommonModule],
+	imports: [CommonModule, NgOptimizedImage],
 	templateUrl: './education.component.html',
 	styleUrl: './education.component.scss',
 })

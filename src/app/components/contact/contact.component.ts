@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Component, effect, inject } from '@angular/core';
 import { IContact } from '@models/portfolio.interface';
 import { AppDataService, UserProfileService } from '@services/';
@@ -7,7 +7,7 @@ import { navigatorUtils } from '@utils/';
 
 @Component({
 	selector: 'wsp-contact',
-	imports: [CommonModule],
+	imports: [CommonModule, NgOptimizedImage],
 	templateUrl: './contact.component.html',
 	styleUrl: './contact.component.scss',
 })

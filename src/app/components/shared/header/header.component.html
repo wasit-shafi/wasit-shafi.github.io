@@ -3,27 +3,27 @@
 >
 	<div class="flex 2xs:hidden">
 		<button
+			class="my-[14px] inline-block size-[26px] bg-[url('assets/images/menu-icon.svg')] bg-contain ltr:ml-[auto] ltr:mr-[16px] rtl:ml-[16px] rtl:mr-[auto]"
 			aria-label="Toggle Nav Menu"
 			[id]="menuTogglerId"
 			(click)="handleNavMenuToggle()"
-			class="my-[14px] inline-block size-[26px] bg-[url('assets/images/menu-icon.svg')] bg-contain ltr:ml-[auto] ltr:mr-[16px] rtl:ml-[16px] rtl:mr-[auto]"
 		></button>
 	</div>
 
 	<ul
-		[id]="menuUlId"
 		class="hidden justify-center 2xs:flex"
+		[id]="menuUlId"
 	>
 		@for (menuItem of NAV_MENU_ITEMS; track $index) {
 			@if (menuItem.visibility) {
 				<!-- eslint-disable-next-line @angular-eslint/template/interactive-supports-focus, @angular-eslint/template/click-events-have-key-events  -->
 				<li
-					class=""
+					class
 					(click)="handleNavItemClick()"
 				>
 					<a
-						[href]="menuItem.href"
 						class="flex items-center justify-center py-[14px] font-nanum-pen text-2xl text-txtPrimary underline-offset-4 transition-all hover:bg-qatar hover:text-white 2xs:px-[6px] 2xs:text-xl xs:text-2xl"
+						[href]="menuItem.href"
 						[ngClass]="[constants.WSP + 'nav-link']"
 					>
 						{{ menuItem.label[appDataService.currentLanguage()] }}

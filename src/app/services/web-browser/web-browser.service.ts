@@ -67,7 +67,7 @@ export class WebBrowserService {
 	// https://www.browserstack.com/guide/create-browser-specific-css
 
 	public whichBrowser(): string {
-		let browserName = '';
+		let browserName;
 		if (this.isFirefox()) {
 			browserName = this.browserNamesList.FIREFOX;
 		} else if (this.isEdge()) {
