@@ -1,6 +1,6 @@
 node_modules
 docs
-.vscode
+# .vscode
 .angular
 .idea
 package-lock.json
