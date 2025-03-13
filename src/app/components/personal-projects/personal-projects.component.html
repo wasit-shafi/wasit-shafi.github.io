@@ -31,7 +31,7 @@
 			>
 				{{ personalProject.deployment.linkText }}
 			</a>
-			<span class="border">
+			<span class="">
 				@for (sourceCodeUrl of personalProject.sourceCodeUrl; track $index) {
 					<a
 						class="hover:decoration mx-2 text-txtQuaternary hover:underline"
@@ -43,14 +43,6 @@
 					</a>
 				}
 			</span>
-			<ul>
-				@for (
-					projectFeatures of personalProject.projectFeatures;
-					track $index
-				) {
-					<li class="text-txtSecondary">* {{ projectFeatures.description }}</li>
-				}
-			</ul>
 		</div>
 	}
 </section>
