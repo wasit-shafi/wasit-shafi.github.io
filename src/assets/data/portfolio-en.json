@@ -3,7 +3,7 @@
 		"greeting": "👋 Hi, I'm Wasit",
 		"summary": [
 			{
-				"text": "Currently Working as a Full Stack SDE with <b>3+ Years</b> of experience in developing & delivering high-quality web applications."
+				"text": "Full Stack Software Development Engineer with <b>3+ Years</b> of experience in developing & delivering high-quality web applications."
 			},
 			{
 				"text": "I have a keen interest in <b>backend technologies & solving real-life problems</b> by developing efficient, optimal & scalable solutions."
@@ -15,7 +15,7 @@
 				"text": "<b>Trust Me!</b> I take <b>100% ownership</b> (R&D, POC, Development, Deployment) of the task I pick up & pay attention to detail."
 			},
 			{
-				"text": "Want to know more...? Have a Look at my <a href=\"https://drive.google.com/file/d/1eOz6O41hRVIyxqi8sGNHxgQbtlunMi_N\" title=\"https://drive.google.com/file/d/1eOz6O41hRVIyxqi8sGNHxgQbtlunMi_N\" class=\"hover:decoration text-txtQuaternary hover:underline\" target=\"_blank\">Resume</a>"
+				"text": "Want to know more...? Have a Look at my <a href=\"https://drive.google.com/file/d/1puidKqUIbxl5Bjpjalt8C-07qiCoASng\" title=\"https://drive.google.com/file/d/1puidKqUIbxl5Bjpjalt8C-07qiCoASng\" class=\"hover:decoration text-txtQuaternary hover:underline\" target=\"_blank\">Resume</a> (In-Depth <b>Work Experience</b>/<b>Personal Projects</b> Sections)"
 			}
 		]
 	},
@@ -103,20 +103,6 @@
 				"url": "https://dev-tools-studio.com"
 			},
 			"id": "dts",
-			"projectFeatures": [
-				{
-					"description": "feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description ",
-					"id": ""
-				},
-				{
-					"description": "feature 2 description feature 2 description feature 2 description feature 2 description",
-					"id": ""
-				},
-				{
-					"description": "feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description",
-					"id": ""
-				}
-			],
 			"projectTitle": "Dev Tools Studio",
 			"sourceCodeUrl": [
 				{
@@ -135,20 +121,6 @@
 				"url": "https://wasit-shafi.github.io"
 			},
 			"id": "portfolio",
-			"projectFeatures": [
-				{
-					"description": "feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description feature 1 description ",
-					"id": ""
-				},
-				{
-					"description": "feature 2 description feature 2 description feature 2 description feature 2 description",
-					"id": ""
-				},
-				{
-					"description": "feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description feature 3 description",
-					"id": ""
-				}
-			],
 			"projectTitle": "Personal Portfolio Website",
 			"sourceCodeUrl": [
 				{

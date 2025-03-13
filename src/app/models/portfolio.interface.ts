@@ -45,7 +45,6 @@ export interface ISkills {
 export interface IPersonalProjects {
 	id: string;
 	deployment: IDeployment;
-	projectFeatures: IProjectFeatures[];
 	projectTitle: string;
 	sourceCodeUrl: ISourceCodeUrl[];
 }
@@ -53,11 +52,6 @@ export interface IPersonalProjects {
 interface IDeployment {
 	linkText: string;
 	url: string;
-}
-
-interface IProjectFeatures {
-	description: string;
-	id: string;
 }
 
 interface ISourceCodeUrl {

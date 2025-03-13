@@ -1,8 +1,8 @@
+import { AppDataService, UserProfileService } from '@services/';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Component, effect, inject } from '@angular/core';
-import { IAbout } from '@models/';
-import { AppDataService, UserProfileService } from '@services/';
 import { Constants } from '@shared/';
+import { IAbout } from '@models/';
 
 @Component({
 	selector: 'wsp-about',

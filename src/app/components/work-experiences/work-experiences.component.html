@@ -27,7 +27,10 @@
 					{{ workExperience.companyDetails.city }},
 					{{ workExperience.companyDetails.country }}
 				</span>
-				<span class="text-txtTernary">
+				<span
+					class="text-txtTernary"
+					[ngClass]="{ hidden: workExperience.isCurrentlyWorking }"
+				>
 					@if (workExperience.isCurrentlyWorking) {
 						{{
 							appDataService.staticData()[
