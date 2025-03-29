@@ -16,10 +16,7 @@ export interface IPortfolio {
 export interface IWorkExperience {
 	companyDetails: ICompanyDetails;
 	id: string;
-	isCurrentlyWorking: boolean;
 	role: string;
-	startDate: string;
-	endDate?: string;
 	workContributions: IWorkContributions[];
 }
 

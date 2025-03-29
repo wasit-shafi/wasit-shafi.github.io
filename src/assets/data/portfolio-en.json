@@ -253,33 +253,26 @@
 				"country": "Qatar"
 			},
 			"id": "sf",
-			"isCurrentlyWorking": true,
 			"role": "Full Stack SDE"
 		},
 		{
 			"companyDetails": {
 				"city": "Noida",
 				"companyName": "VectoScalar Technologies",
-				"companyWebsiteUrl": "https://vectoscalar.com/",
+				"companyWebsiteUrl": "https://vectoscalar.com",
 				"country": "India"
 			},
-			"endDate": "Aug 2022",
 			"id": "vs",
-			"isCurrentlyWorking": false,
-			"role": "Software Engineer",
-			"startDate": "April 2021"
+			"role": "Software Engineer"
 		},
 		{
 			"companyDetails": {
 				"city": "Noida",
 				"companyName": "VectoScalar Technologies",
-				"companyWebsiteUrl": "https://vectoscalar.com/",
+				"companyWebsiteUrl": "https://vectoscalar.com",
 				"country": "India"
 			},
-			"endDate": "Mar 2021",
-			"isCurrentlyWorking": false,
-			"role": "Software Engineer Intern",
-			"startDate": "Jan 2021"
+			"role": "Software Engineer Intern"
 		}
 	]
 }

@@ -12,36 +12,22 @@
 		}}
 	</h3>
 	@for (workExperience of workExperiencesData; track workExperience.id) {
-		<div class="mb-4">
-			<span class="font-bold text-txtPrimary">{{ workExperience.role }},</span>
+		<div class="mb-4 flex flex-wrap">
+			<span class="mr-1 font-bold text-txtPrimary">
+				{{ workExperience.role }}
+			</span>
 			<a
-				class="hover:decoration text-txtQuaternary hover:underline"
+				class="hover:decoration mr-3 text-txtQuaternary hover:underline"
 				[href]="workExperience.companyDetails.companyWebsiteUrl"
 				[title]="workExperience.companyDetails.companyWebsiteUrl"
 				target="_blank"
 			>
 				{{ workExperience.companyDetails.companyName }}
 			</a>
-			<p class="flex justify-between">
-				<span class="text-txtTernary">
-					{{ workExperience.companyDetails.city }},
-					{{ workExperience.companyDetails.country }}
-				</span>
-				<span
-					class="text-txtTernary"
-					[ngClass]="{ hidden: workExperience.isCurrentlyWorking }"
-				>
-					@if (workExperience.isCurrentlyWorking) {
-						{{
-							appDataService.staticData()[
-								constants.languageCodes[this.appDataService.currentLanguage()]
-							]?.present
-						}}
-					} @else {
-						{{ workExperience.startDate + ' - ' + workExperience.endDate }}
-					}
-				</span>
-			</p>
+			<span class="ml-auto text-txtTernary">
+				{{ workExperience.companyDetails.city }},
+				{{ workExperience.companyDetails.country }}
+			</span>
 		</div>
 	}
 </section>
