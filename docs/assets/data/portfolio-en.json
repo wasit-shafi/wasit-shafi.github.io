@@ -53,12 +53,6 @@
 				"titleText": "Checkout my codechef profile"
 			},
 			{
-				"iconUrl": "assets/images/linktree-logo-icon.svg",
-				"id": "",
-				"linkUrl": "https://linktr.ee/wasitshafi",
-				"titleText": "Checkout Linktree Profile"
-			},
-			{
 				"iconLightUrl": "assets/images/whats-app-button-white-small.svg",
 				"iconUrl": "assets/images/whats-app-button-green-small.svg",
 				"iconWidth": "150",

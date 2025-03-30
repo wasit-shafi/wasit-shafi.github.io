@@ -53,12 +53,6 @@
 				"titleText": "تحقق من ملفي الشخصي في برنامج Codechef"
 			},
 			{
-				"iconUrl": "assets/images/linktree-logo-icon.svg",
-				"id": "",
-				"linkUrl": "https://linktr.ee/wasitshafi",
-				"titleText": "الخروج من الملف الشخصي لينكتري"
-			},
-			{
 				"iconLightUrl": "assets/images/whats-app-button-white-small.svg",
 				"iconUrl": "assets/images/whats-app-button-green-small.svg",
 				"iconWidth": "150",
