@@ -30,7 +30,7 @@
 			{
 				"iconUrl": "assets/images/linkedin-logo-icon.svg",
 				"id": "",
-				"linkUrl": "https://www.linkedin.com/in/wasit-shafi/",
+				"linkUrl": "https://www.linkedin.com/in/wasit-shafi/?locale=ar_AE",
 				"titleText": "تواصل معي على LinkedIn"
 			},
 			{
@@ -69,7 +69,7 @@
 		],
 		"emailId": {
 			"id": "",
-			"titleText": "نسخ معرف البريد الإلكتروني",
+			"titleText": "انقر هنا لنسخ معرف البريد الإلكتروني",
 			"linkText": "wasitshafi700@gmail.com",
 			"linkUrl": "mailto:wasitshafi700@gmail.com"
 		},
@@ -145,7 +145,7 @@
 		},
 		{
 			"id": "",
-			"skillName": "Express.js"
+			"skillName": "Express"
 		},
 		{
 			"id": "",
@@ -153,23 +153,43 @@
 		},
 		{
 			"id": "",
-			"skillName": "Node.js"
+			"skillName": "Node"
 		},
 		{
 			"id": "",
-			"skillName": "Tailwind CSS"
+			"skillName": "RESTful API Design & Development"
+		},
+		{
+			"id": "",
+			"skillName": "SQL"
+		},
+		{
+			"id": "",
+			"skillName": "Mongoose"
+		},
+		{
+			"id": "",
+			"skillName": "BullMQ"
+		},
+		{
+			"id": "",
+			"skillName": "Redis"
+		},
+		{
+			"id": "",
+			"skillName": "Docker"
+		},
+		{
+			"id": "",
+			"skillName": "Kubernetes"
+		},
+		{
+			"id": "",
+			"skillName": "AWS"
 		},
 		{
 			"id": "",
 			"skillName": "NgRx"
-		},
-		{
-			"id": "",
-			"skillName": "React.js"
-		},
-		{
-			"id": "",
-			"skillName": "Electron.js"
 		},
 		{
 			"id": "",
@@ -181,43 +201,15 @@
 		},
 		{
 			"id": "",
-			"skillName": "Mongoose"
+			"skillName": "CI/CD"
 		},
 		{
 			"id": "",
-			"skillName": "AWS"
+			"skillName": "Web Sockets"
 		},
 		{
 			"id": "",
-			"skillName": "NGINX"
-		},
-		{
-			"id": "",
-			"skillName": "Docker"
-		},
-		{
-			"id": "",
-			"skillName": "SQL"
-		},
-		{
-			"id": "",
-			"skillName": "Java"
-		},
-		{
-			"id": "",
-			"skillName": "C++"
-		},
-		{
-			"id": "",
-			"skillName": "C"
-		},
-		{
-			"id": "",
-			"skillName": "Redux"
-		},
-		{
-			"id": "",
-			"skillName": "MobX-State-Tree"
+			"skillName": "Electron"
 		},
 		{
 			"id": "",
@@ -233,7 +225,15 @@
 		},
 		{
 			"id": "",
-			"skillName": "Python"
+			"skillName": "Tailwind CSS"
+		},
+		{
+			"id": "",
+			"skillName": "Bootstrap 5"
+		},
+		{
+			"id": "",
+			"skillName": "React"
 		},
 		{
 			"id": "",
@@ -241,7 +241,19 @@
 		},
 		{
 			"id": "",
-			"skillName": "Socket.io"
+			"skillName": "JAVA"
+		},
+		{
+			"id": "",
+			"skillName": "C"
+		},
+		{
+			"id": "",
+			"skillName": "C++"
+		},
+		{
+			"id": "",
+			"skillName": "Python"
 		}
 	],
 	"workExperience": [
