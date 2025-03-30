@@ -6,7 +6,12 @@
 	}}
 	<a
 		class="hover:decoration text-txtQuaternary hover:underline"
-		href="https://www.linkedin.com/in/wasitshafi"
+		[href]="
+			'https://www.linkedin.com/in/wasit-shafi' +
+			(appDataService.currentLanguage() === constants.languages.ARABIC
+				? '/?locale=ar_AE'
+				: '')
+		"
 		[title]="
 			appDataService.staticData()[
 				constants.languageCodes[this.appDataService.currentLanguage()]
