@@ -12,6 +12,9 @@ module.exports = {
 			'2xs': '413px',
 			xs: '526px',
 			...defaultTheme.screens,
+			'3xl': '1792px',
+			'4xl': '2048px',
+			'5xl': '2304px',
 		},
 		extend: {
 			opacity: {
