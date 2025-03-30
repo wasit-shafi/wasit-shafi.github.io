@@ -2,50 +2,51 @@
 	<wsp-header></wsp-header>
 	<router-outlet></router-outlet>
 	<wsp-footer></wsp-footer>
-	<!-- app theme toggler button -->
-
-	<button
-		class="fixed bottom-[20px] rounded-full bg-bgPrimaryInverse p-[8px] ltr:right-[20px] ltr:md:right-[26px] ltr:lg:right-[80px] ltr:xl:right-[200px] ltr:2xl:right-[280px] rtl:left-[20px] rtl:md:left-[26px] rtl:lg:left-[80px] rtl:xl:left-[200px] rtl:2xl:left-[280px]"
-		(click)="appDataService.toggleCurrentThemeMode()"
-		[title]="
-			appDataService.staticData()[
-				constants.languageCodes[this.appDataService.currentLanguage()]
-			]?.toggleThemeInfo
-		"
-	>
-		<img
-			alt="img"
-			[ngSrc]="
-				'../../../../assets/images/' +
-				(appDataService.isDarkCurrentTheme()
-					? 'sun-dark-icon'
-					: 'moon-light-icon') +
-				'.svg'
-			"
-			width="24"
-			height="24"
-		/>
-	</button>
-
-	<button
-		class="transition-property fixed top-1/2 rotate-180 bg-qatar/90 py-3 text-white duration-500 hover:bg-qatar/100 ltr:left-0 ltr:rounded-l-lg ltr:text-xl rtl:right-0 rtl:rounded-r-lg rtl:text-lg"
-		type="button"
-		[ngClass]="[
-			'[writing-mode:vertical-lr]',
-			webBrowser.isFirefox() ? 'rtl:pl-3' : 'rtl:pl-1',
-			constants.WSP + 'toggle-language',
-		]"
-		(click)="appDataService.toggleLanguage()"
-		[title]="
-			appDataService.staticData()[
-				constants.languageCodes[this.appDataService.currentLanguage()]
-			]?.toggleLanguageInfo
-		"
-	>
-		{{
-			appDataService.currentLanguage() === constants.languages.ARABIC
-				? 'English'
-				: 'عربي'
-		}}
-	</button>
 </main>
+<!-- language toggler -->
+
+<button
+	class="transition-property fixed top-1/2 rotate-180 bg-qatar/90 py-3 text-white duration-500 hover:bg-qatar/100 ltr:left-0 ltr:rounded-l-lg ltr:text-xl rtl:right-0 rtl:rounded-r-lg rtl:text-lg"
+	type="button"
+	[ngClass]="[
+		'[writing-mode:vertical-lr]',
+		webBrowser.isFirefox() ? 'rtl:pl-3' : 'rtl:pl-1',
+		constants.WSP + 'toggle-language',
+	]"
+	(click)="appDataService.toggleLanguage()"
+	[title]="
+		appDataService.staticData()[
+			constants.languageCodes[this.appDataService.currentLanguage()]
+		]?.toggleLanguageInfo
+	"
+>
+	{{
+		appDataService.currentLanguage() === constants.languages.ARABIC
+			? 'English'
+			: 'عربي'
+	}}
+</button>
+<!-- theme toggler -->
+
+<button
+	class="ltr:3xl:right-[460px] ltr:4xl:right-[600px] ltr:5xl:right-[720px] rtl:3xl:left-[460px] rtl:4xl:left-[600px] rtl:5xl:left-[720px] fixed bottom-[20px] rounded-full bg-bgPrimaryInverse p-[8px] ltr:right-[20px] ltr:md:right-[26px] ltr:lg:right-[80px] ltr:xl:right-[200px] ltr:2xl:right-[320px] rtl:left-[20px] rtl:md:left-[26px] rtl:lg:left-[80px] rtl:xl:left-[200px] rtl:2xl:left-[320px]"
+	(click)="appDataService.toggleCurrentThemeMode()"
+	[title]="
+		appDataService.staticData()[
+			constants.languageCodes[this.appDataService.currentLanguage()]
+		]?.toggleThemeInfo
+	"
+>
+	<img
+		alt="img"
+		[ngSrc]="
+			'../../../../assets/images/' +
+			(appDataService.isDarkCurrentTheme()
+				? 'sun-dark-icon'
+				: 'moon-light-icon') +
+			'.svg'
+		"
+		width="24"
+		height="24"
+	/>
+</button>
