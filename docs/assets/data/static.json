@@ -1,11 +1,13 @@
 {
 	"ar": {
+		"clickToCopyEmail": "انقر هنا لنسخ معرف البريد الإلكتروني",
 		"connectOnLinkedinInfo": "تواصل مع واسط على LinkedIn",
 		"connectWithMe": "تواصل معي",
 		"currentYear": "٢٠٢٥",
 		"designedAndMaintainedBy": "تم تطويره وصيانته بواسطة",
 		"dropMeLineText": " يمكنك مراسلتي عبر البريد الإلكتروني",
 		"education": "تعليم",
+		"emailCopied": "تم نسخ معرف البريد الإلكتروني",
 		"lastUpdatedInfo": "آخر تحديث في ٢٨ فبراير ٢٠٢٥",
 		"orCallMeText": " أو اتصل بي هاتفيا على",
 		"personalProjects": "المشاريع الشخصية",
@@ -17,12 +19,14 @@
 		"workExperience": "خبرة في العمل"
 	},
 	"en": {
+		"clickToCopyEmail": "Click to Copy e-mail ID",
 		"connectOnLinkedinInfo": "Connect with Wasit on LinkedIn",
 		"connectWithMe": "Connect With Me",
 		"currentYear": "2025",
 		"designedAndMaintainedBy": "Developed & Maintained by",
 		"dropMeLineText": "Drop&nbsp;me&nbsp;a&nbsp;line&nbsp;at&nbsp;",
 		"education": "Education",
+		"emailCopied": "e-mail ID Copied",
 		"lastUpdatedInfo": "Last&nbsp;Updated&nbsp;on&nbsp;28&nbsp;Feb&nbsp;2025",
 		"orCallMeText": "&nbsp;or&nbsp;Call&nbsp;on&nbsp;",
 		"personalProjects": "Personal Projects",
