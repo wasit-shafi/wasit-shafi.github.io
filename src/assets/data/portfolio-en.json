@@ -64,14 +64,12 @@
 		"emailId": {
 			"id": "",
 			"linkText": "wasitshafi700@gmail.com",
-			"linkUrl": "mailto:wasitshafi700@gmail.com",
-			"titleText": "Click to copy e-mail id"
+			"linkUrl": "mailto:wasitshafi700@gmail.com"
 		},
 		"phone": {
 			"id": "",
 			"linkText": "+91 9682648815",
-			"linkUrl": "tel:+919682648815",
-			"titleText": "Call to Wasit"
+			"linkUrl": "tel:+919682648815"
 		}
 	},
 	"educationDetails": [

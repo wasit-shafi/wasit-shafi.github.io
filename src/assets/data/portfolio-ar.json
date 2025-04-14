@@ -63,13 +63,11 @@
 		],
 		"emailId": {
 			"id": "",
-			"titleText": "انقر هنا لنسخ معرف البريد الإلكتروني",
 			"linkText": "wasitshafi700@gmail.com",
 			"linkUrl": "mailto:wasitshafi700@gmail.com"
 		},
 		"phone": {
 			"id": "",
-			"titleText": "مكالمة هاتفية إلى واسط",
 			"linkText": "+91 9682648815",
 			"linkUrl": "tel:+919682648815"
 		}

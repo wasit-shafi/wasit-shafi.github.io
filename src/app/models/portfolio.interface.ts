@@ -89,7 +89,6 @@ interface ICodingAndSocialProfiles {
 interface IEmailOrPhone {
 	id: string;
 	linkText: string;
-	titleText: string;
 	linkUrl: string;
 }
 
