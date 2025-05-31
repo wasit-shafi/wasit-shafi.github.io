@@ -129,11 +129,7 @@
 		},
 		{
 			"id": "",
-			"skillName": "Data Structures & Algorithms"
-		},
-		{
-			"id": "",
-			"skillName": "MongoDB"
+			"skillName": "Node"
 		},
 		{
 			"id": "",
@@ -141,11 +137,11 @@
 		},
 		{
 			"id": "",
-			"skillName": "Angular"
+			"skillName": "MongoDB"
 		},
 		{
 			"id": "",
-			"skillName": "Node"
+			"skillName": "Angular"
 		},
 		{
 			"id": "",
@@ -194,10 +190,6 @@
 		{
 			"id": "",
 			"skillName": "CI/CD"
-		},
-		{
-			"id": "",
-			"skillName": "GitHub Actions"
 		},
 		{
 			"id": "",
