@@ -11,38 +11,4 @@
 			]?.personalProjects
 		}}
 	</h3>
-
-	@for (
-		personalProject of this.personalProjectsData;
-		track personalProject.id
-	) {
-		<div
-			class="mb-4"
-			[style.direction]="'ltr'"
-		>
-			<span class="font-bold text-txtPrimary">
-				{{ personalProject.projectTitle }}
-			</span>
-			<a
-				class="hover:decoration mx-2 text-txtQuaternary hover:underline"
-				[href]="personalProject.deployment.url"
-				[title]="personalProject.deployment.url"
-				target="_blank"
-			>
-				{{ personalProject.deployment.linkText }}
-			</a>
-			<span class="">
-				@for (sourceCodeUrl of personalProject.sourceCodeUrl; track $index) {
-					<a
-						class="hover:decoration mx-2 text-txtQuaternary hover:underline"
-						[href]="sourceCodeUrl.url"
-						[title]="sourceCodeUrl.url"
-						target="_blank"
-					>
-						{{ sourceCodeUrl.linkText }}
-					</a>
-				}
-			</span>
-		</div>
-	}
 </section>

@@ -88,40 +88,6 @@
 			"universityWebsiteUrl": "https://www.kashmiruniversity.net"
 		}
 	],
-	"personalProjects": [
-		{
-			"deployment": {
-				"linkText": "dev-tools-studio.com",
-				"url": "https://dev-tools-studio.com"
-			},
-			"id": "dts",
-			"projectTitle": "Dev Tools Studio",
-			"sourceCodeUrl": [
-				{
-					"linkText": "Backend Source Code",
-					"url": "https://github.com/wasit-shafi/dev-tools-studio-backend"
-				},
-				{
-					"linkText": "Frontend Source Code",
-					"url": "https://github.com/wasit-shafi/dev-tools-studio-frontend"
-				}
-			]
-		},
-		{
-			"deployment": {
-				"linkText": "wasit-shafi.github.io",
-				"url": "https://wasit-shafi.github.io"
-			},
-			"id": "portfolio",
-			"projectTitle": "Personal Portfolio Website",
-			"sourceCodeUrl": [
-				{
-					"linkText": "Frontend Source Code",
-					"url": "https://github.com/wasit-shafi/wasit-shafi.github.io"
-				}
-			]
-		}
-	],
 	"skills": [
 		{
 			"id": "",

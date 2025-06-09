@@ -10,7 +10,7 @@
 				{
 					"name": "Frontend",
 					"commands": ["npm start"],
-					"autoExecuteCommands": false
+					"autoExecuteCommands": true
 				},
 				{
 					"name": "Terminal",

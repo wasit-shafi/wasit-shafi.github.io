@@ -7,7 +7,6 @@ export interface IPortfolio {
 	about: IAbout;
 	contactDetails: IContact;
 	educationDetails: IEducation[];
-	personalProjects: IPersonalProjects[];
 	skills: ISkills[];
 	workExperience: IWorkExperience[];
 }
@@ -36,24 +35,6 @@ interface IWorkContributions {
 export interface ISkills {
 	id: string;
 	skillName: string;
-}
-// Personal Projects
-
-export interface IPersonalProjects {
-	id: string;
-	deployment: IDeployment;
-	projectTitle: string;
-	sourceCodeUrl: ISourceCodeUrl[];
-}
-
-interface IDeployment {
-	linkText: string;
-	url: string;
-}
-
-interface ISourceCodeUrl {
-	linkText: string;
-	url: string;
 }
 
 // Education
