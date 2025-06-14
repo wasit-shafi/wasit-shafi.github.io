@@ -1,5 +1,10 @@
 @use '../../../main.scss' as *;
 
+body div.lg-sub-html {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .#{$wsp}click-to-view {
 	&:hover {
 		text-shadow:
