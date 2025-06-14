@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lightgallery.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lg-zoom.css');
+
 @layer base {
 	html {
 		font-family: Karla, sans-serif;
@@ -26,7 +29,7 @@
 		--color-txt-ternary: 19 21 22;
 		/* used for links */
 
-		--color-txt-quaternary: 0 123 229;
+		--color-txt-quaternary: 20 80 255;
 	}
 
 	.dark {
@@ -41,7 +44,7 @@
 		--color-txt-ternary: 165 164 168;
 		/* used for links */
 
-		--color-txt-quaternary: 148 198 255;
+		--color-txt-quaternary: 66 133 244;
 	}
 
 	::selection {
