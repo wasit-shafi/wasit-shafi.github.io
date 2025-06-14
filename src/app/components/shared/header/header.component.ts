@@ -54,7 +54,7 @@ export class HeaderComponent {
 				[this.constants.languages.ARABIC]: 'المشاريع',
 				[this.constants.languages.ENGLISH]: 'Projects',
 			},
-			visibility: !environment.production,
+			visibility: true || !environment.production,
 			href: '#' + this.constants.homeSectionLinksId.PERSONAL_PROJECTS,
 		},
 		// SKILLS
