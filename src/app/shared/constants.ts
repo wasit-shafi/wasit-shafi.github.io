@@ -41,16 +41,16 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749718181/dev-tools-studio/snapshots/diagrams/a27mme4fl1aung3f1ezf.png',
 			// lightGallery-captions
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
         </div>`,
 		},
 		{
 			// snapshots/diagrams: Data Modelling image
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749420146/dev-tools-studio/snapshots/diagrams/mkj39n7zl861puaa5agn.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
         </div>`,
 		},
 		{
@@ -58,8 +58,8 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749420146/dev-tools-studio/snapshots/diagrams/qkhhv2zojctsheqjjjgk.png',
 
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
         </div>`,
 		},
 		{
@@ -67,32 +67,32 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749717589/dev-tools-studio/snapshots/diagrams/bhya95kxuutxxdki0gp8.png',
 
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
         </div>`,
 		},
 		{
 			// snapshots/diagrams: POST:/email controller flow image
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749420147/dev-tools-studio/snapshots/diagrams/rcfpiv4bmlq5gce0jr0k.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
         </div>`,
 		},
 		{
 			// snapshots/diagrams: Backend Architecture (Development) image
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749506955/dev-tools-studio/snapshots/diagrams/yetvsvxy7wqgoqsbhcjv.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
         </div>`,
 		},
 		{
 			// snapshots/diagrams: Backend Architecture (Production) image
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749420145/dev-tools-studio/snapshots/diagrams/nud8eie9av2xadniq957.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
         </div>`,
 		},
 		{
@@ -100,16 +100,16 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749786193/dev-tools-studio/snapshots/diagrams/wp00jb2zlbxyq7ufnlrr.png',
 
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X">Visit: https://app.eraser.io/workspace/cwZzopjoFs0wIiPvRI8X</a>
         </div>`,
 		},
 		{
 			// snapshots/others: Github Project Board
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552216/dev-tools-studio/snapshots/others/pzfniwfsl0c0bpmkukmy.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://github.com/users/wasit-shafi/projects/5">Visit: https://github.com/users/wasit-shafi/projects/5</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://github.com/users/wasit-shafi/projects/5">Visit: https://github.com/users/wasit-shafi/projects/5</a>
         </div>`,
 		},
 		{
@@ -117,8 +117,8 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749533434/dev-tools-studio/snapshots/cicd/rt1sxzvcfskx6ube9ber.png',
 
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://github.com/wasit-shafi/dev-tools-studio-backend/actions">Visit: https://github.com/wasit-shafi/dev-tools-studio-backend/actions</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://github.com/wasit-shafi/dev-tools-studio-backend/actions">Visit: https://github.com/wasit-shafi/dev-tools-studio-backend/actions</a>
         </div>`,
 		},
 		{
@@ -143,8 +143,8 @@ export class Constants {
 			// snapshots/cicd: images on DockerHub
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749533433/dev-tools-studio/snapshots/cicd/ygabjr1nxjbk1nm3m2ov.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://hub.docker.com/repositories/wasitshafi700">Visit: https://hub.docker.com/repositories/wasitshafi700</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://hub.docker.com/repositories/wasitshafi700">Visit: https://hub.docker.com/repositories/wasitshafi700</a>
         </div>`,
 		},
 		{
@@ -200,8 +200,8 @@ export class Constants {
 			// snapshots/others: Postman API Collection image
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749533395/dev-tools-studio/snapshots/others/cblhllzhmodksplsqgdj.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="https://www.postman.com/wasitshafi/dev-tools-studio-public-wrokspace/overview">Visit: https://www.postman.com/wasitshafi/dev-tools-studio-public-wrokspace/overview</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://www.postman.com/wasitshafi/dev-tools-studio-public-wrokspace/overview">Visit: https://www.postman.com/wasitshafi/dev-tools-studio-public-wrokspace/overview</a>
         </div>`,
 		},
 		{
@@ -209,72 +209,72 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749553251/dev-tools-studio/snapshots/website/oawqr2qkx0n8frwejhir.png',
 			// itemLink: environment.baseUrl,
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:3000">Visit: http://3.110.46.93:3000</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:3000">Visit: http://3.110.46.93:3000</a>
         </div>`,
 		},
 		{
 			// snapshots/website: Schedule Email Screen - 1
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552197/dev-tools-studio/snapshots/website/dkvh6jom93gryxz1jwle.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
         </div>`,
 		},
 		{
 			// snapshots/website: Schedule Email Screen - 2
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552199/dev-tools-studio/snapshots/website/wehbevm95psnl0rhxjnp.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
         </div>`,
 		},
 		{
 			// snapshots/website: Settings Screen - 1
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552198/dev-tools-studio/snapshots/website/homi3kre8zjjuotgp8xs.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
         </div>`,
 		},
 		{
 			// snapshots/website: Settings Screen - 2
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552198/dev-tools-studio/snapshots/website/lkrpqp9dwksv67iucrx9.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
         </div>`,
 		},
 		{
 			// snapshots/website: Settings Screen - 3
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552198/dev-tools-studio/snapshots/website/kzu9bkh77j4xw05lmk3o.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
         </div>`,
 		},
 		{
 			// snapshots/website: NrGx Store
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552197/dev-tools-studio/snapshots/website/af1mydpnnlzweus2zxtf.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
         </div>`,
 		},
 		{
 			// snapshots/website: Add New Credential
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552197/dev-tools-studio/snapshots/website/x3usgeithntlfcqokjt6.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
         </div>`,
 		},
 		{
 			// snapshots/website: Add New Email Template
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552197/dev-tools-studio/snapshots/website/keewcfnprrvx3pxfmjjm.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
         </div>`,
 		},
 		{
@@ -282,16 +282,16 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552197/dev-tools-studio/snapshots/website/otqurmcswbwq3opopwxf.png',
 
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
         </div>`,
 		},
 		{
 			// snapshots/website: Reset Password Email
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749554425/dev-tools-studio/snapshots/website/q8byhqmedr3pmifsx8uf.png',
-			subHtml: `<div class="text-xs">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded w-full p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			subHtml: `<div class="text-xs flex break-all">
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
         </div>`,
 		},
 	];
