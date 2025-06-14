@@ -11,4 +11,187 @@
 			]?.personalProjects
 		}}
 	</h3>
+	<!-- Project: Dev Tools Studio -->
+
+	<div class="">
+		<div
+			class="mb-4"
+			[style.direction]="'ltr'"
+		>
+			<span class="mr-2 font-nanum-pen text-3xl font-bold text-txtPrimary"
+				>Dev Tools Studio</span
+			>
+
+			<span class="">
+				@for (item of projectsData.devToolsStudio.links; track $index) {
+					<a
+						class="hover:decoration mx-2 font-nanum-pen text-base text-txtQuaternary hover:underline"
+						[href]="item.url"
+						[title]="item.url"
+						target="_blank"
+						>{{ item.label }}</a
+					>
+				}
+			</span>
+			<!-- Core Tech Stack & About Project -->
+
+			<div class="flex flex-col gap-y-3">
+				<div class="flex flex-col">
+					<!-- Core Tech Stack Label -->
+
+					<span
+						class="font-nanum-pen text-lg text-txtSecondary underline decoration-double"
+						><b>Core Tech Stack:</b>
+					</span>
+					<!-- Core Tech Stack Value -->
+
+					<span class="flex flex-wrap gap-x-2 gap-y-3">
+						@for (
+							item of projectsData.devToolsStudio.coreTechStack;
+							track $index
+						) {
+							<i
+								class="flex h-6 items-center rounded-lg border px-2 font-nanum-pen text-lg text-txtSecondary"
+								>{{ item.label }}</i
+							>
+						}
+					</span>
+				</div>
+
+				<div class="flex flex-col">
+					<!-- About Project Label -->
+
+					<span
+						class="font-nanum-pen text-lg text-txtSecondary underline decoration-double"
+						><b>About Project:</b>
+					</span>
+					<!-- About Project Description -->
+
+					<p class="font-nanum-pen text-xl font-medium text-txtSecondary">
+						Now Cold Emailing is just only one click away, no overhead of
+						re-typing the whole email or copy-pasting previously used emails. No
+						need to login into your different accounts just to send emails, all
+						of it can now be managed from one account only!
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<ul
+			class="marker:text-green ml-6 list-outside list-disc"
+			[style.direction]="'ltr'"
+		>
+			<li class="font-nanum-pen text-lg text-txtSecondary">
+				Bootstrapped frontend & backend project setting up ts-node-dev,
+				typescript for backend, docker containerization, AWS SDK V3, GitHub
+				Actions for CI/CD with self-hosted runners, swagger, winston/morgan
+				loggers, reCAPTCHA, helmet, API rate limiters, user-agent parser,
+				postman, dev & prod environments, NgRx, setting up API Interceptors,
+				Route Guards, handling cookies/caching mechanism, etc.
+			</li>
+			<li class="font-nanum-pen text-lg text-txtSecondary">
+				Integrated BullMQ and built a highly reusable architecture of queues and
+				workers for job scheduling to send emails at a specific time, Integrated
+				with Redis Cloud DB to save the metadata for job scheduling by BullMQ
+				worker.
+			</li>
+			<li class="font-nanum-pen text-lg text-txtSecondary">
+				Created a real-time CI/CD pipeline to deploy new GitHub changes
+				automatically on code push events by building & publishing the
+				<a
+					class="hover:decoration text-txtQuaternary hover:underline"
+					href="https://hub.docker.com/repositories/wasitshafi700"
+					title="https://hub.docker.com/repositories/wasitshafi700"
+					target="_blank"
+					>docker image on Docker Hub</a
+				>
+				and using the
+				<a
+					class="hover:decoration text-txtQuaternary hover:underline"
+					href="https://github.com/wasit-shafi/dev-tools-studio-backend/blob/9fcd94a91b86a21a816946a0d4d5b05b7d5465b3/.github/workflows/ci.yml#L10"
+					title="https://github.com/wasit-shafi/dev-tools-studio-backend/blob/9fcd94a91b86a21a816946a0d4d5b05b7d5465b3/.github/workflows/ci.yml#L10"
+					target="_blank"
+					>GitHub-hosted</a
+				>
+				&
+				<a
+					class="hover:decoration text-txtQuaternary hover:underline"
+					href="https://github.com/wasit-shafi/dev-tools-studio-backend/blob/9fcd94a91b86a21a816946a0d4d5b05b7d5465b3/.github/workflows/cd.yml#L12"
+					title="https://github.com/wasit-shafi/dev-tools-studio-backend/blob/9fcd94a91b86a21a816946a0d4d5b05b7d5465b3/.github/workflows/cd.yml#L12"
+					target="_blank"
+					>self-hosted</a
+				>
+				runner on AWS ec2 to keep listening for any job to be executed (fetching
+				new image from Docker Hub and Starting a new container).
+			</li>
+			<li class="font-nanum-pen text-lg text-txtSecondary">
+				Created REST API & UI for sending scheduled or real-time emails with
+				chosen email credentials and email templates to reduce the manual effort
+				of writing all the email content from different user email accounts.
+			</li>
+			<li class="font-nanum-pen text-lg text-txtSecondary">
+				Created a secure backend authentication mechanism using JWT
+				access/refresh token to restrict API access and auto re-login using
+				tokens.
+			</li>
+			<li class="font-nanum-pen text-lg text-txtSecondary">
+				Created CRUD APIs for email credentials, templates, attachments, and
+				Authentication/Authorization features along with UI in Angular.
+			</li>
+			<li class="font-nanum-pen text-lg text-txtSecondary">
+				Integrated MongoDB for development & production environments, built
+				well-structured Mongoose Schemas Design for Data Modelling.
+			</li>
+			<li class="font-nanum-pen text-lg text-txtSecondary">
+				Architected a well-structured express backend codebase, segregating
+				controllers, routers, middlewares, standardizing API success/error
+				responses and versioning API endpoints, async handlers, EJS email
+				templates, Zod schema validation middlewares, typescript interfaces,
+				mongoose schemas, and other utility configurations
+			</li>
+			<li class="font-nanum-pen text-lg text-txtSecondary">
+				Build API for IP Address details fetch, static map image with custom
+				marker, and user device details to send real-time updates on registered
+				routes for critical events such as attempts to reset the password
+				<a
+					class="hover:decoration text-txtQuaternary hover:underline"
+					href="https://drive.google.com/file/d/13xAnxs6QSyo65BOfisXy8PEtK1ntNXrt/view"
+					title="https://drive.google.com/file/d/13xAnxs6QSyo65BOfisXy8PEtK1ntNXrt/view"
+					target="_blank"
+					>(email link valid for specific time & live user IP/Geo Location
+					/Device Details)</a
+				>.
+			</li>
+		</ul>
+
+		<lightgallery
+			[settings]="settings"
+			class="flex flex-wrap content-center items-center justify-center gap-1"
+		>
+			@for (snapshot of constants.snapshots; track $index) {
+				<a
+					data-lg-size="1600-2400"
+					className="gallery-item"
+					[attr.data-src]="snapshot.imageSrc"
+					[attr.data-sub-html]="snapshot.subHtml"
+				>
+					<div
+						class="group relative cursor-pointer overflow-hidden rounded p-1"
+					>
+						<img
+							fetchpriority="high"
+							[src]="snapshot.imageSrc"
+							class="img-responsive transition-scale max-h-24 duration-200 ease-in-out group-hover:scale-125"
+						/>
+						<div
+							class="text-primary text-shadow-md absolute bottom-0 left-0 right-0 top-0 flex items-end items-center justify-center bg-qatar/80 text-center font-nanum-pen text-lg font-medium text-white opacity-0 transition-all duration-500 ease-in-out group-hover:opacity-100"
+							[ngClass]="[constants.WSP + 'click-to-view']"
+						>
+							Click To View
+						</div>
+					</div>
+				</a>
+			}
+		</lightgallery>
+	</div>
 </section>
