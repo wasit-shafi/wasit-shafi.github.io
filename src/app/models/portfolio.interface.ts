@@ -66,6 +66,7 @@ interface ICodingAndSocialProfiles {
 	id: string;
 	linkUrl: string;
 	titleText: string;
+	isEnabled: boolean;
 }
 interface IEmailOrPhone {
 	id: string;

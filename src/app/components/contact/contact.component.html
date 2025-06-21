@@ -90,29 +90,31 @@
 			codingAndSocialProfilesData of contactData.codingAndSocialProfiles;
 			track codingAndSocialProfilesData.linkUrl
 		) {
-			<a
-				[href]="codingAndSocialProfilesData.linkUrl"
-				target="_blank"
-				rel="noopener noreferrer"
-				[title]="codingAndSocialProfilesData.titleText"
-			>
-				<img
-					class="h-[36px] cursor-pointer"
-					alt="img"
-					[ngSrc]="
-						appDataService.isDarkCurrentTheme() &&
-						codingAndSocialProfilesData.iconLightUrl
-							? codingAndSocialProfilesData.iconLightUrl
-							: codingAndSocialProfilesData.iconUrl
-					"
-					[width]="
-						codingAndSocialProfilesData.iconWidth
-							? codingAndSocialProfilesData.iconWidth
-							: DEFAULT_ICON_WIDTH_IN_PX
-					"
-					height="36"
-				/>
-			</a>
+			@if (codingAndSocialProfilesData.isEnabled) {
+				<a
+					[href]="codingAndSocialProfilesData.linkUrl"
+					target="_blank"
+					rel="noopener noreferrer"
+					[title]="codingAndSocialProfilesData.titleText"
+				>
+					<img
+						class="h-[36px] cursor-pointer"
+						alt="img"
+						[ngSrc]="
+							appDataService.isDarkCurrentTheme() &&
+							codingAndSocialProfilesData.iconLightUrl
+								? codingAndSocialProfilesData.iconLightUrl
+								: codingAndSocialProfilesData.iconUrl
+						"
+						[width]="
+							codingAndSocialProfilesData.iconWidth
+								? codingAndSocialProfilesData.iconWidth
+								: DEFAULT_ICON_WIDTH_IN_PX
+						"
+						height="36"
+					/>
+				</a>
+			}
 		}
 	</div>
 </section>
