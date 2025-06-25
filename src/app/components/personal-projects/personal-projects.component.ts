@@ -29,6 +29,11 @@ export class PersonalProjectsComponent {
 				},
 				{
 					id: '',
+					label: 'Youtube Video',
+					url: 'https://youtu.be/HiqfIKH9ywE',
+				},
+				{
+					id: '',
 					label: 'Backend Link',
 					url: 'http://3.110.46.93:3000',
 				},
