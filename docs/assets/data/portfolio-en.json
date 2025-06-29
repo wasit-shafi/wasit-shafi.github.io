@@ -71,7 +71,7 @@
 				"id": "",
 				"linkUrl": "https://wa.me/+919682648815?text=%5BRef%3A%20Portfolio%5D%3A%20Hello%20Wasit...",
 				"titleText": "Chat with with wasit on WhatsApp",
-				"enabled": false
+				"isEnabled": true
 			}
 		],
 		"emailId": {
