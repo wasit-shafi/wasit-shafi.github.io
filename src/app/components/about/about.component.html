@@ -18,7 +18,7 @@
 	@for (summaryItem of aboutData.summary; track $index) {
 		<p
 			class="text-center text-txtPrimary"
-			[innerHTML]="summaryItem.text"
+			[innerHTML]="utils.getSafeHtml(summaryItem.text)"
 		></p>
 	}
 </section>

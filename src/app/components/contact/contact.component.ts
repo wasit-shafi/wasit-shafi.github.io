@@ -1,8 +1,8 @@
-import { AppDataService, UserProfileService } from '@services/';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Component, effect, inject } from '@angular/core';
-import { Constants } from '@shared/';
 import { IContact } from '@models/portfolio.interface';
+import { AppDataService, UserProfileService } from '@services/';
+import { Constants } from '@shared/';
 import { navigatorUtils } from '@utils/';
 
 @Component({
