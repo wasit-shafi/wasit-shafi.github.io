@@ -47,16 +47,6 @@ export class HeaderComponent {
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.WORK_EXPERIENCE,
 		},
-		// PROJECTS
-
-		{
-			label: {
-				[this.constants.languages.ARABIC]: 'المشاريع',
-				[this.constants.languages.ENGLISH]: 'Projects',
-			},
-			visibility: true || !environment.production,
-			href: '#' + this.constants.homeSectionLinksId.PERSONAL_PROJECTS,
-		},
 		// SKILLS
 
 		{
@@ -66,6 +56,16 @@ export class HeaderComponent {
 			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.SKILLS,
+		},
+		// PROJECTS
+
+		{
+			label: {
+				[this.constants.languages.ARABIC]: 'المشاريع',
+				[this.constants.languages.ENGLISH]: 'Projects',
+			},
+			visibility: true || !environment.production,
+			href: '#' + this.constants.homeSectionLinksId.PERSONAL_PROJECTS,
 		},
 		// EDUCATION
 
