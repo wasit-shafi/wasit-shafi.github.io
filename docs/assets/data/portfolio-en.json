@@ -3,19 +3,24 @@
 		"greeting": "👋 Hi, I'm Wasit",
 		"summary": [
 			{
-				"text": "Full Stack Software Development Engineer with <b>3.7 Years</b> of experience in developing & delivering high-quality web applications."
+				"text": "Full Stack Software Development Engineer with <b>3.7 Years</b> of experience in developing & delivering high-quality web applications.",
+				"isEnabled": true
 			},
 			{
-				"text": "I have a keen interest in <b>backend technologies & solving real-life problems</b> by developing efficient, optimal & scalable solutions."
+				"text": "I have a keen interest in <b>backend technologies & solving real-life problems</b> by developing efficient, optimal & scalable solutions.",
+				"isEnabled": true
 			},
 			{
-				"text": "I am proficient in data structures & algorithms with strong problem-solving & debugging skills."
+				"text": "I am proficient in data structures & algorithms with strong problem-solving & debugging skills.",
+				"isEnabled": true
 			},
 			{
-				"text": "<b>Trust Me!</b> I take <b>100% ownership</b> of the task (R&D, POC, Development, Deployment) I pick up & pay attention to details."
+				"text": "<b>Trust Me!</b> I take <b>100% ownership</b> of the task (R&D, POC, Development, Deployment) I pick up & pay attention to details.",
+				"isEnabled": true
 			},
 			{
-				"text": "Want to know more...? Have a Look at my <a href=\"https://drive.google.com/file/d/1puidKqUIbxl5Bjpjalt8C-07qiCoASng\" title=\"https://drive.google.com/file/d/1puidKqUIbxl5Bjpjalt8C-07qiCoASng\" class=\"hover:decoration text-txtQuaternary hover:underline\" target=\"_blank\">Resume</a> <span style=\"color:forestgreen\">(In-Depth <b>Work Experience</b>, <b>Personal Projects</b> & <b>Achievements</b> Sections)</span>"
+				"text": "Want to know more...? Have a Look at my <a href=\"https://drive.google.com/file/d/1puidKqUIbxl5Bjpjalt8C-07qiCoASng\" title=\"https://drive.google.com/file/d/1puidKqUIbxl5Bjpjalt8C-07qiCoASng\" class=\"hover:decoration text-txtQuaternary hover:underline\" target=\"_blank\">Resume</a> <span style=\"color:forestgreen\">(In-Depth <b>Work Experience</b>, <b>Personal Projects</b> & <b>Achievements</b> Sections)</span>",
+				"isEnabled": false
 			}
 		]
 	},
