@@ -77,6 +77,7 @@ interface IEmailOrPhone {
 interface ISummary {
 	id: string;
 	text: string;
+	isEnabled: boolean;
 }
 
 export interface IAbout {
