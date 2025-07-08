@@ -210,7 +210,7 @@ export class Constants {
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749553251/dev-tools-studio/snapshots/website/oawqr2qkx0n8frwejhir.png',
 			// itemLink: environment.baseUrl,
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:3000">Visit: http://3.110.46.93:3000</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://dev-tools-studio-backend-git-dev.on.shiper.app">Visit: https://dev-tools-studio-backend-git-dev.on.shiper.app</a>
         </div>`,
 		},
 		{
@@ -218,7 +218,7 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552197/dev-tools-studio/snapshots/website/dkvh6jom93gryxz1jwle.png',
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://devtoolsstudio.surge.sh">Visit: https://devtoolsstudio.surge.sh</a>
         </div>`,
 		},
 		{
@@ -226,7 +226,7 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552199/dev-tools-studio/snapshots/website/wehbevm95psnl0rhxjnp.png',
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://devtoolsstudio.surge.sh">Visit: https://devtoolsstudio.surge.sh</a>
         </div>`,
 		},
 		{
@@ -234,7 +234,7 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552198/dev-tools-studio/snapshots/website/homi3kre8zjjuotgp8xs.png',
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://devtoolsstudio.surge.sh">Visit: https://devtoolsstudio.surge.sh</a>
         </div>`,
 		},
 		{
@@ -242,7 +242,7 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552198/dev-tools-studio/snapshots/website/lkrpqp9dwksv67iucrx9.png',
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://devtoolsstudio.surge.sh">Visit: https://devtoolsstudio.surge.sh</a>
         </div>`,
 		},
 		{
@@ -250,7 +250,7 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552198/dev-tools-studio/snapshots/website/kzu9bkh77j4xw05lmk3o.png',
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://devtoolsstudio.surge.sh">Visit: https://devtoolsstudio.surge.sh</a>
         </div>`,
 		},
 		{
@@ -258,7 +258,7 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552197/dev-tools-studio/snapshots/website/af1mydpnnlzweus2zxtf.png',
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://devtoolsstudio.surge.sh">Visit: https://devtoolsstudio.surge.sh</a>
         </div>`,
 		},
 		{
@@ -266,7 +266,7 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552197/dev-tools-studio/snapshots/website/x3usgeithntlfcqokjt6.png',
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://devtoolsstudio.surge.sh">Visit: https://devtoolsstudio.surge.sh</a>
         </div>`,
 		},
 		{
@@ -274,7 +274,7 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552197/dev-tools-studio/snapshots/website/keewcfnprrvx3pxfmjjm.png',
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://devtoolsstudio.surge.sh">Visit: https://devtoolsstudio.surge.sh</a>
         </div>`,
 		},
 		{
@@ -283,7 +283,7 @@ export class Constants {
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749552197/dev-tools-studio/snapshots/website/otqurmcswbwq3opopwxf.png',
 
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://devtoolsstudio.surge.sh">Visit: https://devtoolsstudio.surge.sh</a>
         </div>`,
 		},
 		{
@@ -291,7 +291,7 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749554425/dev-tools-studio/snapshots/website/q8byhqmedr3pmifsx8uf.png',
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="http://3.110.46.93:4200">Visit: http://3.110.46.93:4200</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://devtoolsstudio.surge.sh">Visit: https://devtoolsstudio.surge.sh</a>
         </div>`,
 		},
 	];

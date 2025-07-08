@@ -24,18 +24,18 @@ export class PersonalProjectsComponent {
 			links: [
 				{
 					id: '',
-					label: 'Live Project Link',
-					url: 'http://3.110.46.93:4200',
-				},
-				{
-					id: '',
 					label: 'Youtube Video',
 					url: 'https://youtu.be/HiqfIKH9ywE',
 				},
 				{
 					id: '',
+					label: 'Frontend Link',
+					url: 'https://devtoolsstudio.surge.sh',
+				},
+				{
+					id: '',
 					label: 'Backend Link',
-					url: 'http://3.110.46.93:3000',
+					url: 'https://dev-tools-studio-backend-git-dev.on.shiper.app',
 				},
 				{
 					id: '',
