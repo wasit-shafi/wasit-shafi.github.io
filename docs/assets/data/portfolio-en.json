@@ -109,10 +109,6 @@
 	"skills": [
 		{
 			"id": "",
-			"skillName": "Problem Solving"
-		},
-		{
-			"id": "",
 			"skillName": "NodeJS"
 		},
 		{
@@ -125,15 +121,39 @@
 		},
 		{
 			"id": "",
-			"skillName": "Angular"
-		},
-		{
-			"id": "",
 			"skillName": "RESTful API Design & Development"
 		},
 		{
 			"id": "",
-			"skillName": "SQL"
+			"skillName": "Angular"
+		},
+		{
+			"id": "",
+			"skillName": "React"
+		},
+		{
+			"id": "",
+			"skillName": "JavaScript"
+		},
+		{
+			"id": "",
+			"skillName": "SQL (MySQL/PostgreSQL)"
+		},
+		{
+			"id": "",
+			"skillName": "Object Oriented Programming"
+		},
+		{
+			"id": "",
+			"skillName": "Microservices"
+		},
+		{
+			"id": "",
+			"skillName": "Data Structures & Algorithms"
+		},
+		{
+			"id": "",
+			"skillName": "JWT"
 		},
 		{
 			"id": "",
@@ -153,11 +173,11 @@
 		},
 		{
 			"id": "",
-			"skillName": "Kubernetes"
+			"skillName": "AWS"
 		},
 		{
 			"id": "",
-			"skillName": "AWS"
+			"skillName": "React"
 		},
 		{
 			"id": "",
@@ -166,30 +186,6 @@
 		{
 			"id": "",
 			"skillName": "RxJs"
-		},
-		{
-			"id": "",
-			"skillName": "TypeScript"
-		},
-		{
-			"id": "",
-			"skillName": "JavaScript"
-		},
-		{
-			"id": "",
-			"skillName": "CI/CD"
-		},
-		{
-			"id": "",
-			"skillName": "GitHub Actions"
-		},
-		{
-			"id": "",
-			"skillName": "Web Sockets"
-		},
-		{
-			"id": "",
-			"skillName": "Electron"
 		},
 		{
 			"id": "",
@@ -209,19 +205,39 @@
 		},
 		{
 			"id": "",
-			"skillName": "Bootstrap 5"
+			"skillName": "Bootstrap"
 		},
 		{
 			"id": "",
-			"skillName": "React"
+			"skillName": "Java"
+		},
+		{
+			"id": "",
+			"skillName": "Git"
+		},
+		{
+			"id": "",
+			"skillName": "GitHub Actions"
+		},
+		{
+			"id": "",
+			"skillName": "CICD"
+		},
+		{
+			"id": "",
+			"skillName": "Kubernetes"
+		},
+		{
+			"id": "",
+			"skillName": "Web Sockets"
+		},
+		{
+			"id": "",
+			"skillName": "ElectronJS"
 		},
 		{
 			"id": "",
 			"skillName": "Web Animation API"
-		},
-		{
-			"id": "",
-			"skillName": "JAVA"
 		},
 		{
 			"id": "",
