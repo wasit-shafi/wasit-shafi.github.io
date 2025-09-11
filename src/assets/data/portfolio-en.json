@@ -3,7 +3,7 @@
 		"greeting": "👋 Hi, I'm Wasit",
 		"summary": [
 			{
-				"text": "Full Stack Software Development Engineer with <b>3.7 Years</b> of experience in developing & delivering high-quality web applications.",
+				"text": "Full Stack Software Development Engineer with <b>4 Years</b> of experience in developing & delivering high-quality web applications.",
 				"isEnabled": true
 			},
 			{
@@ -15,7 +15,7 @@
 				"isEnabled": true
 			},
 			{
-				"text": "<b>Trust Me!</b> I take <b>100% ownership</b> of the task (R&D, POC, Development, Deployment) I pick up & pay attention to details.",
+				"text": "<b>Trust Me!</b> I take <b>100% ownership</b> of the task (R&D, POC, Development, Deployment) & pay attention to details.",
 				"isEnabled": true
 			},
 			{
@@ -256,7 +256,7 @@
 		{
 			"companyDetails": {
 				"city": "Doha",
-				"companyName": "SuperFitout",
+				"companyName": "Tromboo Tech Services WLL",
 				"companyWebsiteUrl": "https://www.superfitout.com",
 				"country": "Qatar"
 			},
@@ -266,7 +266,7 @@
 		{
 			"companyDetails": {
 				"city": "Noida",
-				"companyName": "VectoScalar Technologies",
+				"companyName": "VectoScalar Technologies Pvt Ltd",
 				"companyWebsiteUrl": "https://vectoscalar.com",
 				"country": "India"
 			},
@@ -276,7 +276,7 @@
 		{
 			"companyDetails": {
 				"city": "Noida",
-				"companyName": "VectoScalar Technologies",
+				"companyName": "VectoScalar Technologies Pvt Ltd",
 				"companyWebsiteUrl": "https://vectoscalar.com",
 				"country": "India"
 			},
