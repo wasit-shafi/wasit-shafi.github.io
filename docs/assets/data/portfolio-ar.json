@@ -3,7 +3,7 @@
 		"greeting": "👋 مرحبًا، أنا واسط",
 		"summary": [
 			{
-				"text": "مهندس تطوير برمجيات متكامل يتمتع بخبرة 3.7 سنوات في تطوير وتسليم تطبيقات الويب عالية الجودة.",
+				"text": "مهندس تطوير برمجيات متكامل يتمتع بخبرة 4 سنوات في تطوير وتسليم تطبيقات الويب عالية الجودة.",
 				"isEnabled": true
 			},
 			{
@@ -15,7 +15,7 @@
 				"isEnabled": true
 			},
 			{
-				"text": "ثق بي! أتحمل مسؤولية المهمة (البحث والتطوير، إثبات المفهوم، التطوير، النشر) وأهتم بالتفاصيل.",
+				"text": "ثق بي! أتحمل مسؤولية المشروع بالكامل (البحث والتطوير، إثبات المفهوم، التطوير، النشر) وأهتم بالتفاصيل.",
 				"isEnabled": true
 			},
 			{
@@ -256,7 +256,7 @@
 		{
 			"companyDetails": {
 				"city": "الدوحة",
-				"companyName": "SuperFitout",
+				"companyName": "Tromboo Tech Services WLL",
 				"companyWebsiteUrl": "https://www.superfitout.com",
 				"country": "قطر"
 			},
@@ -266,7 +266,7 @@
 		{
 			"companyDetails": {
 				"city": "نويدا",
-				"companyName": "VectoScalar Technologies",
+				"companyName": "VectoScalar Technologies Pvt Ltd",
 				"companyWebsiteUrl": "https://vectoscalar.com",
 				"country": "الهند"
 			},
@@ -276,7 +276,7 @@
 		{
 			"companyDetails": {
 				"city": "نويدا",
-				"companyName": "VectoScalar Technologies",
+				"companyName": "VectoScalar Technologies Pvt Ltd",
 				"companyWebsiteUrl": "https://vectoscalar.com",
 				"country": "الهند"
 			},
