@@ -3,15 +3,11 @@
 		"greeting": "👋 Hi, I'm Wasit",
 		"summary": [
 			{
-				"text": "Full Stack Software Development Engineer with <b>4 Years</b> of experience in developing & delivering high-quality web applications.",
+				"text": "Solution-oriented <b>Full-Stack Software Engineer</b> with <b>4 Years</b> of experience in developing & delivering high-quality, scalable enterprise web applications with strong problem-solving & debugging skills.",
 				"isEnabled": true
 			},
 			{
-				"text": "I have a keen interest in <b>backend technologies & solving real-life problems</b> by developing efficient, optimal & scalable solutions.",
-				"isEnabled": true
-			},
-			{
-				"text": "I am proficient in data structures & algorithms with strong problem-solving & debugging skills.",
+				"text": "<b>I'm Interested in solving challenging tasks & learning new technologies.</b>",
 				"isEnabled": true
 			},
 			{
@@ -261,7 +257,7 @@
 				"country": "Qatar"
 			},
 			"id": "sf",
-			"role": "Full Stack SDE"
+			"role": "Full Stack Developer"
 		},
 		{
 			"companyDetails": {
