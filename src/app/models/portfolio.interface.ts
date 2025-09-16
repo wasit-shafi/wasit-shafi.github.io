@@ -17,6 +17,7 @@ export interface IWorkExperience {
 	id: string;
 	role: string;
 	workContributions: IWorkContributions[];
+	summary: string;
 }
 
 interface ICompanyDetails {

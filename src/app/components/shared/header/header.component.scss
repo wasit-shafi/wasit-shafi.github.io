@@ -7,3 +7,19 @@
 			0 0 10px rgba($clr-pastel-grey, 0.1);
 	}
 }
+
+li {
+	&.light {
+		// shadow added only for light mode, mostly due to black background color of youtube video section, earlier the nav text as not clearly visible in light mode theme
+
+		text-shadow: 0px 0px 3px rgba($clr-white, 0.8);
+	}
+
+	&.active {
+		border-bottom-color: $clr-qatar;
+
+		a {
+			color: $clr-qatar;
+		}
+	}
+}

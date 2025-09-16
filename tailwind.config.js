@@ -42,8 +42,8 @@ module.exports = {
 			},
 
 			fontFamily: {
-				karla: ['Karla', 'sans-serif'],
 				'nanum-pen': ['Nanum Pen Script', 'cursive'],
+				'shantell-sans': ['Shantell Sans', 'cursive'],
 			},
 			animation: {
 				'custom-bell-animation':

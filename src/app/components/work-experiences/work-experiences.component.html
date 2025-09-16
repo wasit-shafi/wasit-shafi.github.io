@@ -12,7 +12,7 @@
 		}}
 	</h3>
 	@for (workExperience of workExperiencesData; track workExperience.id) {
-		<div class="mb-4 flex flex-wrap">
+		<div class="flex flex-wrap">
 			<span class="mr-1 font-bold text-txtPrimary">
 				{{ workExperience.role }}
 			</span>
@@ -29,5 +29,9 @@
 				{{ workExperience.companyDetails.country }}
 			</span>
 		</div>
+
+		<p class="font-shantell-sans mb-3 px-2 text-sm text-txtSecondary">
+			{{ workExperience.summary }}
+		</p>
 	}
 </section>

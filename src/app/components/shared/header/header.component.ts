@@ -36,6 +36,7 @@ export class HeaderComponent {
 			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.ABOUT,
+			class: this.constants.homeSectionLinksId.ABOUT,
 		},
 		// EXPERIENCE
 
@@ -46,6 +47,7 @@ export class HeaderComponent {
 			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.WORK_EXPERIENCE,
+			class: this.constants.homeSectionLinksId.WORK_EXPERIENCE,
 		},
 		// SKILLS
 
@@ -56,6 +58,7 @@ export class HeaderComponent {
 			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.SKILLS,
+			class: this.constants.homeSectionLinksId.SKILLS,
 		},
 		// PROJECTS
 
@@ -66,6 +69,7 @@ export class HeaderComponent {
 			},
 			visibility: true || !environment.production,
 			href: '#' + this.constants.homeSectionLinksId.PERSONAL_PROJECTS,
+			class: this.constants.homeSectionLinksId.PERSONAL_PROJECTS,
 		},
 		// EDUCATION
 
@@ -76,6 +80,7 @@ export class HeaderComponent {
 			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.EDUCATION,
+			class: this.constants.homeSectionLinksId.EDUCATION,
 		},
 		// CONTACT
 
@@ -86,6 +91,7 @@ export class HeaderComponent {
 			},
 			visibility: true,
 			href: '#' + this.constants.homeSectionLinksId.CONTACT,
+			class: this.constants.homeSectionLinksId.CONTACT,
 		},
 	];
 

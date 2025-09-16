@@ -88,18 +88,18 @@
 	},
 	"educationDetails": [
 		{
-			"degree": "Master of Computer Applications",
+			"degree": "Master of Computer Applications (8.68 CGPA)",
 			"id": "jmi",
 			"logoAssetUrl": "/assets/images/jamia-millia-islamia-logo-icon.svg",
 			"universityName": "Jamia Millia Islamia",
-			"universityWebsiteUrl": "https://www.jmi.ac.in/"
+			"universityWebsiteUrl": "https://www.jmi.ac.in"
 		},
 		{
-			"degree": "Bachelor of Computer Applications",
+			"degree": "Bachelor of Computer Applications (71.47%)",
 			"id": "ku",
 			"logoAssetUrl": "/assets/images/university-of-kashmir-logo-icon.png",
 			"universityName": "University of Kashmir",
-			"universityWebsiteUrl": "https://www.kashmiruniversity.net/"
+			"universityWebsiteUrl": "https://www.kashmiruniversity.net"
 		}
 	],
 	"skills": [
@@ -257,7 +257,8 @@
 				"country": "Qatar"
 			},
 			"id": "sf",
-			"role": "Full Stack Developer"
+			"role": "Full Stack Developer",
+			"summary": "Worked as founding software engineer primarily responsible building RESTful Backend API's (NodeJS), responsive UI (Angular), Data Modelling & Schema design (MongoDB), Integrating 3rd party services & libraries(AWS, Mongoose etc), Improving SEO on Google & Bing search consoles, Writing technical documentations on confluence, Overall improvement & performance optimization of the application."
 		},
 		{
 			"companyDetails": {
@@ -267,7 +268,8 @@
 				"country": "India"
 			},
 			"id": "vs",
-			"role": "Software Engineer"
+			"role": "Software Engineer",
+			"summary": "Worked as software engineer primary responsible for building an ElectronJS (ReactJS & TypeScript) cross-platform desktop application, creating seamless web animations for real-money based game, building responsive game components, handling and integrating live stream of web socket events, maintaining application state using MobX-state-tree & integrating RESTful API's."
 		},
 		{
 			"companyDetails": {
@@ -276,7 +278,8 @@
 				"companyWebsiteUrl": "https://vectoscalar.com",
 				"country": "India"
 			},
-			"role": "Software Engineer Intern"
+			"role": "Software Engineer Intern",
+			"summary": "Worked as software engineer intern primary responsible for debugging and bug fixing issues, refactoring existing codebase and building new ReactJS components."
 		}
 	]
 }
