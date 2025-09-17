@@ -25,46 +25,10 @@
 	"contactDetails": {
 		"codingAndSocialProfiles": [
 			{
-				"iconUrl": "assets/images/github-logo-icon.svg",
-				"id": "",
-				"linkUrl": "https://github.com/wasit-shafi",
-				"titleText": "تحقق من ملفي الشخصي على جيثب",
-				"isEnabled": true
-			},
-			{
 				"iconUrl": "assets/images/linkedin-logo-icon.svg",
 				"id": "",
 				"linkUrl": "https://www.linkedin.com/in/wasit-shafi/?locale=ar_AE",
 				"titleText": "تواصل معي على LinkedIn",
-				"isEnabled": true
-			},
-			{
-				"iconUrl": "assets/images/stack-overflow-logo-icon.svg",
-				"id": "",
-				"linkUrl": "https://stackoverflow.com/users/10249156/wasit-shafi",
-				"titleText": "تحقق من ملف تعريف تجاوز سعة المكدس الخاص بي",
-				"isEnabled": true
-			},
-			{
-				"iconLightUrl": "assets/images/leetcode-logo-light-icon.png",
-				"iconUrl": "assets/images/leetcode-logo-dark-icon.png",
-				"id": "",
-				"linkUrl": "https://leetcode.com/wasit-shafi/",
-				"titleText": "تحقق من ملفي الشخصي في Leetcode",
-				"isEnabled": true
-			},
-			{
-				"iconUrl": "assets/images/codechef-logo-icon.png",
-				"id": "",
-				"linkUrl": "https://www.codechef.com/users/wasit_shafi",
-				"titleText": "تحقق من ملفي الشخصي في برنامج Codechef",
-				"isEnabled": true
-			},
-			{
-				"iconUrl": "assets/images/hackerrank-logo-icon.png",
-				"id": "",
-				"linkUrl": "https://www.hackerrank.com/profile/wasit_shafi",
-				"titleText": "تحقق من ملف التعريف الخاص بي على HackerRank",
 				"isEnabled": true
 			},
 			{
@@ -75,6 +39,42 @@
 				"linkUrl": "https://wa.me/+919682648815?text=%5BRef%3A%20Portfolio%5D%3A%20Hello%20Wasit...",
 				"titleText": "الدردشة مع واسط على الواتساب",
 				"isEnabled": true
+			},
+			{
+				"iconUrl": "assets/images/github-logo-icon.svg",
+				"id": "",
+				"linkUrl": "https://github.com/wasit-shafi",
+				"titleText": "تحقق من ملفي الشخصي على جيثب",
+				"isEnabled": false
+			},
+			{
+				"iconUrl": "assets/images/stack-overflow-logo-icon.svg",
+				"id": "",
+				"linkUrl": "https://stackoverflow.com/users/10249156/wasit-shafi",
+				"titleText": "تحقق من ملف تعريف تجاوز سعة المكدس الخاص بي",
+				"isEnabled": false
+			},
+			{
+				"iconLightUrl": "assets/images/leetcode-logo-light-icon.png",
+				"iconUrl": "assets/images/leetcode-logo-dark-icon.png",
+				"id": "",
+				"linkUrl": "https://leetcode.com/wasit-shafi/",
+				"titleText": "تحقق من ملفي الشخصي في Leetcode",
+				"isEnabled": false
+			},
+			{
+				"iconUrl": "assets/images/codechef-logo-icon.png",
+				"id": "",
+				"linkUrl": "https://www.codechef.com/users/wasit_shafi",
+				"titleText": "تحقق من ملفي الشخصي في برنامج Codechef",
+				"isEnabled": false
+			},
+			{
+				"iconUrl": "assets/images/hackerrank-logo-icon.png",
+				"id": "",
+				"linkUrl": "https://www.hackerrank.com/profile/wasit_shafi",
+				"titleText": "تحقق من ملف التعريف الخاص بي على HackerRank",
+				"isEnabled": false
 			}
 		],
 		"emailId": {

@@ -23,46 +23,10 @@
 	"contactDetails": {
 		"codingAndSocialProfiles": [
 			{
-				"iconUrl": "assets/images/github-logo-icon.svg",
-				"id": "",
-				"linkUrl": "https://github.com/wasit-shafi",
-				"titleText": "Checkout my github profile",
-				"isEnabled": true
-			},
-			{
 				"iconUrl": "assets/images/linkedin-logo-icon.svg",
 				"id": "",
 				"linkUrl": "https://www.linkedin.com/in/wasit-shafi/",
 				"titleText": "Connect with me on LinkedIn",
-				"isEnabled": true
-			},
-			{
-				"iconUrl": "assets/images/stack-overflow-logo-icon.svg",
-				"id": "",
-				"linkUrl": "https://stackoverflow.com/users/10249156/wasit-shafi",
-				"titleText": "Checkout my stack overflow profile",
-				"isEnabled": true
-			},
-			{
-				"iconLightUrl": "assets/images/leetcode-logo-light-icon.png",
-				"iconUrl": "assets/images/leetcode-logo-dark-icon.png",
-				"id": "",
-				"linkUrl": "https://leetcode.com/wasit-shafi/",
-				"titleText": "Checkout my leetcode profile",
-				"isEnabled": true
-			},
-			{
-				"iconUrl": "assets/images/codechef-logo-icon.png",
-				"id": "",
-				"linkUrl": "https://www.codechef.com/users/wasit_shafi",
-				"titleText": "Checkout my codechef profile",
-				"isEnabled": true
-			},
-			{
-				"iconUrl": "assets/images/hackerrank-logo-icon.png",
-				"id": "",
-				"linkUrl": "https://www.hackerrank.com/profile/wasit_shafi",
-				"titleText": "Checkout my HackerRank profile",
 				"isEnabled": true
 			},
 			{
@@ -73,6 +37,42 @@
 				"linkUrl": "https://wa.me/+919682648815?text=%5BRef%3A%20Portfolio%5D%3A%20Hello%20Wasit...",
 				"titleText": "Chat with with wasit on WhatsApp",
 				"isEnabled": true
+			},
+			{
+				"iconUrl": "assets/images/github-logo-icon.svg",
+				"id": "",
+				"linkUrl": "https://github.com/wasit-shafi",
+				"titleText": "Checkout my github profile",
+				"isEnabled": false
+			},
+			{
+				"iconUrl": "assets/images/stack-overflow-logo-icon.svg",
+				"id": "",
+				"linkUrl": "https://stackoverflow.com/users/10249156/wasit-shafi",
+				"titleText": "Checkout my stack overflow profile",
+				"isEnabled": false
+			},
+			{
+				"iconLightUrl": "assets/images/leetcode-logo-light-icon.png",
+				"iconUrl": "assets/images/leetcode-logo-dark-icon.png",
+				"id": "",
+				"linkUrl": "https://leetcode.com/wasit-shafi/",
+				"titleText": "Checkout my leetcode profile",
+				"isEnabled": false
+			},
+			{
+				"iconUrl": "assets/images/codechef-logo-icon.png",
+				"id": "",
+				"linkUrl": "https://www.codechef.com/users/wasit_shafi",
+				"titleText": "Checkout my codechef profile",
+				"isEnabled": false
+			},
+			{
+				"iconUrl": "assets/images/hackerrank-logo-icon.png",
+				"id": "",
+				"linkUrl": "https://www.hackerrank.com/profile/wasit_shafi",
+				"titleText": "Checkout my HackerRank profile",
+				"isEnabled": false
 			}
 		],
 		"emailId": {

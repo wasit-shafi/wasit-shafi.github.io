@@ -16,9 +16,11 @@
 		"toggleLanguageInfo": "انقر لتغيير اللغة",
 		"toggleThemeInfo": "انقر لتغيير الثيم",
 		"wasit": "واسط",
-		"workExperience": "خبرة في العمل"
+		"workExperience": "خبرة في العمل",
+		"stats": "احصائيات"
 	},
 	"en": {
+		"stats": "Stats",
 		"clickToCopyEmail": "Click to Copy e-mail ID",
 		"connectOnLinkedinInfo": "Connect with Wasit on LinkedIn",
 		"connectWithMe": "Connect With Me",
