@@ -9,6 +9,7 @@ export class Constants {
 		EDUCATION: 'education',
 		PERSONAL_PROJECTS: 'personal-projects',
 		SKILLS: 'skills',
+		STATS: 'stats',
 		WORK_EXPERIENCE: 'work-experience',
 	} as const;
 

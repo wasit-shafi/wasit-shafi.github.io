@@ -1,0 +1,219 @@
+<section
+	class="mb-[18px]"
+	[id]="constants.homeSectionLinksId.STATS"
+>
+	<h3
+		class="mb-[8px] text-center font-nanum-pen text-4xl font-medium text-qatar"
+	>
+		{{
+			appDataService.staticData()[
+				constants.languageCodes[this.appDataService.currentLanguage()]
+			]?.stats
+		}}
+	</h3>
+
+	<div
+		class="flex flex-wrap justify-center gap-3"
+		[style.direction]="'ltr'"
+	>
+		<!-- STACKOVERFLOW CARD-->
+
+		<a
+			href="https://stackoverflow.com/users/10249156/wasit-shafi"
+			class="group grow items-center gap-x-2 rounded-lg p-2 transition-shadow xs:grow-0"
+			[ngClass]="constants.WSP + 'stackoverflow-card'"
+			target="_blank"
+		>
+			<!-- Visit my StackOverflow profile -->
+
+			<div class="mb-1 flex items-center justify-center gap-x-2">
+				<img
+					ngSrc="../../../assets/images/stack-overflow-logo-icon.svg"
+					[height]="DEFAULT_ICON_SIZE"
+					[width]="DEFAULT_ICON_SIZE"
+					alt=""
+					class=""
+				/>
+				<span
+					class="text-txtQuaternary underline-offset-4 group-hover:underline"
+				>
+					Visit my StackOverflow profile
+				</span>
+			</div>
+			<!-- People Reached Impact -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					People Reached Impact:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>400,000+</b>
+				</span>
+			</div>
+			<!-- Reputations -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Reputations:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>1800+</b>
+				</span>
+			</div>
+			<!-- Badges -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Badges:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>35 (1 Gold, 15 Silver, 19 Bronze)</b>
+				</span>
+			</div>
+			<!-- Answers -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Answers:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>60+</b>
+				</span>
+			</div>
+			<!-- Top Tags -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Top Tags:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>javascript, node.js, reactjs, typescript, angular</b>
+				</span>
+			</div>
+		</a>
+		<!-- GITHUB CARD -->
+
+		<a
+			href="https://github.com/wasit-shafi"
+			class="group grow items-center gap-x-2 rounded-lg p-2 transition-shadow xs:grow-0"
+			[ngClass]="constants.WSP + 'github-card'"
+			target="_blank"
+		>
+			<!-- Visit my GitHub profile -->
+
+			<div class="mb-1 flex items-center justify-center gap-x-2">
+				<img
+					ngSrc="../../../assets/images/github-logo-icon.svg"
+					[height]="DEFAULT_ICON_SIZE"
+					[width]="DEFAULT_ICON_SIZE"
+					alt=""
+					class=""
+				/>
+				<span
+					class="text-txtQuaternary underline-offset-4 group-hover:underline"
+				>
+					Visit my GitHub profile
+				</span>
+			</div>
+			<!-- Contributions -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Contributions:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>1887</b>
+				</span>
+			</div>
+			<!-- Commits -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Commits:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>2424</b>
+				</span>
+			</div>
+			<!-- Issues & PR's -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Issues & PR's:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>13</b>
+				</span>
+			</div>
+			<!-- Member Since -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Member Since:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>2017</b>
+				</span>
+			</div>
+		</a>
+		<!-- LEETCODE CARD -->
+
+		<a
+			href="https://leetcode.com/u/wasit-shafi"
+			class="group grow items-center gap-x-2 rounded-lg p-2 transition-shadow xs:grow-0"
+			[ngClass]="constants.WSP + 'leetcode-card'"
+			target="_blank"
+		>
+			<!-- Visit my LeetCode profile -->
+
+			<div class="mb-1 flex items-center justify-center gap-x-2">
+				<img
+					[ngSrc]="
+						'../../../assets/images/leetcode-logo-' +
+						(appDataService.isDarkCurrentTheme() ? 'light' : 'dark') +
+						'-icon.png'
+					"
+					[height]="DEFAULT_ICON_SIZE"
+					[width]="DEFAULT_ICON_SIZE"
+					alt=""
+					class=""
+				/>
+				<span
+					class="text-txtQuaternary underline-offset-4 group-hover:underline"
+				>
+					Visit my LeetCode profile
+				</span>
+			</div>
+			<!-- Ques. Solved -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Ques. Solved:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>215+ (158+ Easy, 55+ Medium, 3+ Hard)</b>
+				</span>
+			</div>
+			<!-- Badges -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Badges:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>2</b>
+				</span>
+			</div>
+			<!-- Past one year submissions -->
+
+			<div class="flex items-center gap-x-1">
+				<span class="text-nowrap font-nanum-pen text-lg text-txtSecondary">
+					Past one year submissions:
+				</span>
+				<span class="font-shantell-sans text-xs text-txtPrimary">
+					<b>100+</b>
+				</span>
+			</div>
+		</a>
+	</div>
+</section>

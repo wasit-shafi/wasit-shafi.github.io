@@ -1,0 +1,42 @@
+@use '../../../main.scss' as *;
+
+// CTM: all the colors are taken from the respective websites by inspecting some the core elements
+
+.#{$wsp}stackoverflow-card {
+	border: 1px solid rgba(#e7700d, 1);
+	background: linear-gradient(
+		294.57deg,
+		rgba(whitesmoke, 0.6) 0%,
+		rgba(#e7700d, 0.65) 100%
+	);
+
+	&:hover {
+		box-shadow: 0 0 4px rgba(#e7700d, 0.75);
+	}
+}
+
+.#{$wsp}github-card {
+	border: 1px solid rgba(#0969da, 0.8);
+	background: linear-gradient(
+		294.57deg,
+		rgba(#1a7f37, 0.6) 0%,
+		rgba(#097cff, 0.65) 100%
+	);
+
+	&:hover {
+		box-shadow: 0 0 4px rgba(#097cff, 0.75);
+	}
+}
+
+.#{$wsp}leetcode-card {
+	border: 1px solid rgba(#fca016, 0.5);
+	background: linear-gradient(
+		294.57deg,
+		rgba(#ff9558, 0.4) 0%,
+		rgba(#fce5ac, 0.4) 100%
+	);
+
+	&:hover {
+		box-shadow: 0 0 4px rgba(#ffa116, 0.75);
+	}
+}

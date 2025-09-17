@@ -36,7 +36,6 @@ export class AppComponent {
 		const navLi = document.querySelectorAll('nav ul li');
 
 		window.addEventListener('scroll', () => {
-			console.clear();
 			let current: string = '';
 
 			sections.forEach((section) => {

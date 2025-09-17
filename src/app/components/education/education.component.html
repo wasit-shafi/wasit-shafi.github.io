@@ -17,7 +17,7 @@
 	>
 		@for (educationDataItem of educationData; track educationDataItem.id) {
 			<a
-				class="hover:decoration align-center mx-auto inline-flex text-txtQuaternary md:mx-0"
+				class="hover:decoration align-center group mx-auto inline-flex text-txtQuaternary md:mx-0"
 				[href]="educationDataItem.universityWebsiteUrl"
 				[title]="educationDataItem.universityWebsiteUrl"
 				target="_blank"
@@ -34,7 +34,7 @@
 						/>
 					</div>
 					<div class="flex flex-col">
-						<p>
+						<p class="underline-offset-4 group-hover:underline">
 							{{ educationDataItem.universityName }}
 						</p>
 						<p class="font-semibold text-txtSecondary">

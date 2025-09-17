@@ -15,7 +15,7 @@ export class ContactComponent {
 	protected readonly constants = inject(Constants);
 	protected readonly appDataService = inject(AppDataService);
 	protected readonly userProfileService = inject(UserProfileService);
-	protected readonly DEFAULT_ICON_WIDTH_IN_PX = 36;
+	protected readonly DEFAULT_ICON_SIZE = 36;
 	protected isEmailIdCopied: boolean = false;
 	protected contactData: IContact =
 		this.userProfileService.contactDetailsInitialState;

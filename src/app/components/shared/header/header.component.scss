@@ -10,9 +10,15 @@
 
 li {
 	&.light {
-		// shadow added only for light mode, mostly due to black background color of youtube video section, earlier the nav text as not clearly visible in light mode theme
+		// used text-shadow to make nav text more visible on light theme (especially on back background)
 
 		text-shadow: 0px 0px 3px rgba($clr-white, 0.8);
+	}
+
+	&.dark {
+		// used text-shadow to make nav text more visible on dark theme (especially on white background)
+
+		text-shadow: 0px 0px 3px rgba($clr-black, 0.8);
 	}
 
 	&.active {
@@ -20,6 +26,10 @@ li {
 
 		a {
 			color: $clr-qatar;
+		}
+
+		&.dark {
+			text-shadow: none;
 		}
 	}
 }

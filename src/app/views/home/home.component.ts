@@ -1,13 +1,9 @@
-import { AppDataService } from '@services/';
 import { Component, inject } from '@angular/core';
 import {
-	AboutComponent,
-	ContactComponent,
-	EducationComponent,
-	PersonalProjectsComponent,
-	SkillsComponent,
-	WorkExperiencesComponent,
+    AboutComponent, ContactComponent, EducationComponent, PersonalProjectsComponent, SkillsComponent, StatsComponent,
+    WorkExperiencesComponent
 } from '@components/';
+import { AppDataService } from '@services/';
 
 @Component({
 	selector: 'wsp-home',
@@ -18,6 +14,7 @@ import {
 		PersonalProjectsComponent,
 		SkillsComponent,
 		WorkExperiencesComponent,
+		StatsComponent,
 	],
 	templateUrl: './home.component.html',
 	styleUrl: './home.component.scss',

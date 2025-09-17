@@ -71,6 +71,17 @@ export class HeaderComponent {
 			href: '#' + this.constants.homeSectionLinksId.PERSONAL_PROJECTS,
 			class: this.constants.homeSectionLinksId.PERSONAL_PROJECTS,
 		},
+		// STATS
+
+		{
+			label: {
+				[this.constants.languages.ARABIC]: 'احصائيات',
+				[this.constants.languages.ENGLISH]: 'Stats',
+			},
+			visibility: true,
+			href: '#' + this.constants.homeSectionLinksId.STATS,
+			class: this.constants.homeSectionLinksId.STATS,
+		},
 		// EDUCATION
 
 		{
@@ -112,7 +123,7 @@ export class HeaderComponent {
 
 		const { innerWidth = 0 } = params;
 
-		// console.log('innerWidth :: ', innerWidth, params);
+		console.log('innerWidth :: ', innerWidth, params);
 
 		if (innerWidth && menuUlNativeElement) {
 			if (innerWidth >= 413) {
