@@ -18,41 +18,43 @@
 	@for (summaryItem of aboutData.summary; track $index) {
 		@if (summaryItem.isEnabled) {
 			<p
-				class="font-shantell-sans text-center text-txtPrimary"
+				class="text-center font-shantell-sans text-txtPrimary"
 				[innerHTML]="utils.getSafeHtml(summaryItem.text)"
 			></p>
 		}
 	}
 	<!-- TODO(Wasit Shafi): Added Temporary as hotfix to fix issue 'resume link on click was not working/opening' due to use of  utils.getSafeHtml(), getSafeHtml was to make sure the styles/green text color should work properly, review it later -->
 
-	@if (appDataService.currentLanguage() === constants.languages.ENGLISH) {
-		<p class="text-center text-txtPrimary">
+	<p class="text-center leading-8 text-txtPrimary">
+		@if (appDataService.currentLanguage() === constants.languages.ENGLISH) {
 			Want to know more...? Have a Look at my
 			<a
 				href="https://drive.google.com/file/d/1puidKqUIbxl5Bjpjalt8C-07qiCoASng"
 				title="https://drive.google.com/file/d/1puidKqUIbxl5Bjpjalt8C-07qiCoASng"
-				class="hover:decoration text-txtQuaternary hover:underline"
+				class="border-1 rounded border-2 border-txtQuaternary px-3 py-1 text-txtQuaternary transition-colors duration-500 hover:border-txtQuaternary hover:bg-txtQuaternary hover:text-white"
+				[ngClass]="[constants.WSP + 'resume-link']"
 				target="_blank"
-				><b>Resume</b></a
 			>
+				<b>Resume</b>
+			</a>
 			<span style="color: forestgreen">
 				(In-Depth <b>Work Experience</b>, <b>Personal Projects</b> &
 				<b>Achievements</b> Sections)</span
 			>
-		</p>
-	} @else {
-		<p class="text-center text-txtPrimary">
+		} @else {
 			هل تريد أن تعرفني أكثر...؟ ألق نظرة على حسابي
 			<a
 				href="https://drive.google.com/file/d/1puidKqUIbxl5Bjpjalt8C-07qiCoASng"
 				title="https://drive.google.com/file/d/1puidKqUIbxl5Bjpjalt8C-07qiCoASng"
-				class="hover:decoration text-txtQuaternary hover:underline"
+				class="border-1 rounded border-2 border-txtQuaternary px-3 py-1 text-txtQuaternary transition-colors duration-500 hover:border-txtQuaternary hover:bg-txtQuaternary hover:text-white"
+				[ngClass]="[constants.WSP + 'resume-link']"
 				target="_blank"
-				><b>سيرة ذاتية</b></a
 			>
+				<b>سيرة ذاتية</b>
+			</a>
 			<span style="color: forestgreen">
 				(أقسام الخبرة العملية المتعمقة والمشاريع الشخصية والإنجازات)</span
 			>
-		</p>
-	}
+		}
+	</p>
 </section>

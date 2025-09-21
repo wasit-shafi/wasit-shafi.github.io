@@ -1,0 +1,9 @@
+@use '../.././../main.scss' as *;
+
+.#{$wsp}resume-link {
+	&:hover {
+		text-shadow:
+			0 0 10px rgba($clr-white, 1),
+			0 0 10px rgba($clr-pastel-grey, 0.1);
+	}
+}
