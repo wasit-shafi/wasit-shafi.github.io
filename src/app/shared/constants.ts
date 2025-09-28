@@ -296,4 +296,12 @@ export class Constants {
         </div>`,
 		},
 	];
+
+	public readonly API_PREFIX: Record<string, string> = {
+		API_V1: 'api/v1',
+		API_V2: 'api/v2',
+	};
+	// used in auth interceptor and app initializer for visitor alert
+
+	public readonly IPINFO_ENDPOINT = 'https://ipinfo.io/json';
 }

@@ -2,7 +2,8 @@
 	"name": "portfolio",
 	"version": "1.0.0",
 	"scripts": {
-		"start": "ng serve",
+		"dev": "ng serve",
+		"start": "ng serve --configuration=production",
 		"start-on-wifi": "ng serve --host 0.0.0.0",
 		"format-codebase": "npx prettier . --write",
 		"check-codebase": "npx prettier . --check ",

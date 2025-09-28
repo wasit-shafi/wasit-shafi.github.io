@@ -1,6 +1,12 @@
 import { DOCUMENT } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Inject, inject, Injectable, signal, WritableSignal } from '@angular/core';
+import {
+	Inject,
+	inject,
+	Injectable,
+	signal,
+	WritableSignal,
+} from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { Constants } from '@app/shared';
 import { environment } from '@environments/';
