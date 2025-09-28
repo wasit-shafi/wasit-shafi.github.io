@@ -9,7 +9,7 @@
 			[
 				{
 					"name": "Frontend",
-					"commands": ["npm start"],
+					"commands": ["npm run dev"],
 					"autoExecuteCommands": true
 				},
 				{

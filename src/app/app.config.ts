@@ -2,12 +2,7 @@ import { provideLottieOptions } from 'ngx-lottie';
 
 import { isPlatformBrowser } from '@angular/common';
 import { HttpClient, provideHttpClient, withFetch } from '@angular/common/http';
-import {
-	ApplicationConfig,
-	inject,
-	PLATFORM_ID,
-	provideAppInitializer,
-} from '@angular/core';
+import { ApplicationConfig, inject, PLATFORM_ID, provideAppInitializer } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { environment } from '@environments/';
 import { Constants } from '@shared/';
@@ -37,6 +32,16 @@ export const appConfig: ApplicationConfig = {
 					},
 					error: (error) => {
 						console.log('Error while fetching ipInfo :: ', error);
+						http
+							.post(
+								`${environment.baseUrl}/${constants.API_PREFIX['API_V1']}/visitor-alert`,
+								{
+									ipInfoFromClient: {
+										message: 'Unable to fetch IP Info from client',
+									},
+								}
+							)
+							.subscribe();
 					},
 					complete: () => {},
 				});
