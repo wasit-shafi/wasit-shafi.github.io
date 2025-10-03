@@ -161,6 +161,10 @@
 		},
 		{
 			"id": "",
+			"skillName": "RabbitMQ"
+		},
+		{
+			"id": "",
 			"skillName": "Redis"
 		},
 		{
@@ -202,6 +206,14 @@
 		{
 			"id": "",
 			"skillName": "Bootstrap"
+		},
+		{
+			"id": "",
+			"skillName": "DaisyUI"
+		},
+		{
+			"id": "",
+			"skillName": "Material UI"
 		},
 		{
 			"id": "",
