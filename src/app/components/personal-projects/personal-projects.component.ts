@@ -62,6 +62,11 @@ export class PersonalProjectsComponent {
 					label: 'Frontend Repo',
 					url: 'https://github.com/wasit-shafi/dev-tools-studio-frontend',
 				},
+				{
+					id: '',
+					label: 'Docker Images',
+					url: 'https://hub.docker.com/u/wasitshafi700?search=dev-tools-studio',
+				},
 			],
 			coreTechStack: [
 				{
