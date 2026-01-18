@@ -2,7 +2,12 @@ import { provideLottieOptions } from 'ngx-lottie';
 
 import { isPlatformBrowser } from '@angular/common';
 import { HttpClient, provideHttpClient, withFetch } from '@angular/common/http';
-import { ApplicationConfig, inject, PLATFORM_ID, provideAppInitializer } from '@angular/core';
+import {
+	ApplicationConfig,
+	inject,
+	PLATFORM_ID,
+	provideAppInitializer,
+} from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { environment } from '@environments/';
 import { Constants } from '@shared/';
@@ -18,6 +23,17 @@ export const appConfig: ApplicationConfig = {
 
 			if (isPlatformBrowser(platformId)) {
 				// TODO(BUG): Currently the get request for fetching the IP info is failing on edge desktop browser (working on chrome, firefox, safari), Review it later
+				const timeZone =
+					Intl?.DateTimeFormat()?.resolvedOptions()?.timeZone ?? 'N/A';
+				const additionalVisitorAlertParams = {
+					timeOnClientMachine: new Date().toLocaleString('en-GB', {
+						hour12: true,
+						hourCycle: 'h12',
+						dateStyle: 'medium',
+						timeStyle: 'medium',
+					}),
+					timeZoneOnClientMachine: timeZone,
+				};
 
 				http.get(constants.IPINFO_ENDPOINT).subscribe({
 					next: (response) => {
@@ -26,6 +42,7 @@ export const appConfig: ApplicationConfig = {
 								`${environment.baseUrl}/${constants.API_PREFIX['API_V1']}/visitor-alert`,
 								{
 									ipInfoFromClient: response,
+									...additionalVisitorAlertParams,
 								}
 							)
 							.subscribe();
@@ -39,6 +56,7 @@ export const appConfig: ApplicationConfig = {
 									ipInfoFromClient: {
 										message: 'Unable to fetch IP Info from client',
 									},
+									...additionalVisitorAlertParams,
 								}
 							)
 							.subscribe();
