@@ -3,7 +3,7 @@
 		"greeting": "👋 Hi, I'm Wasit",
 		"summary": [
 			{
-				"text": "Solution-oriented <b>Full-Stack Software Engineer</b> with <b>4 Years</b> of experience in developing & delivering high-quality, scalable enterprise web applications with strong problem-solving & debugging skills.",
+				"text": "Solution-oriented <b>Software Engineer</b> with <b>4 Years</b> of experience in developing & delivering high-quality, scalable enterprise web applications with strong problem-solving & debugging skills.",
 				"isEnabled": true
 			},
 			{
@@ -72,6 +72,13 @@
 				"id": "",
 				"linkUrl": "https://www.hackerrank.com/profile/wasit_shafi",
 				"titleText": "Checkout my HackerRank profile",
+				"isEnabled": false
+			},
+			{
+				"iconUrl": "assets/images/qr-code-scan-icon.png",
+				"id": "",
+				"linkUrl": "",
+				"titleText": "Scan QR code",
 				"isEnabled": false
 			}
 		],
@@ -277,7 +284,7 @@
 				"country": "Qatar"
 			},
 			"id": "sf",
-			"role": "Full Stack Developer",
+			"role": "Software Developer",
 			"summary": "Worked as founding software engineer primarily responsible building RESTful Backend API's (NodeJS), responsive UI (Angular), Data Modelling & Schema design (MongoDB), Integrating 3rd party services & libraries(AWS, Mongoose etc), Improving SEO on Google & Bing search consoles, Writing technical documentations on confluence, Overall improvement & performance optimization of the application."
 		},
 		{
