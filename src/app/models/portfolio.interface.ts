@@ -34,6 +34,11 @@ interface IWorkContributions {
 // Skills
 
 export interface ISkills {
+	category: string;
+	skillList: ISkill[];
+}
+
+export interface ISkill {
 	id: string;
 	skillName: string;
 }

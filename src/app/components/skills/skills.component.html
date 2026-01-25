@@ -11,16 +11,25 @@
 			]?.skills
 		}}
 	</h3>
-	<div
-		class="flex flex-wrap justify-center gap-x-[10px] gap-y-[8px]"
-		[style.direction]="'ltr'"
-	>
+	<div class="">
 		@for (skillDataItem of skillsData; track $index) {
-			<span
-				class="block whitespace-nowrap rounded-[6px] border px-[12px] py-[2px] font-nanum-pen text-2xl text-txtSecondary"
+			<div
+				class=""
+				[style.direction]="'ltr'"
 			>
-				{{ skillDataItem.skillName }}
-			</span>
+				<span class="font-nanum-pen text-3xl font-bold text-txtPrimary">
+					{{ skillDataItem.category }}
+				</span>
+				<div class="flex flex-wrap gap-x-[10px] gap-y-[8px] pb-5 pl-2 pt-2">
+					@for (skill of skillDataItem.skillList; track $index) {
+						<span
+							class="block whitespace-nowrap rounded-[6px] border px-[8px] py-[1px] font-nanum-pen text-2xl text-txtSecondary"
+						>
+							{{ skill.skillName }}
+						</span>
+					}
+				</div>
+			</div>
 		}
 	</div>
 </section>
