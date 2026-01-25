@@ -111,168 +111,269 @@
 	],
 	"skills": [
 		{
-			"id": "",
-			"skillName": "NodeJS"
+			"category": "Languages",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "TypeScript"
+				},
+				{
+					"id": "",
+					"skillName": "JavaScript"
+				},
+				{
+					"id": "",
+					"skillName": "Java"
+				},
+				{
+					"id": "",
+					"skillName": "Python"
+				},
+				{
+					"id": "",
+					"skillName": "C"
+				},
+				{
+					"id": "",
+					"skillName": "C++"
+				}
+			]
 		},
 		{
-			"id": "",
-			"skillName": "ExpressJS"
+			"category": "Backend",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "NodeJS"
+				},
+				{
+					"id": "",
+					"skillName": "ExpressJS"
+				},
+				{
+					"id": "",
+					"skillName": "Mongoose"
+				},
+				{
+					"id": "",
+					"skillName": "RESTful API Design & Development"
+				},
+				{
+					"id": "",
+					"skillName": "JWT"
+				},
+				{
+					"id": "",
+					"skillName": "OAuth"
+				},
+				{
+					"id": "",
+					"skillName": "BullMQ"
+				},
+				{
+					"id": "",
+					"skillName": "NestJS"
+				},
+				{
+					"id": "",
+					"skillName": "Database Schema Design"
+				},
+				{
+					"id": "",
+					"skillName": "Web Sockets"
+				},
+				{
+					"id": "",
+					"skillName": "Postman"
+				},
+				{
+					"id": "",
+					"skillName": "Swagger"
+				}
+			]
 		},
 		{
-			"id": "",
-			"skillName": "MongoDB"
+			"category": "Frontend",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "Angular"
+				},
+				{
+					"id": "",
+					"skillName": "React"
+				},
+				{
+					"id": "",
+					"skillName": "NgRx"
+				},
+				{
+					"id": "",
+					"skillName": "Redux"
+				},
+				{
+					"id": "",
+					"skillName": "RxJs"
+				},
+				{
+					"id": "",
+					"skillName": "HTML"
+				},
+				{
+					"id": "",
+					"skillName": "CSS"
+				},
+				{
+					"id": "",
+					"skillName": "SCSS"
+				},
+				{
+					"id": "",
+					"skillName": "Tailwind CSS"
+				},
+				{
+					"id": "",
+					"skillName": "Bootstrap 5"
+				},
+				{
+					"id": "",
+					"skillName": "DaisyUI"
+				},
+				{
+					"id": "",
+					"skillName": "Material UI"
+				},
+				{
+					"id": "",
+					"skillName": "ElectronJS"
+				},
+				{
+					"id": "",
+					"skillName": "Web Animation API"
+				}
+			]
 		},
 		{
-			"id": "",
-			"skillName": "RESTful API Design & Development"
+			"category": "Database",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "MongoDB"
+				},
+				{
+					"id": "",
+					"skillName": "SQL (MySQL/PostgreSQL)"
+				},
+				{
+					"id": "",
+					"skillName": "Redis"
+				}
+			]
 		},
 		{
-			"id": "",
-			"skillName": "Angular"
+			"category": "DevOps/Infrastructure",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "Docker"
+				},
+				{
+					"id": "",
+					"skillName": "Git"
+				},
+				{
+					"id": "",
+					"skillName": "GitHub Actions"
+				},
+				{
+					"id": "",
+					"skillName": "CICD"
+				},
+				{
+					"id": "",
+					"skillName": "Cron Jobs"
+				},
+				{
+					"id": "",
+					"skillName": "AWS"
+				}
+			]
 		},
 		{
-			"id": "",
-			"skillName": "React"
+			"category": "Monitoring & Observability",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "Sentry"
+				},
+				{
+					"id": "",
+					"skillName": "Morgan"
+				},
+				{
+					"id": "",
+					"skillName": "Winston"
+				},
+				{
+					"id": "",
+					"skillName": "Grafana"
+				},
+				{
+					"id": "",
+					"skillName": "Prometheus"
+				},
+				{
+					"id": "",
+					"skillName": "New Relic"
+				},
+				{
+					"id": "",
+					"skillName": "Snyk"
+				}
+			]
 		},
 		{
-			"id": "",
-			"skillName": "JavaScript"
+			"category": "Other",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "Performance Optimization"
+				},
+				{
+					"id": "",
+					"skillName": "Problem Solving"
+				},
+				{
+					"id": "",
+					"skillName": "Object Oriented Programming"
+				},
+				{
+					"id": "",
+					"skillName": "Data Structures & Algorithms"
+				}
+			]
 		},
 		{
-			"id": "",
-			"skillName": "SQL (MySQL/PostgreSQL)"
-		},
-		{
-			"id": "",
-			"skillName": "Object Oriented Programming"
-		},
-		{
-			"id": "",
-			"skillName": "Microservices"
-		},
-		{
-			"id": "",
-			"skillName": "Data Structures & Algorithms"
-		},
-		{
-			"id": "",
-			"skillName": "JWT"
-		},
-		{
-			"id": "",
-			"skillName": "Mongoose"
-		},
-		{
-			"id": "",
-			"skillName": "BullMQ"
-		},
-		{
-			"id": "",
-			"skillName": "RabbitMQ"
-		},
-		{
-			"id": "",
-			"skillName": "Redis"
-		},
-		{
-			"id": "",
-			"skillName": "Docker"
-		},
-		{
-			"id": "",
-			"skillName": "NestJS"
-		},
-		{
-			"id": "",
-			"skillName": "AWS"
-		},
-		{
-			"id": "",
-			"skillName": "React"
-		},
-		{
-			"id": "",
-			"skillName": "NgRx"
-		},
-		{
-			"id": "",
-			"skillName": "RxJs"
-		},
-		{
-			"id": "",
-			"skillName": "HTML"
-		},
-		{
-			"id": "",
-			"skillName": "CSS"
-		},
-		{
-			"id": "",
-			"skillName": "SCSS"
-		},
-		{
-			"id": "",
-			"skillName": "Tailwind CSS"
-		},
-		{
-			"id": "",
-			"skillName": "Bootstrap"
-		},
-		{
-			"id": "",
-			"skillName": "DaisyUI"
-		},
-		{
-			"id": "",
-			"skillName": "Material UI"
-		},
-		{
-			"id": "",
-			"skillName": "NextJS"
-		},
-		{
-			"id": "",
-			"skillName": "Java"
-		},
-		{
-			"id": "",
-			"skillName": "Git"
-		},
-		{
-			"id": "",
-			"skillName": "GitHub Actions"
-		},
-		{
-			"id": "",
-			"skillName": "CICD"
-		},
-		{
-			"id": "",
-			"skillName": "Kubernetes"
-		},
-		{
-			"id": "",
-			"skillName": "Web Sockets"
-		},
-		{
-			"id": "",
-			"skillName": "ElectronJS"
-		},
-		{
-			"id": "",
-			"skillName": "Web Animation API"
-		},
-		{
-			"id": "",
-			"skillName": "C"
-		},
-		{
-			"id": "",
-			"skillName": "C++"
-		},
-		{
-			"id": "",
-			"skillName": "Python"
+			"category": "Familiar With",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "Microservices Architecture"
+				},
+				{
+					"id": "",
+					"skillName": "Kubernetes"
+				},
+
+				{
+					"id": "",
+					"skillName": "RabbitMQ"
+				},
+				{
+					"id": "",
+					"skillName": "NextJS"
+				}
+			]
 		}
 	],
 	"workExperience": [
