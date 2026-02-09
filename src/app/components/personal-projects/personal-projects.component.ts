@@ -29,12 +29,12 @@ export class PersonalProjectsComponent {
 				},
 				{
 					id: '',
-					label: 'Frontend Link',
+					label: 'Frontend App',
 					url: 'https://devtoolsstudio.surge.sh',
 				},
 				{
 					id: '',
-					label: 'Backend Link',
+					label: 'Backend Server',
 					url: 'https://dev-tools-studio-backend-git-dev.on.shiper.app',
 				},
 				{
@@ -44,28 +44,23 @@ export class PersonalProjectsComponent {
 				},
 				{
 					id: '',
-					label: 'Project Board',
+					label: 'GitHub Project Board',
 					url: 'https://github.com/users/wasit-shafi/projects/5/views/1',
 				},
 				{
 					id: '',
-					label: 'Postman Collection',
-					url: 'https://www.postman.com/wasitshafi/dev-tools-studio-public-wrokspace/overview',
-				},
-				{
-					id: '',
-					label: 'Backend Repo',
-					url: 'https://github.com/wasit-shafi/dev-tools-studio-backend',
-				},
-				{
-					id: '',
-					label: 'Frontend Repo',
-					url: 'https://github.com/wasit-shafi/dev-tools-studio-frontend',
+					label: 'Source Code Repositories',
+					url: 'https://github.com/wasit-shafi?tab=repositories&q=dev-tools-studio',
 				},
 				{
 					id: '',
 					label: 'Docker Images',
 					url: 'https://hub.docker.com/u/wasitshafi700?search=dev-tools-studio',
+				},
+				{
+					id: '',
+					label: 'Postman Collection',
+					url: 'https://www.postman.com/wasitshafi/dev-tools-studio-public-wrokspace/overview',
 				},
 			],
 			coreTechStack: [
@@ -120,6 +115,10 @@ export class PersonalProjectsComponent {
 				{
 					id: '',
 					label: 'Github Actions',
+				},
+				{
+					id: '',
+					label: 'Tailwind CSS',
 				},
 			],
 		},
