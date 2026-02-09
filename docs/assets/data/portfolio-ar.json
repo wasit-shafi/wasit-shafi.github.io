@@ -154,10 +154,6 @@
 				},
 				{
 					"id": "",
-					"skillName": "Mongoose"
-				},
-				{
-					"id": "",
 					"skillName": "RESTful API Design & Development"
 				},
 				{
@@ -183,14 +179,6 @@
 				{
 					"id": "",
 					"skillName": "Web Sockets"
-				},
-				{
-					"id": "",
-					"skillName": "Postman"
-				},
-				{
-					"id": "",
-					"skillName": "Swagger"
 				}
 			]
 		},
@@ -199,23 +187,15 @@
 			"skillList": [
 				{
 					"id": "",
-					"skillName": "Angular"
-				},
-				{
-					"id": "",
 					"skillName": "React"
 				},
 				{
 					"id": "",
-					"skillName": "NgRx"
+					"skillName": "Angular"
 				},
 				{
 					"id": "",
-					"skillName": "Redux"
-				},
-				{
-					"id": "",
-					"skillName": "RxJs"
+					"skillName": "ElectronJS"
 				},
 				{
 					"id": "",
@@ -239,24 +219,85 @@
 				},
 				{
 					"id": "",
-					"skillName": "DaisyUI"
-				},
-				{
-					"id": "",
 					"skillName": "Material UI"
 				},
 				{
 					"id": "",
-					"skillName": "ElectronJS"
+					"skillName": "DaisyUI"
 				},
 				{
 					"id": "",
-					"skillName": "Web Animation API"
+					"skillName": "Redux"
+				},
+				{
+					"id": "",
+					"skillName": "NgRx"
+				},
+				{
+					"id": "",
+					"skillName": "React Redux"
+				},
+				{
+					"id": "",
+					"skillName": "Redux Thunk"
+				},
+				{
+					"id": "",
+					"skillName": "MobX-State-Tree"
+				},
+				{
+					"id": "",
+					"skillName": "RxJs"
 				}
 			]
 		},
 		{
-			"category": "Database",
+			"category": "Security",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "HelmetJS"
+				},
+				{
+					"id": "",
+					"skillName": "Authentication"
+				},
+				{
+					"id": "",
+					"skillName": "Authorization"
+				},
+				{
+					"id": "",
+					"skillName": "Role-Based Access Control (RBAC)"
+				},
+				{
+					"id": "",
+					"skillName": "API Rate Limiting"
+				},
+				{
+					"id": "",
+					"skillName": "reCAPTCHA"
+				},
+				{
+					"id": "",
+					"skillName": "Containerization"
+				},
+				{
+					"id": "",
+					"skillName": "Cross-Origin Resource Sharing (CORS) & Cookies Configurations"
+				},
+				{
+					"id": "",
+					"skillName": "Zod"
+				},
+				{
+					"id": "",
+					"skillName": "Snyk"
+				}
+			]
+		},
+		{
+			"category": "Database/ODM/ORM",
 			"skillList": [
 				{
 					"id": "",
@@ -269,6 +310,14 @@
 				{
 					"id": "",
 					"skillName": "Redis"
+				},
+				{
+					"id": "",
+					"skillName": "Mongoose"
+				},
+				{
+					"id": "",
+					"skillName": "Prisma"
 				}
 			]
 		},
@@ -327,15 +376,11 @@
 				{
 					"id": "",
 					"skillName": "New Relic"
-				},
-				{
-					"id": "",
-					"skillName": "Snyk"
 				}
 			]
 		},
 		{
-			"category": "Other",
+			"category": "Others",
 			"skillList": [
 				{
 					"id": "",
@@ -343,11 +388,19 @@
 				},
 				{
 					"id": "",
-					"skillName": "Problem Solving"
+					"skillName": "OOP(Object Oriented Programming)"
 				},
 				{
 					"id": "",
-					"skillName": "Object Oriented Programming"
+					"skillName": "MVC Architecture(Model View Controller)"
+				},
+				{
+					"id": "",
+					"skillName": "SOLID/DRY/KISS/YAGNI Design Principles"
+				},
+				{
+					"id": "",
+					"skillName": "Debugging & Problem Solving"
 				},
 				{
 					"id": "",
@@ -356,8 +409,49 @@
 			]
 		},
 		{
+			"category": "Tools/AI",
+			"skillList": [
+				{
+					"id": "",
+					"skillName": "ESLint"
+				},
+				{
+					"id": "",
+					"skillName": "Postman"
+				},
+				{
+					"id": "",
+					"skillName": "Swagger"
+				},
+				{
+					"id": "",
+					"skillName": "Confluence"
+				},
+				{
+					"id": "",
+					"skillName": "Claude"
+				},
+				{
+					"id": "",
+					"skillName": "ChatGPT"
+				},
+				{
+					"id": "",
+					"skillName": "GitHub Copilot"
+				},
+				{
+					"id": "",
+					"skillName": "Cursor IDE"
+				}
+			]
+		},
+		{
 			"category": "Familiar With",
 			"skillList": [
+				{
+					"id": "",
+					"skillName": "React Native"
+				},
 				{
 					"id": "",
 					"skillName": "Microservices Architecture"
@@ -366,14 +460,25 @@
 					"id": "",
 					"skillName": "Kubernetes"
 				},
-
+				{
+					"id": "",
+					"skillName": "Web Hooks"
+				},
 				{
 					"id": "",
 					"skillName": "RabbitMQ"
 				},
 				{
 					"id": "",
+					"skillName": "Socket.io"
+				},
+				{
+					"id": "",
 					"skillName": "NextJS"
+				},
+				{
+					"id": "",
+					"skillName": "TypeORM"
 				}
 			]
 		}
