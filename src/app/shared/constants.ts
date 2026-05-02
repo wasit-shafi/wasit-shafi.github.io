@@ -202,7 +202,7 @@ export class Constants {
 			imageSrc:
 				'https://res.cloudinary.com/dtlx6i2m7/image/upload/v1749533395/dev-tools-studio/snapshots/others/cblhllzhmodksplsqgdj.png',
 			subHtml: `<div class="text-xs flex break-all">
-			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://www.postman.com/wasitshafi/dev-tools-studio-public-wrokspace/overview">Visit: https://www.postman.com/wasitshafi/dev-tools-studio-public-wrokspace/overview</a>
+			<a class="!text-txtQuaternary bg-slate-100/90 rounded mx-auto p-3" target="_blank" href="https://www.postman.com/wasitshafi/dev-tools-studio/overview">Visit: https://www.postman.com/wasitshafi/dev-tools-studio/overview</a>
         </div>`,
 		},
 		{
