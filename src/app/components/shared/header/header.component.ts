@@ -100,7 +100,7 @@ export class HeaderComponent {
 				[this.constants.languages.ARABIC]: 'اتصال',
 				[this.constants.languages.ENGLISH]: 'Contact',
 			},
-			visibility: true,
+			visibility: false,
 			href: '#' + this.constants.homeSectionLinksId.CONTACT,
 			class: this.constants.homeSectionLinksId.CONTACT,
 		},
