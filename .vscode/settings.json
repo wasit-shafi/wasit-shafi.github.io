@@ -20,5 +20,8 @@
 	},
 	"peacock.color": "#07898e",
 	"snyk.advanced.organization": "9c6676a4-f333-422e-a061-2045cf8d53a3",
-	"snyk.advanced.autoSelectOrganization": true
+	"snyk.advanced.autoSelectOrganization": true,
+	"files.exclude": {
+		"/docs": true
+	}
 }
